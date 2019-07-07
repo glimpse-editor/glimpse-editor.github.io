@@ -1,7 +1,7 @@
 To test things locally, run the following after cloning:
 ```
-git clone --recursive https://github.com/gohugoio/hugoThemes themes
-hugo
+$ git clone --recursive https://github.com/gohugoio/hugoThemes themes/
+$ hugo
 ```
 
 This outputs the results to a `public/` folder, and this is what will be published.
