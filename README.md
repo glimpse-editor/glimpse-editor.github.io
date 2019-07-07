@@ -14,3 +14,6 @@ $ hugo
 ```
 
 **Please Note**: The server checks this git repository for changes every 15 minutes. Test locally, *then* publish.
+```
+$ hugo server -D
+```
