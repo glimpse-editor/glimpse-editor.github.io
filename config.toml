@@ -1,0 +1,4 @@
+baseURL = "http://getglimpse.app"
+languageCode = "en-gb"
+title = "Glimpse photo editor"
+theme = "ananke"
