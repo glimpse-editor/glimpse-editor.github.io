@@ -21,7 +21,7 @@ Feature requests have been raised about the problem multiple times on the projec
 It is unfortunate that we have to fork the whole project to change the name, but we feel that discussions about the issue are at an impasse and that this is the most positive way forward.
 
 ## Will you be contributing your changes back?
-Absolutely! We fully intend to be good free software citizens, and as soon as we have made changes that the upstream project wants to incorporate we will assist them whenever we can.
+Absolutely! We intend to be good free software citizens, and as soon as we have made changes that the upstream project wants to incorporate we will assist them whenever we can.
 
 While we might not agree on some things, it is clear to us that an adversarial attitude will not help either project. If we work together then the whole free software community can benefit from a fork that attracts new contributors, breathes new life into an ageing codebase and shares free software with a whole new audience.
 
