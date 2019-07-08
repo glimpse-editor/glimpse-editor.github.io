@@ -18,7 +18,7 @@ In recent versions of the upstream software you may have noticed that the window
 
 Feature requests have been raised about the problem multiple times on the project's communication channels over the last 13 years, but each time they are ignored, dismissed and/or the discussions get spammed by those with strong political views.
 
-It is unfortunate that we have to fork the whole project to change the name, but we feel that discussions about the issue are at an impasse and this is the most positive way forward.
+It is unfortunate that we have to fork the whole project to change the name, but we feel that discussions about the issue are at an impasse and that this is the most positive way forward.
 
 ## Will you be contributing your changes back?
 Absolutely! We fully intend to be good free software citizens, and as soon as we have made changes that the upstream project wants to incorporate we will assist them whenever we can.
@@ -30,4 +30,4 @@ The first release should appear within weeks because it will just have a cosmeti
 
 The major refactoring and de-cluttering work will happen in a future release that "hard forks" from version 2.10. At that stage we will be able to consider more radical ideas, new features and fixes that address long-standing complaints.
 
-Also it would seem a lot of people have expressed an interest in contributing to this fork, which is definitely speeding up progress. The first few days were particularly frantic as we gathered ideas and feedback from the community and started rolling out their choice of project infrastructure.
+Also a lot of people have expressed an interest in contributing to this fork, which is definitely speeding up progress. The first few days were particularly frantic as we gathered ideas and feedback from the community and started rolling out their choice of project infrastructure.
