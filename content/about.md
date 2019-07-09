@@ -15,6 +15,8 @@ Add intro text here
 - [Why did you change the mascot?](#why-did-you-change-the-mascot)
 - [Did you know that name is used elsewhere?](#did-you-know-that-name-is-used-elsewhere)
 - [What if I find the word "Glimpse" offensive?](#what-if-i-find-the-word-glimpse-offensive)
+- [Where is the Glimpse code of conduct?](#where-is-the-glimpse-code-of-conduct)
+- [Why is there no lead developer on this project?](#why-is-there-no-lead-developer-on-this-project)
 
 ## What is wrong with the "GIMP" name? {#what-is-wrong-with-the-gimp-name}
 If English is not your first language, then you may not have realised that the word "gimp" is problematic. In some countries it is considered a slur against disabled people and a playground insult thrown at unpopular children. It can also be linked to certain "after dark" activities performed by consenting adults.
@@ -77,5 +79,24 @@ Users have made us aware of a few software projects that share the same name as 
 This seems unlikely given we checked its meaning in every known language, but if you have a legitimate concern then let us know.
 
 If you are offended by the fact we renamed the project, we suggest you continue using the [GNU Image Manipulation Program](https://www.gimp.org) instead of annoying our contributors and making more work for our moderators.
+
+[Return to top](#contents)
+
+
+## Where is the Glimpse code of conduct? {#where-is-the-glimpse-code-of-conduct}
+There isn't one yet as it is still being discussed by the community, but it is likely to be based on [the contributor covenant](https://www.contributor-covenant.org/) or something similar. As this project spawned from [the fediverse](https://joinmastodon.org/) our experiences in that online space are going to inform the project's future governance and direction.
+
+There is no [benevolent dictator for life](https://en.wikipedia.org/wiki/Benevolent_dictator_for_life) for this fork and there are currently no [cishet](https://www.dictionary.com/browse/cishet) white men in the admin team, so even at this early stage Glimpse is not your ordinary "run of the mill" free software project!
+
+We know how important it is to enact the right code of conduct and enforce the rules properly. We want to promote a safe and inclusive environment, not a toxic one. If you have ideas to help us do that and want to get involved with this discussion then please join us in the project's communication channels.
+
+[Return to top](#contents)
+
+## Why is there no lead developer on this project? {#why-is-there-no-lead-developer-on-this-project}
+In most free software projects this is a single individual that decides if issues should be ignored, cancelled or implemented. Granting someone that kind of power would effectively make them our "benevolent dictator", and we do not want one of those!
+
+At this early stage we prefer to discuss things with the community first, then make decisions based on consensus between the members of the admin team. It is likely that as Glimpse develops there will be a more formal separation of responsibilities, an agreed way to assess community opinion and a documented path for contributors to participate in the decision-making process.
+
+Our vision for the future is that the community will always have a say in the direction of this project, no choices will ever be impossible to overturn and everyone responsible for decision-making will be held accountable by their fellow contributors. The value or quantity of someone's contributions will not confer any "special status" on them or grant any immunity if they violate our project's code of conduct.
 
 [Return to top](#contents)
