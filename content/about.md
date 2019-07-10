@@ -17,13 +17,16 @@ Add intro text here
 - [What if I find the word "Glimpse" offensive?](#what-if-i-find-the-word-glimpse-offensive)
 - [Where is the Glimpse code of conduct?](#where-is-the-glimpse-code-of-conduct)
 - [Why is there no lead developer on this project?](#why-is-there-no-lead-developer-on-this-project)
+- [Why do you need monetary donations?](#why-do-you-need-monetary-donations)
 
 ## What is wrong with the "GIMP" name? {#what-is-wrong-with-the-gimp-name}
-If English is not your first language, then you may not have realised that the word "gimp" is problematic. In some countries it is considered a slur against disabled people and a playground insult thrown at unpopular children. It can also be linked to certain "after dark" activities performed by consenting adults.
+If English is not your first language, then you may not have realised that the word "gimp" is problematic. In some countries it is considered a slur against disabled people and a playground insult directed at unpopular children. It can also be linked to certain "after dark" activities performed by consenting adults.
 
-You may think that this is "political correctness gone mad" and that those who have been complaining about it for more than a decade are "over-sensitive", but this choice does have real-life consequences. In addition to the pain it can cause to marginalized communities many of us have our own free software advocacy stories about the GNU Image Manipulation Program not being taken seriously in professional settings, or educational institutions that felt unable to provide or recommend the program to their students due to possible legal or moral concerns.
+You may think that this is "political correctness gone mad" and that those who have been complaining about it for more than a decade are "over-sensitive", but this choice does have real-life consequences. In addition to the pain it can cause to marginalized communities many of us have our own free software advocacy stories about the GNU Image Manipulation Program not being taken seriously as an option by bosses or colleagues in professional settings.
 
-We believe free software should be accessible to everyone, and in this case a re-brand is both a desirable and ve\\ry straightforward fix that could attract a whole new generation of contributors and users.
+Educational institutions and public libraries may feel unable to provide or recommend the program to students due to possible legal or moral concerns. It can also be difficult for a teacher to keep a class of school-age children disciplined and focussed if they are distracted by the name of the computer program they have been asked to use.
+
+We believe free software should be accessible to everyone, and in this case a re-brand is both a desirable and very straightforward fix that could attract a whole new generation of users and contributors.
 
 [Return to top](#contents)
 
@@ -65,7 +68,7 @@ We wanted the project to forge its own identity. It is important we use this opp
 [Return to top](#contents)
 
 ## Did you know that name is used elsewhere? {#did-you-know-that-name-is-used-elsewhere}
-Users have made us aware of a few software projects that share the same name as this fork. This is always a risk when you use an English language word, but we do not feel that will cause problems for end users or hinder the adoption of this program.
+Users have made us aware of a few software projects that share the same name as this fork. That is always a risk when you use an English language word, but we do not believe that it will cause problems for end users or hinder the adoption of this program.
 
 [Glympse](https://www.glympse.com/) is a location-sharing application for mobile devices. We think the fact it runs on a different device category entirely, does something completely different, has a very different icon and has their name spelt differently means it is highly unlikely that end users will be confused.
 
@@ -98,5 +101,14 @@ In most free software projects this is a single individual that decides if issue
 At this early stage we prefer to discuss things with the community first, then make decisions based on consensus between the members of the admin team. It is likely that as Glimpse develops there will be a more formal separation of responsibilities, an agreed way to assess community opinion and a documented path for contributors to participate in the decision-making process.
 
 Our vision for the future is that the community will always have a say in the direction of this project, no choices will ever be impossible to overturn and everyone responsible for decision-making will be held accountable by their fellow contributors. The value or quantity of someone's contributions will not confer any "special status" on them or grant any immunity if they violate our project's code of conduct.
+
+[Return to top](#contents)
+
+## Why do you need monetary donations? {#why-do-you-need-monetary-donations}
+Just like many other free software projects we need to host the collaboration tools we use to develop and share the project. We have to purchase domain names, cloud servers and subscriptions from service providers to make this project a success. In addition we also intend to pay the artists we commission for the re-brand and reward our contributors for the value they add.
+
+The accusation we sometimes receive is that we are "stealing money from the GNU Image Manipulation Program". That is completely untrue, and we encourage those that want to support the upstream project to use [this donation page](https://www.gimp.org/donating/). Our project is also already discussing if some of the money we receive should be shared with the upstream project once we have covered our own costs.
+
+If you would like to donate some money to Glimpse project, you can do so by [becoming a patron](https://www.patreon.com/glimpse) on Patreon.
 
 [Return to top](#contents)
