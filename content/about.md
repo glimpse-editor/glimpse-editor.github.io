@@ -21,9 +21,9 @@ Add intro text here
 ## What is wrong with the "GIMP" name? {#what-is-wrong-with-the-gimp-name}
 If English is not your first language, then you may not have realised that the word "gimp" is problematic. In some countries it is considered a slur against disabled people and a playground insult thrown at unpopular children. It can also be linked to certain "after dark" activities performed by consenting adults.
 
-You may think that this is "political correctness gone mad" and that those who have been complaining about it for more than a decade are "over-sensitive", but this choice does have real-life consequences. In addition to the pain it can cause to marginalized communities many of us have our own free software advocacy stories about the GNU Image Manipulation Program not being taken seriously in professional settings, or educational institutions that felt unable to provide or recommend the program to their students for legal or moral reasons.
+You may think that this is "political correctness gone mad" and that those who have been complaining about it for more than a decade are "over-sensitive", but this choice does have real-life consequences. In addition to the pain it can cause to marginalized communities many of us have our own free software advocacy stories about the GNU Image Manipulation Program not being taken seriously in professional settings, or educational institutions that felt unable to provide or recommend the program to their students due to possible legal or moral concerns.
 
-We believe free software should be accessible to everyone, and in this case a re-brand is both a desirable and very straightforward fix that could attract a whole new generation of contributors and users.
+We believe free software should be accessible to everyone, and in this case a re-brand is both a desirable and ve\\ry straightforward fix that could attract a whole new generation of contributors and users.
 
 [Return to top](#contents)
 
@@ -60,7 +60,7 @@ Also a lot of people have expressed an interest in contributing to this fork, wh
 [Return to top](#contents)
 
 ## Why did you change the mascot? {#why-did-you-change-the-mascot}
-Aside from the copyright and trademark implications of sharing the upstream project's artwork, we wanted the project to forge its own identity. It is important we use this opportunity to foster new ideas and ways of working, and it may be harder to do that if we are still tied to old decisions made by a different project decades ago.
+We wanted the project to forge its own identity. It is important we use this opportunity to foster new ideas and ways of working, and it may be harder to do that if we are still tied to old decisions made by a different project decades ago.
 
 [Return to top](#contents)
 
