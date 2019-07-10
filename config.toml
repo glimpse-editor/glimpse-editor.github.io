@@ -1,4 +1,5 @@
 baseURL = "https://getglimpse.app"
 languageCode = "en-us"
-title = "Glimpse image manipulator"
+title = "Glimpse image editor"
 theme = "ananke"
+SectionPagesMenu = "main"
