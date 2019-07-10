@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2019-07-08T20:25:21+01:00
-draft: true
+draft: false
 menu: "main"
 ---
 ## Contents {#contents}
