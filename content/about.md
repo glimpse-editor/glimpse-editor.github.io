@@ -4,8 +4,6 @@ date: 2019-07-08T20:25:21+01:00
 draft: true
 menu: "main"
 ---
-Add intro text here
-
 ## Contents {#contents}
 - [What is wrong with the "GIMP" name?](#what-is-wrong-with-the-gimp-name)
 - [Why are you forking?](#why-are-you-forking)
