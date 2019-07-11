@@ -87,7 +87,9 @@ If you are offended by the fact we renamed the project, we suggest you continue 
 ## Where is the Glimpse code of conduct? {#where-is-the-glimpse-code-of-conduct}
 There isn't one yet as it is still being discussed by the community, but it is likely to be based on [the contributor covenant](https://www.contributor-covenant.org/) or something similar. As this project spawned from [the fediverse](https://joinmastodon.org/) our experiences in that online space are going to inform the project's future governance and direction.
 
-There is no [benevolent dictator for life](https://en.wikipedia.org/wiki/Benevolent_dictator_for_life) for this fork and there are currently no [cishet](https://www.dictionary.com/browse/cishet) white men in the admin team, so even at this early stage Glimpse is not your ordinary "run of the mill" free software project!
+There is no [benevolent dictator for life](https://en.wikipedia.org/wiki/Benevolent_dictator_for_life) for this fork because we value collective decision-making. We believe a governing group is less fallible, makes better-considered choices and reflects the will of the wider community more accurately. That approach should help us form an robust and fair code of conduct, and we have elaborated more on our current governance structure here: ["Why is there is no lead developer on this project?"](#why-is-there-no-lead-developer-on-this-project)
+
+We also want to make it clear that we value and encourage diverse representation in leadership positions within our community, because we believe that is the best way to form a code of conduct that protects all contributors, promotes wider participation and ensures the rules are fairly enforced. At this early stage our initial governance team is formed entirely of individuals from marginalized communities, and that makes our project [very atypical](https://opensource.com/article/17/9/diversity-and-inclusion-innovation).
 
 We know how important it is to enact the right code of conduct and enforce the rules properly. We want to promote a safe and inclusive environment, not a toxic one. If you have ideas to help us do that and want to get involved with this discussion then please join us in the project's communication channels.
 
@@ -96,7 +98,7 @@ We know how important it is to enact the right code of conduct and enforce the r
 ## Why is there no lead developer on this project? {#why-is-there-no-lead-developer-on-this-project}
 In most free software projects this is a single individual that decides if issues should be ignored, cancelled or implemented. Granting someone that kind of power would effectively make them our "benevolent dictator", and we do not want one of those!
 
-At this early stage we prefer to discuss things with the community first, then make decisions based on consensus between the members of the admin team. It is likely that as Glimpse develops there will be a more formal separation of responsibilities, an agreed way to assess community opinion and a documented path for contributors to participate in the decision-making process.
+At this early stage we prefer to discuss things with the community first, then make decisions based on consensus between the members of the governance team. It is likely that as Glimpse develops there will be a more formal separation of responsibilities, an agreed way to assess community opinion and a documented path for contributors to participate in the decision-making process.
 
 Our vision for the future is that the community will always have a say in the direction of this project, no choices will ever be impossible to overturn and everyone responsible for decision-making will be held accountable by their fellow contributors. The value or quantity of someone's contributions will not confer any "special status" on them or grant any immunity if they violate our project's code of conduct.
 
