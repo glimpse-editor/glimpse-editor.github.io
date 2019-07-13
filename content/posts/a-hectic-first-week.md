@@ -5,7 +5,7 @@ draft: false
 ---
 We have been overwhelmed by the contributions and show of support from the community in just the first week of this project, and we are all deeply grateful. You are all amazing, and we hope we can keep this momentum going and deliver a fork everyone can be proud of.
 
-This week we agreed on a communications platform (Matrix and IRC), confirmed that we will be sticking with Github, agreed on a code of conduct and discussed how the project will be governed (i.e. no "benevolent dictators").  We have also publicly thanked two elite contributors on two new social media channels we just set up.
+This week we agreed on a communications platform (Matrix and IRC), confirmed that we will be sticking with Github, agreed on a code of conduct and discussed how the project will be governed (i.e. no "benevolent dictators").  We have also publicly thanked two "elite supporters" from Patreon on two new social media channels we just set up.
 
 As a project we also agreed that the first release should be a "soft fork" so we can get the re-brand into everyone's hands within weeks rather than months, then we can start being more ambitious with a "hard fork" shortly after. The code changes for our first release are already being worked on and can be viewed here: https://github.com/glimpse-editor/Glimpse/tree/gimp2-10
 
