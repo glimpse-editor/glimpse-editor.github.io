@@ -85,7 +85,7 @@ If you are offended by the fact we renamed the project, we suggest you continue 
 
 
 ## Where is the Glimpse code of conduct? {#where-is-the-glimpse-code-of-conduct}
-There isn't one yet as it is still being discussed by the community, but it is likely to be based on [the contributor covenant](https://www.contributor-covenant.org/) or something similar. As this project spawned from [the fediverse](https://joinmastodon.org/) our experiences in that online space are going to inform the project's future governance and direction.
+You will find it on [this page](../code-of-conduct/). It is based on [the contributor covenant](https://www.contributor-covenant.org/) and will be developed and amended over time as the need arises. As this project spawned from [the fediverse](https://joinmastodon.org/) our experiences in that online space are going to inform the project's future governance and direction.
 
 There is no [benevolent dictator for life](https://en.wikipedia.org/wiki/Benevolent_dictator_for_life) for this fork because we value collective decision-making. We believe a governing group is less fallible, makes better-considered choices and reflects the will of the wider community more accurately. That approach will help us form a robust and fair code of conduct, and we have elaborated more on our current governance structure here: ["Why is there is no lead developer on this project?"](#why-is-there-no-lead-developer-on-this-project)
 
