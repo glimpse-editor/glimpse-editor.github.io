@@ -13,10 +13,10 @@ Discussions are still ongoing about our logo, splash screen and any potential an
 
 Here are some handy links to get you started:
 
-FAQs from our community: https://getglimpse.app/about/
-Code of Conduct: https://getglimpse.app/code-of-conduct/
-Fediverse/Mastodon: https://bobadon.co.uk/web/accounts/8797
-Twitter: https://twitter.com/glimpse_editor
-Matrix community:  https://matrix.to/#/+glimpse:matrix.org
-Freenode IRC channel: #glimpse  (registered nick required)
-Patreon: https://www.patreon.com/glimpse
+- FAQs from our community: https://getglimpse.app/about/
+- Code of Conduct: https://getglimpse.app/code-of-conduct/
+- Fediverse/Mastodon: https://bobadon.co.uk/web/accounts/8797
+- Twitter: https://twitter.com/glimpse_editor
+- Matrix community:  https://matrix.to/#/+glimpse:matrix.org
+- Freenode IRC channel: #glimpse  (registered nick required)
+- Patreon: https://www.patreon.com/glimpse
