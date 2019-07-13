@@ -4,8 +4,6 @@ date: 2019-07-13T16:19:01+01:00
 draft: false
 menu: "main"
 ---
-# Glimpse Project Code of Conduct
-
 ## Our Pledge
 
 In the interest of fostering an open and welcoming environment, we as
