@@ -2,6 +2,7 @@
 title: "Code of Conduct"
 date: 2019-07-13T16:19:01+01:00
 draft: false
+menu: "main"
 ---
 # Glimpse Project Code of Conduct
 
