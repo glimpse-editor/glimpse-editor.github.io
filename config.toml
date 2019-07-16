@@ -3,3 +3,4 @@ languageCode = "en-us"
 title = "Glimpse image editor"
 theme = "ananke"
 SectionPagesMenu = "main"
+rssLimit = 20
