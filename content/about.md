@@ -126,9 +126,9 @@ Please ensure that you read our [code of conduct](../code-of-conduct/) before yo
 
 We intend to support recent desktop versions of Windows, Mac and Linux.
 
-Linux users will be able to install Glimpse as a [Flatpak](https://flatpak.org/) or an [AppImage](https://appimage.org/). A source tarball will be provided for package maintainers.
+Linux users will be able to install Glimpse as a [Flatpak](https://flatpak.org/) or an [AppImage](https://appimage.org/).
 
-BSD and Solaris are not directly supported, but we will accept bugs raised by users of those systems.
+A source tarball will be provided for package maintainers of Linux, BSD and Solaris distributions.
 
 [Return to top](#contents)
 

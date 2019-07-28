@@ -17,14 +17,14 @@ There have been quite a few code changes made on [the gimp2-10 branch](https://g
 
 Clipsey removed redundant doc files and performed some code cleanup for us. She also continued work on [Glir](https://github.com/glimpse-editor/glir), an automated tool intended to make the refactoring work in a future "hard fork" easier.
 
-Bobby Moss (or "trechnex") removed [Wilber](https://gimper.net/threads/what-is-wilber.793/) from the top of menus and its giant eyes from the main window. He also started updating the translation files to use the correct project name and made minor tweaks like fixing "tip of the day" and ensuring we display the correct Glimpse release version in the "about" window. He also added our [Patreon sponsor contributors](https://www.patreon.com/glimpse) to `authors.xml`.
+Bobby Moss (or "trechnex") removed [Wilber](https://www.gimp.org/about/ancient_history.html#publicity) from the top of menus and its giant eyes from the main window. He also started updating the translation files to use the correct project name and made minor tweaks like fixing "tip of the day" and ensuring we display the correct Glimpse release version in the "about" window. He also added our [Patreon sponsor contributors](https://www.patreon.com/glimpse) to `authors.xml`.
 
 We also switched to using the "system" UI theme by default with "legacy" icons from GNU Image Manipulation Program 2.8 for the time being. The other stock themes from upstream have been removed because we intend to replace them with more visually appealing and accessible alternatives. Chaomodus has already started producing some of those replacements for us.
 
 ## Community Decisions
-The community discussed how we should package the GNU/Linux port of Glimpse. It was agreed that [Flatpak](https://flatpak.org/) would be the preferred distribution mechanism and an [AppImage](https://appimage.org/) provided as an alternative for those who are unable to use Flatpaks. A source tarball will also be provided for advanced users and distribution package maintainers.
+The community discussed how we should package the GNU/Linux port of Glimpse. It was agreed that [Flatpak](https://flatpak.org/) would be the preferred distribution mechanism and an [AppImage](https://appimage.org/) provided as an alternative for those who are unable to use Flatpaks.
 
-We were asked if the project is likely to support BSD or Solaris. It was determined those systems would not be supported directly, but we could still accept bug reports for them in case those with the relevant knowledge become available to provide the fixes.
+A source tarball will also be provided for advanced users and distribution package maintainers for Linux, BSD and Solaris distributions.
 
 We also continued to discuss the project's logo and there were a number of ideas and concepts posted to the Matrix channel. The most popular idea seemed to be a paintbrush splodging paint onto a Polaroid-style photo. Chris (or "Brainblasted") has fed back to a fellow GNOME contributor that we would like to have the branding assets some time in August so we can aim for a 1.0 release before the end of that month.
 
