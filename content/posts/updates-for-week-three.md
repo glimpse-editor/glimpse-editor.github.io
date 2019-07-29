@@ -1,7 +1,7 @@
 ---
 title: "Updates for Week Three"
 date: 2019-07-28T01:51:36+01:00
-draft: true
+draft: false
 ---
 ## IRC Channel Deprecated
 We stated last week that we would be deprecating the #glimpse IRC channel soon. After discussing that with the community we believe the switch to Matrix is now complete, so we can safely proceed with deprecating that communication method.
