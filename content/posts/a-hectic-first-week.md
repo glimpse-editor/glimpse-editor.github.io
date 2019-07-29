@@ -18,5 +18,4 @@ Here are some handy links to get you started:
 - Fediverse/Mastodon: https://bobadon.co.uk/@glimpse
 - Twitter: https://twitter.com/glimpse_editor
 - Matrix community:  https://matrix.to/#/+glimpse:matrix.org
-- Freenode IRC channel: #glimpse  (registered nick required)
 - Patreon: https://www.patreon.com/glimpse

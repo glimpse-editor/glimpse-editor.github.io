@@ -5,17 +5,24 @@ draft: false
 menu: "main"
 ---
 ## Contents {#contents}
+
+### Introduction
 - [What is wrong with the "GIMP" name?](#what-is-wrong-with-the-gimp-name)
 - [Why are you forking?](#why-are-you-forking)
 - [Is forking the project a duplication of effort?](#is-forking-the-project-a-duplication-of-effort)
-- [Will you contribute changes back upstream?](#will-you-contribute-changes-back-upstream)
-- [This project is big! Will it take a long time to rebrand?](#this-project-is-big-will-it-take-a-long-time-to-rebrand)
 - [Why did you change the mascot?](#why-did-you-change-the-mascot)
 - [Did you know that name is used elsewhere?](#did-you-know-that-name-is-used-elsewhere)
 - [What if I find the word "Glimpse" offensive?](#what-if-i-find-the-word-glimpse-offensive)
 - [Where is the Glimpse code of conduct?](#where-is-the-glimpse-code-of-conduct)
 - [Why is there no lead developer on this project?](#why-is-there-no-lead-developer-on-this-project)
 - [Why do you need monetary donations?](#why-do-you-need-monetary-donations)
+- [How do I stay up-to-date with this project?](#how-do-i-stay-up-to-date-with-this-project)
+- [How do I contribute to this project?](#how-do-i-contribute-to-this-project)
+
+### Technical Questions
+- [Which operating systems do you support?](#which-operating-systems-do-you-support)
+- [Will you contribute changes back upstream?](#will-you-contribute-changes-back-upstream)
+- [This project is big! Will it take a long time to rebrand?](#this-project-is-big-will-it-take-a-long-time-to-rebrand)
 
 ## What is wrong with the "GIMP" name? {#what-is-wrong-with-the-gimp-name}
 If English is not your first language, then you may not have realised that the word "gimp" is problematic. In some countries it is considered a slur against disabled people and a playground insult directed at unpopular children. It can also be linked to certain "after dark" activities performed by consenting adults.
@@ -41,22 +48,6 @@ It is unfortunate that we have to fork the whole project to change the name, but
 No, because we are not reimplementing a 20 year old codebase from scratch. Also once we "hard fork" we still intend to apply useful upstream changes rather than completely reimplementing them.
 
 From our point of view we are simply exercising [our software freedoms](https://www.gnu.org/philosophy/free-sw.html) by forking the project and redistributing a modified version for others to benefit from. This is fully in accordance with the spirit and requirements of the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.en.html) and [GNU Lesser General Public License](https://www.gnu.org/licenses/lgpl-3.0.en.html) as they both apply to this project.
-
-[Return to top](#contents)
-
-## Will you contribute changes back upstream? {#will-you-contribute-changes-back-upstream}
-Absolutely! We intend to be good free software citizens, and as soon as we have made changes that the upstream project want to include in their codebase we will be willing to assist them however we can. We may also donate some of the money we receive from Patreon backers to the upstream project, and the community will determine how much and how often.
-
-While both projects may not agree on some things, it is clear to us that an adversarial attitude will not help either of us. If we work together then the whole free software community can benefit from this fork that attracts new contributors, breathes new life into an ageing codebase and shares free software with a whole new audience.
-
-[Return to top](#contents)
-
-## This project is big! Will it take a long time to rebrand? {#this-project-is-big-will-it-take-a-long-time-to-rebrand}
-The first release should appear within weeks because it will just have a cosmetic rebrand, and possibly some fixes or additions to the build system so it works with our choice of modern tools and technologies.
-
-The major refactoring and de-cluttering work will happen in a future release that "hard forks" from version 2.10. At that stage we will be able to consider more radical ideas, new features and fixes that address long-standing complaints.
-
-Also a lot of people have expressed an interest in contributing to this fork, which is definitely speeding up progress. The first few days were particularly frantic as we gathered ideas and feedback from the community and started rolling out their choice of project infrastructure.
 
 [Return to top](#contents)
 
@@ -110,5 +101,49 @@ Just like many other free software projects we need to host the collaboration to
 The accusation we sometimes receive is that we are "stealing money from the GNU Image Manipulation Program". That is completely untrue, and we encourage those that want to support the upstream project to use [this donation page](https://www.gimp.org/donating/). Our project is also already discussing if some of the money we receive should be shared with the upstream project once we have covered our own costs.
 
 If you would like to donate some money to Glimpse project, you can do so by [becoming a patron](https://www.patreon.com/glimpse) on Patreon.
+
+[Return to top](#contents)
+
+## How do I stay up-to-date with this project? {#how-do-i-stay-up-to-date-with-this-project}
+You can follow us on [the fediverse](https://bobadon.co.uk/@glimpse) and [Twitter](https://twitter.com/glimpse_editor). This blog also has a full text [RSS feed](https://getglimpse.app/index.xml).
+
+Our [Patreon](https://www.patreon.com/glimpse) backers also get regular updates about the project. Our more in-depth daily discussions can be viewed [on Matrix]([#glimpse:matrix.org](https://matrix.to/#/#glimpse:matrix.org)).
+
+[Return to top](#contents)
+
+## How do I contribute to this project? {#how-do-i-contribute-to-this-project}
+You can spread the word when we share news on [the fediverse](https://bobadon.co.uk/@glimpse) and [Twitter](https://twitter.com/glimpse_editor). You can also donate to our [Patreon](https://www.patreon.com/glimpse) campaign.
+
+Join us on [#glimpse:matrix.org](https://matrix.to/#/#glimpse:matrix.org) if you want to participate in the project's decision-making process. You can also raise bugs and work on tasks via our [Github Issues](https://github.com/glimpse-editor/Glimpse/issues) page.
+
+Please ensure that you read our [code of conduct](../code-of-conduct/) before you join our project's community. Regardless of your past experience and the usefulness of your contributions you are expected to comply with it.
+
+[Return to top](#contents)
+
+
+## Which operating systems do you support? {#which-operating-systems-do-you-support}
+*This answer is provisional and subject to change*
+
+We intend to support recent desktop versions of Windows, Mac and Linux.
+
+Linux users will be able to install Glimpse as a [Flatpak](https://flatpak.org/) or an [AppImage](https://appimage.org/).
+
+A source tarball will be provided for package maintainers of Linux, BSD and Solaris distributions.
+
+[Return to top](#contents)
+
+## Will you contribute changes back upstream? {#will-you-contribute-changes-back-upstream}
+Absolutely! We intend to be good free software citizens, and as soon as we have made changes that the upstream project want to include in their codebase we will be willing to assist them however we can. We may also donate some of the money we receive from Patreon backers to the upstream project, and the community will determine how much and how often.
+
+While both projects may not agree on some things, it is clear to us that an adversarial attitude will not help either of us. If we work together then the whole free software community can benefit from this fork that attracts new contributors, breathes new life into an ageing codebase and shares free software with a whole new audience.
+
+[Return to top](#contents)
+
+## This project is big! Will it take a long time to rebrand? {#this-project-is-big-will-it-take-a-long-time-to-rebrand}
+The 1.x releases will just provide a cosmetic rebrand of the upstream project and some additional user interface tweaks.
+
+Build system changes, major refactoring and de-cluttering work will happen in 2.x releases that "hard fork" from version 2.10. At that stage we will be able to consider more radical ideas, new features and fixes that address long-standing complaints.
+
+We have been overwhelmed by the positive support we have received, and that is definitely helping us progress the project faster than anticipated.
 
 [Return to top](#contents)
