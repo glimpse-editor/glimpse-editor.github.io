@@ -12,6 +12,8 @@ If you spot anyone abusing the IRC channel we have vacated, please report the in
 
 To join the project discussion, please join us [on Matrix](https://matrix.to/#/#glimpse:matrix.org) instead.
 
+We know some people will find our decision on this disappointing, but this was a choice our community made. The feedback so far has been positive, and our contributors appreciate the lower barrier to entry and more modern client applications.
+
 ## Code Changes
 There have been quite a few code changes made on [the gimp2-10 branch](https://github.com/glimpse-editor/Glimpse/tree/gimp2-10).
 
