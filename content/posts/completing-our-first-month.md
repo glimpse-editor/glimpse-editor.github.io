@@ -36,7 +36,7 @@ A new issue was raised by the community about producing multiple output formats 
 ## Website Updates
 Bobby Moss plans to move it to the project's build server once this has been provisioned to keep costs low. He expects this to happen within the next two weeks.
 
-Entie Chao also provisioned a new MediaWiki instance for our project to use. It is available via https://wiki.getglimpse.app and over time we will populate this with helpful project information, user guides and design work.
+Chaomodus also provisioned a new MediaWiki instance for our project to use. It is available via https://wiki.getglimpse.app and over time we will populate this with helpful project information, user guides and design work.
 
 ## Future Plans After Glimpse 1.0
 There was a lot of discussion this week about the practical questions we may need to answer as part of a full code rewrite. In theory it is possible because most of the core functionality is now contained within the GEGL and BABL libraries. GNU Image Manipulation Program 2.10 primarily forms the graphical user interface, plug-in framework, help pages and other supplementary functionality so the learning curve is much shallower than we expected.
