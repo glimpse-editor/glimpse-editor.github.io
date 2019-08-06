@@ -1,7 +1,7 @@
 ---
 title: "Completing Our First Month"
-date: 2019-08-05T17:07:16+01:00
-draft: true
+date: 2019-08-06T18:50:16+01:00
+draft: false
 ---
 As we approach the end of this project's first month we would like to thank everyone that has gotten involved, contributed to and supported this project so far. The wider community's enthusiasm for Glimpse has been amazing to see, and we hope we can keep that energy going through August and produce our first stable release very soon.
 
@@ -12,7 +12,7 @@ We changed the name of our current development branch based on the GNU Image Man
 
 Bobby Moss cleared away more redundant UI themes, updated the web links in the Help menu and fixed the application name displayed when you create a new image or see error messages. He also updated his "helper scripts" after feedback from joshg.
 
-Mathieu Bridon has started sharing the Flatpak build fixes he previously submitted upstream with us, and igalic reviewed the existing code build steps and started troubleshooting problems such as a blank `README` file being required and the final built executable still being called `gimp2-10`.
+Mathieu Bridon has started sharing the Flatpak build fixes he previously submitted upstream with us, and igalic reviewed the existing code build steps and fixed the name of the final executable.
 
 ## Community Decisions
 There was a lot of discussion about a potential rewrite of the codebase, and you can read more about the results of that in the "Future Plans After Glimpse 2.0" section of this blog post. We also decided to postpone any decision on the choice of language for any potential future rewrite until criteria have been determined for that decision.
