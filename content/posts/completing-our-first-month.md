@@ -10,7 +10,7 @@ Let us proceed with the latest updates from week 4!
 ## Code changes
 We changed the name of our current development branch based on the GNU Image Manipulation Project 2.10.12 codebase from "gimp2-10" to "dev-g210" so its purpose is clearer to new project members.
 
-Bobby Moss cleared away more redundant UI themes, updated the web links in the Help menu and fixed the application name displayed when you create a new image or see error messages. He also updated his "helper scripts" after feedback from Josh Giesbrecht.
+Bobby Moss cleared away more redundant UI themes, updated the web links in the Help menu and fixed the application name displayed when you create a new image or see error messages. He also updated his "helper scripts" after feedback from joshg.
 
 Christopher Davis has asked Mathieu Bridon to share the Flatpak build fixes he submitted upstream with us, and others reviewed the existing code build steps to troubleshoot problems such as a blank `README` file being required and the final built executable still being called `gimp2-10`.
 
