@@ -12,7 +12,7 @@ We changed the name of our current development branch based on the GNU Image Man
 
 Bobby Moss cleared away more redundant UI themes, updated the web links in the Help menu and fixed the application name displayed when you create a new image or see error messages. He also updated his "helper scripts" after feedback from joshg.
 
-Christopher Davis has asked Mathieu Bridon to share the Flatpak build fixes he submitted upstream with us, and igalic reviewed the existing code build steps and started troubleshooting problems such as a blank `README` file being required and the final built executable still being called `gimp2-10`.
+Mathieu Bridon has started sharing the Flatpak build fixes he previously submitted upstream with us, and igalic reviewed the existing code build steps and started troubleshooting problems such as a blank `README` file being required and the final built executable still being called `gimp2-10`.
 
 ## Community Decisions
 There was a lot of discussion about a potential rewrite of the codebase, and you can read more about the results of that in the "Future Plans After Glimpse 2.0" section of this blog post. We also decided to postpone any decision on the choice of language for any potential future rewrite until criteria have been determined for that decision.
