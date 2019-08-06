@@ -21,7 +21,7 @@ We also considered whether Github was still an appropriate place to host our cod
 
 The issues and milestones we have on Github were also rearranged to confirm our current understanding about the project's future direction: https://github.com/glimpse-editor/Glimpse/issues
 
-meltheadorable found an excellent wiki site produced by upstream about their plans for improvements to the GNU Image Manipulation Program's UI: https://gui.gimp.org/index.php?title=GIMP_GUI_Redesign. She is currently assessing how much of this could still be useful for us as much of the information has not been updated for quite some time. She also suggested we provide a wiki or image dump mechanism so examples and user studies could be stored in a useful location.
+Melody found an excellent wiki site produced by upstream about their plans for improvements to the GNU Image Manipulation Program's UI: https://gui.gimp.org/index.php?title=GIMP_GUI_Redesign. She is currently assessing how much of this could still be useful for us as much of the information has not been updated for quite some time. She also suggested we provide a wiki or image dump mechanism so examples and user studies could be stored in a useful location.
 
 Potential future monetization options were also discussed. That open discussion will be picked up again later because the feedback we received is that we need to make sure any choices we make on this sensitive topic are practical, effective and not user-hostile.
 
