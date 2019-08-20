@@ -34,7 +34,7 @@ Further "hard fork" releases will start with 1.x, and these will have more ambit
 As discussed in the last post there will also be a front-end UI rewrite happening in parallel. The name for this has not yet been confirmed, but initially it will have versions that start with 2.x as the plan would be to switch over to it once it achieves feature parity with the current application. We estimate that will take until 2021 to achieve even if we started right away, but the long term benefit would be worth it.
 
 ## Plans for the distant future
-Chaomodus has continued to develop the new MediaWiki server at https://wiki.getglimpse.app, and they along with meltheadorable and others have been examining which plug-ins we should keep or remove in subsequent 0.x releases.
+Chaomodus has continued to develop the new MediaWiki server at https://wiki.getglimpse.app, and they along with meltheadorable, Christopher Davis and others have been examining which plug-ins we should keep or remove in subsequent 0.x releases.
 
 Those same people have used the same server to upload screenshots of existing image editing application user interfaces. This is intended to help them analyse what is good and bad about current image editing applications, then produce their own design mockups to compare and discuss.
 
