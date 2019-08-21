@@ -1,16 +1,16 @@
 ---
 title: "Six Week Checkpoint"
-date: 2019-08-20T19:58:00+01:00
-draft: true
+date: 2019-08-21T17:53:00+01:00
+draft: false
 ---
 It has been a busy couple of weeks! Thank you for bearing with us while we continue to work hard on producing the first Glimpse release.
 
 We now expect it to arrive some time in September 2019. Our developers are still puzzling out how to package the built code for different operating systems, and the artwork for the rebrand is not quite ready yet. Despite this, you can expect there to be a code freeze before the end of August 2019 so we can focus our energies on solving both of those problems.
 
 ## Code changes
- Matieu Bridon has been updating the Flatpak packaging our Linux build will rely on so it is closer to the fixes he provided for upstream. He is also fixing GNOME desktop integrations.
+ Matieu Bridon has been updating the Flatpak packaging our Linux build will rely on so it is closer to the fixes he provided for upstream. He is also fixing GNOME desktop integrations for it.
 
-Bobby Moss helped newcomers to the codebase at Clipsey's suggestion by adding the GEGL, BABL and MyPaint dependencies as submodules. He also added Vagrant support so newcomers can get a working build environment up-and-running as quickly as possible. To build our code and then run the current in-development version of Glimpse (you will need an XServer for the final command if you are not using Linux as a host):
+Bobby Moss helped newcomers to the codebase at Clipsey's suggestion by adding the GEGL, BABL and MyPaint dependencies as submodules. He also added Vagrant support so newcomers can get a working build environment up-and-running as quickly as possible. To build our code and then run the current in-development version of Glimpse (you will need [an XServer installed](https://sourceforge.net/projects/xming/) for the final command if you are not using Linux as a host):
 
 ```bash
 $ varant up
