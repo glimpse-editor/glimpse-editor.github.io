@@ -148,7 +148,7 @@ The 0.x releases will be a "soft fork" of the GNU Image Manipulation Program tha
 
 The 1.x releases will be a "hard fork" of the GNU Image Manipulation Program that attempts more ambitious changes on the existing codebase. Glimpse 1.0 will likely happen around the release of upstream v3.0 so we can benefit from the full GTK3 port.
 
-The 2.x releases will use a brand new GUI we have written from scratch while still relying on the underlying GEGL and BABL libraries that GNU Image Manipulation Program does. That effort will take a number of years, so it is likely this will be worked on in parallel while make the 1.x releases.
+The 2.x releases will use a brand new GUI we have written from scratch while still relying on the underlying GEGL and BABL libraries that GNU Image Manipulation Program does. That effort will take a number of years, so it is likely this will be worked on in parallel while we make the 1.x releases.
 
 We have been overwhelmed by the positive support we have received, and that is definitely helping us progress the project faster than anticipated.
 
