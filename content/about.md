@@ -175,5 +175,3 @@ We did consider supporting IRC over the longer term with a Matrix bridge but it 
 As stated in a previous FAQ we do not believe in decisions that can never be overturned and are always open to suggested alternatives. So far the feedback we have received on Matrix has been mostly positive and there are more participants on our supported communication channels than ever before.
 
 [Return to top](#contents)
-
-##
