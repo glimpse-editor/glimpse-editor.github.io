@@ -23,6 +23,8 @@ menu: "main"
 - [Which operating systems do you support?](#which-operating-systems-do-you-support)
 - [Will you contribute changes back upstream?](#will-you-contribute-changes-back-upstream)
 - [This project is big! Will it take a long time to rebrand?](#this-project-is-big-will-it-take-a-long-time-to-rebrand)
+- [Why are you using Github instead of Gitlab?](#why-are-you-using-github-instead-of-gitlab)
+- [Why did you end support for the project IRC channel?](#why-did-you-end-support-for-the-project-irc-channel)
 
 ## What is wrong with the "GIMP" name? {#what-is-wrong-with-the-gimp-name}
 If English is not your first language, then you may not have realised that the word "gimp" is problematic. In some countries it is considered a slur against disabled people and a playground insult directed at unpopular children. It can also be linked to certain "after dark" activities performed by consenting adults.
@@ -48,6 +50,8 @@ It is unfortunate that we have to fork the whole project to change the name, but
 No, because we are not reimplementing a 20 year old codebase from scratch. Also once we "hard fork" we still intend to apply useful upstream changes rather than completely reimplementing them.
 
 From our point of view we are simply exercising [our software freedoms](https://www.gnu.org/philosophy/free-sw.html) by forking the project and redistributing a modified version for others to benefit from. This is fully in accordance with the spirit and requirements of the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.en.html) and [GNU Lesser General Public License](https://www.gnu.org/licenses/lgpl-3.0.en.html) as they both apply to this project.
+
+We do now plan to write a new GUI front-end in parallel to our current efforts, but that will take a number of years to produce and will still rely on the same GEGL and BABL libraries that the GNU Image Manipulation Program does.
 
 [Return to top](#contents)
 
@@ -140,10 +144,36 @@ While both projects may not agree on some things, it is clear to us that an adve
 [Return to top](#contents)
 
 ## This project is big! Will it take a long time to rebrand? {#this-project-is-big-will-it-take-a-long-time-to-rebrand}
-The 1.x releases will just provide a cosmetic rebrand of the upstream project and some additional user interface tweaks.
+The 0.x releases will be a "soft fork" of the GNU Image Manipulation Program that provides a cosmetic rebrand and minor tweaks to the user interface.
 
-Build system changes, major refactoring and de-cluttering work will happen in 2.x releases that "hard fork" from version 2.10. At that stage we will be able to consider more radical ideas, new features and fixes that address long-standing complaints.
+The 1.x releases will be a "hard fork" of the GNU Image Manipulation Program that attempts more ambitious changes on the existing codebase. Glimpse 1.0 will likely happen around the release of upstream v3.0 so we can benefit from the full GTK3 port.
+
+The 2.x releases will use a brand new GUI we have written from scratch while still relying on the underlying GEGL and BABL libraries that GNU Image Manipulation Program does. That effort will take a number of years, so it is likely this will be worked on in parallel while make the 1.x releases.
 
 We have been overwhelmed by the positive support we have received, and that is definitely helping us progress the project faster than anticipated.
 
 [Return to top](#contents)
+
+## Why are you using Github instead of Gitlab? {#why-are-you-using-github-instead-of-gitlab}
+
+That was a choice made early on for entirely practical reasons such as project discoverability, ease-of-use, user familiarity and cost.
+
+As a project we are aware some people have ethical concerns about using Github. For this reason we periodically discuss how our contributors feel about using it, as well as the merits and drawbacks of potential alternatives.
+
+Currently there are no plans to move our code or mirror it elsewhere, but we are not opposed to the idea.
+
+[Return to top](#contents)
+
+## Why did you end support for the project IRC channel? {#why-did-you-end-support-for-the-project-irc-channel}
+
+We initially set up an IRC channel on Freenode as a way of bringing people together and making some initial decisions for the Glimpse project during the first few days of its existence. One of the very first decisions the community made was that we should switch to something else, and we stopped supporting IRC after just a few weeks.
+
+Our moderators monitored and supported the #glimpse channel while we made the switch to Matrix, and by the time we stopped doing so all project contributors had moved across and there had been little or no activity on IRC for over a week.
+
+We did consider supporting IRC over the longer term with a Matrix bridge but it was determined that the delay on both sides would be frustrating for our contributors, and supporting multiple communication channels would be too time-consuming for our moderators.
+
+As stated in a previous FAQ we do not believe in decisions that can never be overturned and are always open to suggested alternatives. So far the feedback we have received on Matrix has been mostly positive and there are more participants on our supported communication channels than ever before.
+
+[Return to top](#contents)
+
+##
