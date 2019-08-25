@@ -144,9 +144,11 @@ While both projects may not agree on some things, it is clear to us that an adve
 [Return to top](#contents)
 
 ## This project is big! Will it take a long time to rebrand? {#this-project-is-big-will-it-take-a-long-time-to-rebrand}
-The 1.x releases will just provide a cosmetic rebrand of the upstream project and some additional user interface tweaks.
+The 0.x releases will be a "soft fork" of the GNU Image Manipulation Program that provides a cosmetic rebrand and minor tweaks to the user interface.
 
-Build system changes, major refactoring and de-cluttering work will happen in 2.x releases that "hard fork" from version 2.10. At that stage we will be able to consider more radical ideas, new features and fixes that address long-standing complaints.
+The 1.x releases will be a "hard fork" of the GNU Image Manipulation Program that attempts more ambitious changes on the existing codebase. Glimpse 1.0 will likely happen around the release of upstream v3.0 so we can benefit from the full GTK3 port.
+
+The 2.x releases will use a brand new GUI we have written from scratch while still relying on the underlying GEGL and BABL libraries that GNU Image Manipulation Program does. That effort will take a number of years, so it is likely this will be worked on in parallel while make the 1.x releases.
 
 We have been overwhelmed by the positive support we have received, and that is definitely helping us progress the project faster than anticipated.
 
@@ -173,3 +175,5 @@ We did consider supporting IRC over the longer term with a Matrix bridge but it 
 As stated in a previous FAQ we do not believe in decisions that can never be overturned and are always open to suggested alternatives. So far the feedback we have received on Matrix has been mostly positive and there are more participants on our supported communication channels than ever before.
 
 [Return to top](#contents)
+
+##
