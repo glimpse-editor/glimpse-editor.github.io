@@ -1,7 +1,7 @@
 ---
 title: "We Are Getting Noticed"
-date: 2019-08-27T10:41:00+01:00
-draft: true
+date: 2019-08-27T19:14:00+01:00
+draft: false
 ---
 If you are new to our project, welcome! Here is a quick reminder of where you can find us on social media and our project tools:
 
