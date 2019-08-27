@@ -37,7 +37,7 @@ You can find the article here: https://www.omgubuntu.co.uk/2019/08/glimpse-gimp-
 
 It is very cool to see our project start to attract the attention of major Linux news outlets at such an early stage in its development. We would also like to thank them for linking to our [Github project](https://github.com/glimpse-editor/Glimpse) and [Patreon donation page](https://www.patreon.com/glimpse).
 
-## Glimpse also mention on "It's FOSS"
+## Glimpse also mentioned on "It's FOSS"
 You can find the article here: https://itsfoss.com/gimp-fork-glimpse/
 
 This was a well-researched and thoughtful article we enjoyed reading!
