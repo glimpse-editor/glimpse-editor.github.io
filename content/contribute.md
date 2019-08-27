@@ -5,12 +5,12 @@ draft: false
 menu: "main"
 ---
 ### Code, Bug Reports, etc
-[Source Tree](https://github.com/glimpse-editor/Glimpse)
-[Prototyping](https://github.com/glimpse-editor/mockups)
+ * [Source Tree](https://github.com/glimpse-editor/Glimpse)
+ * [Prototyping](https://github.com/glimpse-editor/mockups)
 
 ### Art, mockups, etc.
-[Branding](https://github.com/glimpse-editor/branding)
-[Wiki](https://wiki.getglimpse.app/)
+ * [Branding](https://github.com/glimpse-editor/branding)
+ * [Wiki](https://wiki.getglimpse.app/)
 
 ### Discussion
-[Matrix](https://matrix.to/#/+glimpse:matrix.org)
+ * [Matrix](https://matrix.to/#/+glimpse:matrix.org)
