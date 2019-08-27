@@ -5,7 +5,7 @@ draft: false
 menu: "main"
 ---
 ### Code, Bug Reports, etc
- * [Source Tree](https://github.com/glimpse-editor/Glimpse)
+ * [Source Code](https://github.com/glimpse-editor/Glimpse)
  * [Prototyping](https://github.com/glimpse-editor/mockups)
 
 ### Art, mockups, etc.
