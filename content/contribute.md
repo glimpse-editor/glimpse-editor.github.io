@@ -6,8 +6,13 @@ menu: "main"
 ---
 ## Contribute
 
-### Code, Art, Bug Reports, etc
- * [GitHub](https://github.com/glimpse-editor/Glimpse)
- 
+### Code, Bug Reports, etc
+ * [Main Source Tree](https://github.com/glimpse-editor/Glimpse)
+ * [Code Mockups/Prototypes](https://github.com/glimpse-editor/mockups)
+
+### Art, mockups, etc.
+ * [Branding](https://github.com/glimpse-editor/branding)
+ * [Wiki](https://wiki.getglimpse.app/)
+
 ### Discussion
  * [Matrix](https://matrix.to/#/+glimpse:matrix.org)
