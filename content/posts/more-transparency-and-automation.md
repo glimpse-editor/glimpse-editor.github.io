@@ -42,4 +42,4 @@ The project also discussed where to host the release executables for Glimpse 0.1
 We also agreed and implemented the new artwork and Open Collective account discussed earlier in this blog post.
 
 ## Website updates
-Bobby Moss updated the [Contribute](../contribute/) page so it grouped things together a little better and provided new donate links. He also added a new default favicon based on the new project logo.
+Bobby Moss updated the [Contribute](../../contribute/) page so it grouped things together a little better and provided new donate links. He also added a new default favicon based on the new project logo.
