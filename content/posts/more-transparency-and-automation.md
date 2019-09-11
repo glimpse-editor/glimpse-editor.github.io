@@ -4,7 +4,7 @@ date: 2019-09-11T22:40:00+01:00
 draft: false
 ---
 
-Instead of providing a weekly reminder of our social media and project links across the web, check out our all-new [Contribute](../contribute/) page!
+Instead of providing a weekly reminder of our social media and project links across the web, check out our all-new [Contribute](../../contribute/) page!
 
 We are still on schedule to release Glimpse 0.1 some time in September 2019. The application is mostly code-complete, so the outstanding work items primarily relate to artwork, packaging and automated builds. Minor patches may also still be applied for code cleanup and documentation.
 
@@ -28,7 +28,7 @@ We are very grateful to the amazing [James Daniel](https://jamesdaniel.dev/) for
 They also produced new icons for us to use for the application launcher and throughout the project. These have not yet been applied to the codebase and we are still working on usage guidelines, but you can see a preview of that work here: https://github.com/glimpse-editor/branding
 
 ## Code changes
-Dominic Watson added the Glimpse project [code of conduct](../code-of-conduct/) on this website to the codebase as `CODE_OF_CONDUCT.md`.
+Dominic Watson added the Glimpse project [code of conduct](../../code-of-conduct/) on this website to the codebase as `CODE_OF_CONDUCT.md`.
 
 Bobby Moss completed his previous work removing Wilber's eyes and flashing red "jump scare" easter egg from the main window after receiving feedback from XenonFiber about a patch submitted upstream. He also updated the code level documentation and "Help" links to include the new web domain.
 
