@@ -23,7 +23,7 @@ Based on a great suggestion from Mathieu Bridon, Bobby Moss has ported the Linux
 This is still a work in progress as Bobby wants to setup the publishing steps for Windows, Mac and Linux in the same build file. You can take a look at the latest progress here: https://github.com/glimpse-editor/Glimpse/tree/travis-ci
 
 ## New project logo
-We are very grateful to the amazing [James Daniel](https://jamesdaniel.dev/) for worked with us to produce our project logo. We have finally banished the public domain question mark we were using as a placeholder to the dustbin of history!
+We are very grateful to the amazing [James Daniel](https://jamesdaniel.dev/) for working with us to produce our project logo. We have finally banished the public domain question mark we were using as a placeholder to the dustbin of history!
 
 They also produced new icons for us to use for the application launcher and throughout the project. These have not yet been applied to the codebase and we are still working on usage guidelines, but you can see a preview of that work here: https://github.com/glimpse-editor/branding
 
