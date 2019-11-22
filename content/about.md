@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: 2019-09-29T06:14:00+01:00
+date: 2019-11-12T13:54:00+00:00
 draft: false
 menu: "main"
 ---
@@ -8,29 +8,49 @@ menu: "main"
 Glimpse is an open source image editor based on the GNU Image Manipulation Program. The goal is to experiment with new ideas and expand the use of free software.
 
 ### Introduction
+- [What is the correct name for your project?](#what-is-the-correct-name-for-your-project)
+- [Did you know that name is used elsewhere?](#did-you-know-that-name-is-used-elsewhere)
 - [What is wrong with the "GIMP" name?](#what-is-wrong-with-the-gimp-name)
 - [What initially motivated you to fork?](#why-are-you-forking)
 - [Are you just forking because of the name?](#are-you-just-forking-because-of-the-name)
+- [What if I find the word "Glimpse" offensive?](#what-if-i-find-the-word-glimpse-offensive)
 - [Do you intend to replace the GNU Image Manipulation Program?](#do-you-intend-to-replace-the-gnu-image-manipulation-program)
 - [Is forking the project a duplication of effort?](#is-forking-the-project-a-duplication-of-effort)
-- [Did you know that name is used elsewhere?](#did-you-know-that-name-is-used-elsewhere)
-- [What if I find the word "Glimpse" offensive?](#what-if-i-find-the-word-glimpse-offensive)
-- [Why do you need monetary donations?](#why-do-you-need-monetary-donations)
-- [How do I stay up-to-date with this project?](#how-do-i-stay-up-to-date-with-this-project)
-- [How do I contribute to this project?](#how-do-i-contribute-to-this-project)
 
 ### Technical Questions
 - [Which operating systems do you support?](#which-operating-systems-do-you-support)
+- [Can I install Glimpse and GNU Image Manipulation Program on the same machine?](#can-i-install-glimpse-and-gnu-image-manipulation-program-on-the-same-machine)
 - [Will you contribute changes back upstream?](#will-you-contribute-changes-back-upstream)
 - [This project is big! Will it take a long time to rebrand?](#this-project-is-big-will-it-take-a-long-time-to-rebrand)
 - [Why are you using Github instead of Gitlab?](#why-are-you-using-github-instead-of-gitlab)
+- [Could you just run "find and replace" to fix the name?](#could-you-just-run-find-and-replace-to-fix-the-name)
 
 ### Project Governance
 - [Where is the Glimpse code of conduct?](#where-is-the-glimpse-code-of-conduct)
 - [How does your project govern itself?](#how-does-this-project-govern-itself)
 - [What are all the Matrix channels for?](#what-are-all-the-matrix-channels-for)
+- [Why do you need monetary donations?](#why-do-you-need-monetary-donations)
+- [How do I stay up-to-date with this project?](#how-do-i-stay-up-to-date-with-this-project)
+- [How do I contribute to this project?](#how-do-i-contribute-to-this-project)
 
 ---
+
+## What is the correct name for your project? {#what-is-the-correct-name-for-your-project}
+
+The free software we produce is called "Glimpse Image Editor", but we sometimes shorten that to just "Glimpse". We refer to our governance structure, core contributors and participants on our public Matrix channel as "the Glimpse project". We often call our social media followers, donors and end users "the Glimpse Community".
+
+If you are a blogger or a member of the technology industry press, we do not yet have branding guidelines in place. However we have provided screenshots, our branding assets and instructions for their basic usage here: https://github.com/glimpse-editor/branding
+
+[Return to top](#contents)
+
+## Did you know that name is used elsewhere? {#did-you-know-that-name-is-used-elsewhere}
+We are aware of a number of other unrelated projects called "Glimpse". We have made changes based on feedback from our critics such as changing our website's domain name and defining "Glimpse" as a shortened version of "Glimpse Image Editor".
+
+The project's current stance is that while we are theoretically open to changing our name, there is very limited support in favour of actually doing so. We granted our critics time to find an alternative name that addresses the concerns they raised, fulfils our project's requirements and enjoys popular support. Even with three months and our assistance they were been able to do so, so we consider the matter closed.
+
+See ["How does your project govern itself?"](#how-does-this-project-govern-itself) for more details about why we now limit discussion about this topic on our Matrix channels.
+
+[Return to top](#contents)
 
 ## What is wrong with the "GIMP" name? {#what-is-wrong-with-the-gimp-name}
 If English is not your first language, then you may not have realised that the word "gimp" is problematic. In some countries it is considered a slur against disabled people and a playground insult directed at unpopular children. It can also be linked to certain "after dark" activities performed by consenting adults.
@@ -62,11 +82,18 @@ What this project aims to do is inject some new ideas, energy, contributions and
 
 [Return to top](#contents)
 
+## What if I find the word "Glimpse" offensive? {#what-if-i-find-the-word-glimpse-offensive}
+That seems unlikely given we checked its meaning in every known language, but if you have a legitimate concern then let us know.
+
+If you are offended by the fact we renamed the project, we suggest you continue using the [GNU Image Manipulation Program](https://www.gimp.org) instead of annoying our contributors and making more work for our moderators.
+
+[Return to top](#contents)
+
 ## Do you intend to replace the GNU Image Manipulation Program? {#do-you-intend-to-replace-the-gnu-image-manipulation-program}
 
-No, this project does not intend to supplant the GNU Image Manipulation Program. You may have noticed we already link to their donations page throughout our documentation and we periodically donate a portion of our own funds to the upstream project.
+No, this project does not intend to supplant the GNU Image Manipulation Program. You may have noticed we already link to [their donations page](https://www.gimp.org/donating/) throughout our documentation and we periodically donate a portion of our own funds to the upstream project.
 
-This project is also run entirely by passionate enthusiasts. Development on the GNU Image Manipulation Program will continue as normal with same core group of developers and be entirely unhindered by this project.
+The Glimpse project is also run entirely by passionate enthusiasts. Development on the GNU Image Manipulation Program will continue as normal with same core group of developers and be entirely unhindered by this project.
 
 We anticipate in the coming months and years that Glimpse will be a place where people can experiment with fixes that upstream may not have had the resources to work on and new ideas that upstream may have felt unable or unwilling to try for legacy reasons.
 
@@ -83,51 +110,20 @@ There are early plans to write a new GUI front-end with more modern technologies
 
 [Return to top](#contents)
 
-## Did you know that name is used elsewhere? {#did-you-know-that-name-is-used-elsewhere}
-We are aware of a number of other unrelated projects called "Glimpse". We have made changes based on feedback from our critics such as changing our website's domain name and defining "Glimpse" as a shortened version of "Glimpse Image Editor".
-
-The project's current stance is that while we are open to changing our name, there is very limited support in favour of actually doing so. We have granted our critics time to find an alternative name that addresses the concerns they raised, fulfils our project's requirements and enjoys popular support, but even with our assistance they have so far not been able to do so. If a new name is not found before 1.0 is released then we will consider the matter closed.
-
-If you feel strongly that we should change the project name or have name suggestions of your own, we recommend you add them to this Github Issue so they can be more easily tracked by those following this discussion: https://github.com/glimpse-editor/Glimpse/issues/92
-
-See ["How does your project govern itself?"](#how-does-this-project-govern-itself) for more details about why we now limit discussion about this topic on our Matrix channels.
-
-[Return to top](#contents)
-
-## What if I find the word "Glimpse" offensive? {#what-if-i-find-the-word-glimpse-offensive}
-That seems unlikely given we checked its meaning in every known language, but if you have a legitimate concern then let us know.
-
-If you are offended by the fact we renamed the project, we suggest you continue using the [GNU Image Manipulation Program](https://www.gimp.org) instead of annoying our contributors and making more work for our moderators.
-
-[Return to top](#contents)
-
-## Why do you need monetary donations? {#why-do-you-need-monetary-donations}
-Just like many other free software projects we need to host the collaboration tools we use to develop and share the project. We have to purchase domain names, cloud servers, code signing certificates and subscriptions from service providers to make this project a success. In addition we also intend to pay the artists we commission for the re-brand and reward our contributors for the value they add.
-
-If you would like to donate some money to Glimpse project, you can do so by donating on [Open Collective](https://opencollective.com/glimpse).
-
-We also encourage those who want to support the GNU Image Manipulation Program to use [their donation page](https://www.gimp.org/donating/) to do so.
-
-[Return to top](#contents)
-
-## How do I stay up-to-date with this project? {#how-do-i-stay-up-to-date-with-this-project}
-You can follow us on [the fediverse](https://bobadon.co.uk/@glimpse) and [Twitter](https://twitter.com/glimpse_editor). This blog also has a full text [RSS feed](https://getglimpse.app/index.xml). We also recently setup a [Facebook page](fb.me/glimpse.editor).
-
-Our [Open Collective](https://opencollective.com/glimpse) backers also get regular updates about the project. Our more in-depth daily discussions can be viewed [on Matrix]([#glimpse:matrix.org](https://matrix.to/#/#glimpse:matrix.org)).
-
-[Return to top](#contents)
-
-## How do I contribute to this project? {#how-do-i-contribute-to-this-project}
-All of our contribution links are available on our [Contribute](/contribute/) page.
-
-Please ensure that you read our [code of conduct](/code-of-conduct/) before you join our community. Regardless of your past experience and the usefulness of your contributions you are expected to comply with it.
-
-[Return to top](#contents)
-
 ## Which operating systems do you support? {#which-operating-systems-do-you-support}
 We support systems running Windows 7 or newer, and modern variants of GNU/Linux.
 
 Unfortunately we are not able to support MacOS at this time. We recommend [Seashore](http://libregraphicsworld.org/blog/entry/meet-seashore-free-image-editor-for-macos) as an alternative.
+
+[Return to top](#contents)
+
+## Can I install Glimpse and GNU Image Manipulation Program on the same machine? {#can-i-install-glimpse-and-gnu-image-manipulation-program-on-the-same-machine}
+
+On Windows, you can safely install and run both applications at the same time.
+
+On Linux, the Flatpak build that we support and maintain is fully self-contained and should not interfere with any installed versions of the GNU Image Manipulation Program. If you discover that is not the case on your system, please [report it as a bug](https://github.com/glimpse-editor/Glimpse/issues).
+
+If you are using a Linux build from a third party source that we do not directly support (such as Snapcraft, AUR or your distribution's package repositories) then it is unlikely because there may be package and file name conflicts. You should ask the people responsible for maintaining those packages for confirmation and any help you might need.
 
 [Return to top](#contents)
 
@@ -153,9 +149,23 @@ We have been overwhelmed by the positive support we have received, and that is c
 
 That was a choice made early on for entirely practical reasons such as project discoverability, ease-of-use, user familiarity and cost.
 
-As a project we are aware some people have ethical concerns about using Github, and that other projects shows up above us in [the search results](https://github.com/search?utf8=%E2%9C%93&q=glimpse&type=). For those reasons we periodically discuss how our contributors feel about using it, as well as the merits and drawbacks of potential alternatives.
+As a project we are aware some people have ethical concerns about using Github, and that other projects appear above us in [the search results](https://github.com/search?utf8=%E2%9C%93&q=glimpse&type=). For those reasons we periodically discuss how our contributors feel about using it, as well as the merits and drawbacks of potential alternatives.
 
 There are no immediate plans to move our code or mirror it elsewhere, but we are not opposed to the idea.
+
+[Return to top](#contents)
+
+## Could you just run "find and replace" to fix the name? {#could-you-just-run-find-and-replace-to-fix-the-name}
+
+We could, but that would completely destroy plug-in compatibility and break the upstream subcomponents on which we rely. That would also cause serious problems with all the build scripts and be very time-consuming to fix.
+
+To preserve compatibility we had to maintain existing file names, variable names, constants, class names, methods and APIs. This meant we had to provide our own files, variables and constants, then identify where we wanted to use them, swap in those values wherever that did not break compatibility, and find a suitable replacement wherever we referred to upstream code that we had not modified (we settled on "GNU I.M.P"). That cannot be achieved by just using find-and-replace tools or regular expressions.
+
+In addition to changing the name we also wanted to change the project logo. We commissioned an artist to do that for us, and subsequently had to make code fixes to the application to swap in our own art assets.
+
+Finally, we also had to ensure that our changes were applied appropriately in the existing translation files and did not break the automated mechanisms in the build systems that keep them up-to-date.
+
+In short, it is not easy to rebrand the GNU Image Manipulation Program. Similarly, the reason why this project is not just "one man and his Github repository" is because we do have other objectives and intend to create free software that other people actually want to use.
 
 [Return to top](#contents)
 
@@ -200,5 +210,28 @@ All of our channels are on matrix.org. You can get access to the invite-only cha
 - **#glimpse-2x**: Focussed discussion for the Glimpse 2.x "UI rewrite" working group
 - **#glimpse-contributors**: "Glimpse Contributors" channel for core contributors. Only people listed in our `AUTHORS` file are eligible to join.
 - **#glimpse-admin**: "Glimpse Admin" channel for our moderators to support each other. This is a private channel used by members of the governance team.
+
+[Return to top](#contents)
+
+## Why do you need monetary donations? {#why-do-you-need-monetary-donations}
+Just like many other free software projects we need to host the collaboration tools we use to develop and share the project. We have to purchase domain names, cloud servers, code signing certificates and subscriptions from service providers to make this project a success. In addition we also intend to pay the artists we commission for the re-brand and reward our contributors for the value they add.
+
+If you would like to donate some money to Glimpse project, you can do so by donating on [Open Collective](https://opencollective.com/glimpse).
+
+We also encourage those who want to support the GNU Image Manipulation Program to use [their donation page](https://www.gimp.org/donating/) to do so.
+
+[Return to top](#contents)
+
+## How do I stay up-to-date with this project? {#how-do-i-stay-up-to-date-with-this-project}
+You can follow us on [the fediverse](https://bobadon.co.uk/@glimpse) and [Twitter](https://twitter.com/glimpse_editor). This blog also has a full text [RSS feed](https://getglimpse.app/index.xml). We also recently setup a [Facebook page](fb.me/glimpse.editor).
+
+Our [Open Collective](https://opencollective.com/glimpse) backers also get regular updates about the project. Our more in-depth daily discussions can be viewed [on Matrix]([#glimpse:matrix.org](https://matrix.to/#/#glimpse:matrix.org)).
+
+[Return to top](#contents)
+
+## How do I contribute to this project? {#how-do-i-contribute-to-this-project}
+All of our contribution links are available on our [Contribute](/contribute/) page.
+
+Please ensure that you read our [code of conduct](/code-of-conduct/) before you join our community. Regardless of your past experience and the usefulness of your contributions you are expected to comply with it.
 
 [Return to top](#contents)
