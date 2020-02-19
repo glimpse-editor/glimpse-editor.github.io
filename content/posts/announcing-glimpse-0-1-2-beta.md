@@ -8,7 +8,7 @@ Check out our [Contribute](/contribute/) page for social media and news links to
 ## Wait... what happened to 0.1.1?
 Don't panic! We inherited a build versioning scheme that seems to work well, so we now define odd number versions (eg. 0.1.1 and 0.1.99) as "in development" and even-number versions (eg. 0.1.0 and 0.1.2) as stable releases we take the time to beta test.
 
-If you want to find out more about how our release numbering works on [our FAQs page](/about/#how-does-your-release-numbering-work).
+You can find out more about how our release numbering works on [our FAQs page](/about/#how-does-your-release-numbering-work).
 
 ## Beta testing for the next release begins
 On Monday evening Bobby Moss (trechnex) successfully packaged the beta builds for Glimpse Image Editor 0.1.2 and published them on Flathub (Linux) and our own build server (Windows). We would like to also thank Mathieu Bridon for his assistance setting up our project's beta channel on Flathub.
@@ -49,7 +49,7 @@ Bobby Moss has already set up a new branching strategy to cover that, and added 
 ## Updates to our FAQs page
 Governance team reviewed and updated a number of questions on our FAQs page, which we felt was important as our project has evolved a lot since some of these answers were written.
 
-Bobby Moss also wrote new answers explaining [how to find out if we're implementing a feature](/about/#when-are-you-going-to-implement-the-feature-i-asked-for) and an explanation of [how our version numbers works](/about/#how-does-your-release-numbering-work).
+Bobby Moss also wrote new answers explaining [how to find out if we're implementing a feature](/about/#when-are-you-going-to-implement-the-feature-i-asked-for) and an explanation of [how our version numbers work](/about/#how-does-your-release-numbering-work).
 
 If you have additional questions, please contact us by using the links on our [Contribute](/contribute/) page.
 
@@ -64,7 +64,7 @@ The response on Matrix was broadly positive, so we have applied to join the wait
 
 As a reminder, money donated to our Open Collective is [only used to cover the costs of this project](/about/#why-do-you-need-monetary-donations) and periodically pass some of those contributions upstream. You can see a full accounting of all the donations we have ever received and how we have spent that money so far on [our Open Collective profile](https://opencollective.com/glimpse).
 
-If you would like to thank our contributors directly for the many hours of unpaid volunteer work they do for our project, you should contact them about their own personal donation platforms:
+If you would like to thank our contributors directly for the many hours of unpaid volunteer work they do for our project, you should contact them about their own personal donation platforms.
 
 Creator: [Bobby Moss](https://github.com/TrechNex)
 Maintainers: [Chaomodus](https://github.com/chaomodus), [Christopher Davis](https://github.com/BrainBlasted), [Luna](https://github.com/Member1221)
