@@ -272,7 +272,7 @@ Please note that we do not monitor or moderate those platforms, and cannot guara
 &lt;pre&gt;&lt;code&gt;$ flatpak install flathub org.glimpse_editor.Glimpse
 &lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;snapcraft&#34;&gt;Snapcraft&lt;/h4&gt;
 &lt;p&gt;If Snapcraft is not already installed on your machine, follow these instructions: &lt;a href=&#34;https://snapcraft.io/docs/getting-started&#34;&gt;https://snapcraft.io/docs/getting-started&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Once setup is complete you can find Glimpse Image Editor by searching in your distribution&amp;rsquo;s software center, or you can click on &lt;a href=&#34;https://snapcraft.io/glimpse-editor/&#34;&gt;this link&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Once setup is complete you can find Glimpse Image Editor by searching in your distribution&amp;rsquo;s software center, or you can &lt;a href=&#34;https://snapcraft.io/glimpse-editor/&#34;&gt;click on this link&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Alternatively you can install it manually at the command line:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;$ sudo snap install glimpse-editor
 &lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;source-tarball&#34;&gt;Source tarball&lt;/h4&gt;
