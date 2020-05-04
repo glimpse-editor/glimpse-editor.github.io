@@ -22,11 +22,7 @@ We distribute Glimpse Image Editor 0.1.2 on Flathub and Snapcraft for end users.
 #### Flatpak
 If Flatpak is not already installed on your machine, follow these instructions: https://flatpak.org/setup/
 
-Once setup is complete you can find Glimpse by searching in your distribution's software center, or you can click on this button:
-
-<a href="https://flathub.org/apps/details/org.glimpse_editor.Glimpse">
-    <img src="https://flathub.org/assets/badges/flathub-badge-en.png" alt="Download on Flathub" width="240">
-</a>
+Once setup is complete you can find Glimpse by searching in your distribution's software center, or you can [click on this link](https://flathub.org/apps/details/org.glimpse_editor.Glimpse).
 
 Alternatively you can install it manually at the command line:
 ```
@@ -36,9 +32,7 @@ $ flatpak install flathub org.glimpse_editor.Glimpse
 #### Snapcraft
 If Snapcraft is not already installed on your machine, follow these instructions: https://snapcraft.io/docs/getting-started
 
-Once setup is complete you can find Glimpse Image Editor by searching in your distribution's software center, or you can click on this button:
-
-<iframe src="https://snapcraft.io/glimpse-editor/embedded?button=black" frameborder="0" width="100%" height="250px" style="border: 1px solid #CCC; border-radius: 2px;"></iframe>
+Once setup is complete you can find Glimpse Image Editor by searching in your distribution's software center, or you can click on [this link](https://snapcraft.io/glimpse-editor/).
 
 Alternatively you can install it manually at the command line:
 ```
