@@ -1,0 +1,15 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sourceRoot": "/Users/bobbymoss/Code/getglimpse-web",
+	"sources": [
+		"themes/glimpse/assets/scss/main.scss",
+		"themes/glimpse/assets/scss/partials/footer.scss"
+	],
+	"sourcesContent": [
+		"// Main entrypoint for the Glimpse theme\n\n// Components\n@import \"./partials/footer.scss\";",
+		"html {\n  position: relative;\n  min-height: 100%;\n}\n\nbody {\n  margin-bottom: 90px; /* Margin bottom by footer height + 30*/\n}\n\n.footer {\n  position: absolute;\n  bottom: 0;\n  width: 100%;\n  height: 50px; /* Set the fixed height of the footer here */\n  line-height: 50px; /* Vertically center the text there */\n\n  > div > span > a {\n    color: white;\n\n    &:hover {\n        color: white;\n    }\n  }\n}"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,IAAI,AAAC,CACH,QAAQ,CAAE,QAAQ,CAClB,UAAU,CAAE,IAAI,CACjB,AAED,AAAA,IAAI,AAAC,CACH,aAAa,CAAE,IAAI,CACpB,AAED,AAAA,OAAO,AAAC,CACN,QAAQ,CAAE,QAAQ,CAClB,MAAM,CAAE,CAAC,CACT,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,IAAI,CACZ,WAAW,CAAE,IAAI,CASlB,AAdD,AAOE,OAPK,CAOH,GAAG,CAAG,IAAI,CAAG,CAAC,AAAC,CACf,KAAK,CAAE,KAAK,CAKb,AAbH,AAUI,OAVG,CAOH,GAAG,CAAG,IAAI,CAAG,CAAC,CAGZ,KAAK,AAAC,CACJ,KAAK,CAAE,KAAK,CACf"
+}

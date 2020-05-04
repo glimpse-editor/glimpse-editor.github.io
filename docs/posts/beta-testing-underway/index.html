@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    
+    <link rel="shortcut icon" href="/favicon-32x32.png" type="image/x-icon" />
+    
+
+    
+    
+    <link rel="stylesheet" href="https://glimpse-editor.org/css/style.css">
+
+    
+    <title>Beta Testing Underway | Glimpse</title>
+    
+</head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000">
+    <a class="navbar-brand" href="/">
+        <img src="/logo_hex_full_invert.svg" alt="Glimpse" height="60">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+        
+        
+            <li class="navbar-item ">
+                <a class="nav-link" href="/about/" title="About (FAQs)">About (FAQs)</a>
+            </li>
+        
+            <li class="navbar-item ">
+                <a class="nav-link" href="/code-of-conduct/" title="Code of Conduct">Code of Conduct</a>
+            </li>
+        
+            <li class="navbar-item ">
+                <a class="nav-link" href="/contribute/" title="Contribute">Contribute</a>
+            </li>
+        
+            <li class="navbar-item ">
+                <a class="nav-link" href="/downloads/" title="Downloads">Downloads</a>
+            </li>
+        
+            <li class="navbar-item  active">
+                <a class="nav-link" href="/posts/" title="Posts">Posts</a>
+            </li>
+        
+        </ul>
+    </div>
+</nav>
+        <main>
+        
+    <div class="container my-5">
+        <h5>Posts</h5>
+        <h1 class="mb-3 page-header">Beta Testing Underway</h1>
+        <p>Tuesday, October 29, 2019</p>
+        <hr />
+        <p>Instead of providing a weekly reminder of our social media and project links across the web, check out our all-new <a href="/contribute/">Contribute</a> page!</p>
+<h2 id="another-release-schedule-update">Another release schedule update</h2>
+<p>Unfortunately we are going to miss our target of releasing in October 2019. We made that estimate before beta testing had started and also when our packaging efforts were still in their very early stages, so this was not unexpected.</p>
+<p>We know that will be disappointing to hear for many of you reading this, but as with any new free software project setbacks and &ldquo;blockers&rdquo; like this are to be expected. We apologize, but also take solace in the fact that this project has only existed since Friday 5th July 2019. The amount we have achieved in less than four months has been quite remarkable!</p>
+<p>The Glimpse project would like to thank the community for your continued support and patience with us. We will provide an update some time in the middle of November 2019 to confirm if we will be formally releasing before the end of that month or in the first half of December 2019.</p>
+<h2 id="snap-support-stalled">Snap support stalled</h2>
+<p>Unfortunately (at the time when this blog post was published) there had been no updates made to the related pull request for two weeks: <a href="https://github.com/glimpse-editor/Glimpse/pull/153">https://github.com/glimpse-editor/Glimpse/pull/153</a></p>
+<p>If you think you can pick this work up and finish it then please get in touch with us! If we cannot complete this task then we will need to bring forward plans to also package Glimpse 0.1 as an <a href="https://appimage.org/">AppImage</a> so that Linux users will still have an alternative for systems that do not support Flatpak.</p>
+<h2 id="continued-work-on-the-windows-port">Continued work on the Windows port</h2>
+<p>Bobby Moss has been working through problems related to packaging Glimpse 0.1 for Windows systems.</p>
+<p>Creating a new Windows installer from scratch has proved difficult because of the sheer number of dependency files involved, but we are confident the end result will be worth it. Bobby has succeeded in producing a 32-bit MSI file that should work on all Windows systems from Windows 7 or later. You can find new instructions for this here: <a href="https://wiki.glimpse-editor.org/index.php?title=Testing_Glimpse">https://wiki.glimpse-editor.org/index.php?title=Testing_Glimpse</a></p>
+<p>A roadblock we have run into is that (much like the ZIP files produced at the start of beta testing) this new installer triggers warnings and blocks from Windows User Account Control, Windows SmartScreen and any other locally installed anti-virus program.</p>
+<p>While the development releases will always have this problem (even if we use a self-signed certificate), that is clearly not acceptable for formal releases. We will need to buy a three year code signing certificate <a href="https://comodosslstore.com/codesigning.aspx">from a reputable CA</a> to fix that problem.</p>
+<p>Our efforts to automate the building and packaging of the Windows port on <a href="https://jenkins.glimpse-editor.org/">our Jenkins server</a> have stalled. We are still puzzling out the documented cross-compilation steps from upstream and how to script the packaging process with <a href="https://wixtoolset.org/">the WiX Toolset</a>. However that will not be done in time for the 0.1 release, so currently the Windows build and packaging process relies entirely on one person (Bobby Moss) doing it all manually, and that is not a small task!</p>
+<p>In more positive news, we have confirmed that GNU Image Manipulation Program 2.10.12 and Glimpse 0.1 BETA can both be installed alongside each other on the same Windows system without sharing or overwriting each others&rsquo; configuration files. You cannot currently launch one while the other is still running, but we are working on a fix for that.</p>
+<p>Here is a full list of Windows bugs and &ldquo;known issues&rdquo; we are currently aware of:</p>
+<ul>
+<li>BETA builds trigger security warnings from Windows and anti-virus programs <a href="https://github.com/glimpse-editor/Glimpse/issues/195">195</a></li>
+<li>Glimpse 0.1 BETA is currently built without Python support due to this being missing in upstream documentation, so a noticeable number of plug-ins are not loaded by the application when it is started <a href="https://github.com/glimpse-editor/Glimpse/issues/178">178</a></li>
+<li>The Wilber icon is still shown in the taskbar and window title when a file is open and being modified <a href="https://github.com/glimpse-editor/Glimpse/issues/176">176</a></li>
+<li>The Wilber icon and upstream application name is still shown in error messages and recovery dialogs <a href="https://github.com/glimpse-editor/Glimpse/issues/190">190</a></li>
+<li>Offline help files are not included with this release <a href="https://github.com/glimpse-editor/Glimpse/issues/145">145</a></li>
+<li>Glimpse 0.1 BETA and GNU Image Manipulation Program 2.10.12 can be installed alongside each other but cannot run at the same time. <a href="https://github.com/glimpse-editor/Glimpse/issues/196">196</a></li>
+</ul>
+<h2 id="flatpak-improvements">Flatpak improvements</h2>
+<p>Mathieu Bridon has continued to improve the Glimpse 0.1 BETA flatpak with new core dependency versions and updates to the metadata.</p>
+<p>You can beta test the current flatpak release by following the instructions here: <a href="https://wiki.glimpse-editor.org/index.php?title=Testing_Glimpse">https://wiki.glimpse-editor.org/index.php?title=Testing_Glimpse</a></p>
+<h2 id="documentation-updates">Documentation updates</h2>
+<p>Bobby Moss has been improving the code level documentation. Their pull request is not quite ready to merge yet, but you can follow it here: <a href="https://github.com/glimpse-editor/Glimpse/pull/188">https://github.com/glimpse-editor/Glimpse/pull/188</a></p>
+<p>Glimpse project also confirmed that the Glimpse logo and assets are provided under a Creative Commons (<a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>) license. Clarifications have also been made to the <code>LICENSE</code> file in the root of the source code in <code>dev-g210</code> branch: <a href="https://github.com/glimpse-editor/Glimpse/pull/187">https://github.com/glimpse-editor/Glimpse/pull/187</a></p>
+<h2 id="website-updates">Website updates</h2>
+<p>Christopher Davis has been experimenting with new themes, website designs and accessibility changes. You can follow their progress here: <a href="https://github.com/glimpse-editor/getglimpse-web/pull/54">https://github.com/glimpse-editor/getglimpse-web/pull/54</a></p>
+<p>The draft release notes and downloads page that Bobby Moss has been working can still be followed here: <a href="https://github.com/glimpse-editor/getglimpse-web/pull/48">https://github.com/glimpse-editor/getglimpse-web/pull/48</a></p>
+<h2 id="patreon-campaign-to-be-closed-in-december-2019">Patreon campaign to be closed in December 2019</h2>
+<p>We would like to thank everyone who has contributed cash to the project on our <a href="https://www.patreon.com/glimpse">Patreon</a> page since its inception in July 2019.</p>
+<p>As we mentioned in previous posts we have created a new fundraising campaign on <a href="https://opencollective.com/glimpse">Open Collective</a>. This is great for you as followers of our project because you can choose between a one-off or monthly donation, see how much we receive and what we spend your money on, and (if you live in the US) benefit from tax deductions. From the project&rsquo;s point of view the charity behind the platform provides us with legal/financial services and ensures our expense claims are legitimate. Open Collective also enables more than one person to run the fundraising campaign and track backer rewards.</p>
+<p>We know the project will probably take a financial hit when we do this, but we feel this is the right long term decision because it will reduce the administrative overhead our core contributors have to deal with and better ensure accountability within our project&rsquo;s governance structure.</p>
+<p>If there is positive feedback for the idea, we may also encourage individual contributors to host their own Patreon campaigns and PayPal links so they can still receive contributions from those of you who prefer those platforms.</p>
+<h2 id="release-numbering-change">Release numbering change</h2>
+<p>On a related note, the project has also changed its future development plans based on what we have collectively learned over the last few months. We originally intended that 0.x would be based on GNU Image Manipulation Program 2.10.x, 1.x would be based on GNU Image Manipulation Program 3.x, and 2.x would be our own rewrite.</p>
+<p>We have made the decision to not re-fork the GNU Image Manipulation Program when it reaches version 3.x. Realistically, we do not have the people and resources needed to recreate all the changes and tooling we have produced over the last four months again to make that major update (and its entirely new build processes) a worthwhile end product.</p>
+<p>Instead we believe it makes more sense to stick to the 2.10.x base, and make that as stable and &ldquo;long term supportable&rdquo; as possible while also adding our own changes to it. 1.0 should be released towards the second half of 2020, assuming the 0.x releases that are produced before then are stable and well-received.</p>
+<p>The &ldquo;UI rewrite&rdquo; running in parallel will continue unhindered, and we hope to see some initial alpha-level prototypes some time in 2020.</p>
+<h2 id="reaching-out-to-facebook-users">Reaching out to Facebook users</h2>
+<p>You will now find the Glimpse project <a href="https://fb.me/glimpse.editor">on Facebook</a>. Bobby Moss is currently maintaining that page, and this is another part of our outreach efforts to users outside the free software community. It should also assist with our efforts to improve the project&rsquo;s search engine optimization (SEO).</p>
+<p>Despite this <a href="https://bobadon.co.uk/@glimpse">our Mastodon account</a> will continue to be our primary social media channel. The Glimpse project spawned from the fediverse, so it will always be our preference.</p>
+<h2 id="early-work-on-the-ui-rewrite">Early work on the UI rewrite</h2>
+<p>There seems to be early support around the idea of using the D programming language with a recent version of GTK to produce this UI rewrite. You can see some of the early design work from people like meltheadorable on our wiki: <a href="https://wiki.glimpse-editor.org/index.php?title=Main_Page">https://wiki.glimpse-editor.org/index.php?title=Main_Page</a></p>
+<p>Luna (Clipsey) has been experimenting with GTK bindings for D in her own Github project space. She has been regularly posting screenshots of that work in the (invite-only) &ldquo;Glimpse 2.x UI Rewrite&rdquo; Matrix channel, and you can check that code out for yourself here: <a href="https://github.com/Member1221/d-dazzle">https://github.com/Member1221/d-dazzle</a> and here: <a href="https://github.com/Member1221/d-handy">https://github.com/Member1221/d-handy</a>.</p>
+<p>Chaomodus has also been preparing to contribute to this parallel effort by teaching themselves the D programming language in their spare time, and rewriting simple UNIX utilities as a learning exercise.</p>
+
+    </div>
+
+        </main>
+        <footer style="background-color: #000000" class="footer" role="contentinfo">
+  <div class="container footer">
+    <span class="text-white"><a href="/">&copy; Glimpse Image Editor</a> | <a href="/privacy/">Privacy Policy</a> | <a href="https://github.com/glimpse-editor/Glimpse" target="_blank">Source Code</a></span>
+  </div>
+</footer>
+    </body>
+</html>

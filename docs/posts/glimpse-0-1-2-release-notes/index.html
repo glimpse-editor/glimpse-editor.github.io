@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    
+    <link rel="shortcut icon" href="/favicon-32x32.png" type="image/x-icon" />
+    
+
+    
+    
+    <link rel="stylesheet" href="https://glimpse-editor.org/css/style.css">
+
+    
+    <title>Glimpse 0.1.2 Release Notes | Glimpse</title>
+    
+</head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000">
+    <a class="navbar-brand" href="/">
+        <img src="/logo_hex_full_invert.svg" alt="Glimpse" height="60">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+        
+        
+            <li class="navbar-item ">
+                <a class="nav-link" href="/about/" title="About (FAQs)">About (FAQs)</a>
+            </li>
+        
+            <li class="navbar-item ">
+                <a class="nav-link" href="/code-of-conduct/" title="Code of Conduct">Code of Conduct</a>
+            </li>
+        
+            <li class="navbar-item ">
+                <a class="nav-link" href="/contribute/" title="Contribute">Contribute</a>
+            </li>
+        
+            <li class="navbar-item ">
+                <a class="nav-link" href="/downloads/" title="Downloads">Downloads</a>
+            </li>
+        
+            <li class="navbar-item  active">
+                <a class="nav-link" href="/posts/" title="Posts">Posts</a>
+            </li>
+        
+        </ul>
+    </div>
+</nav>
+        <main>
+        
+    <div class="container my-5">
+        <h5>Posts</h5>
+        <h1 class="mb-3 page-header">Glimpse 0.1.2 Release Notes</h1>
+        <p>Monday, March 2, 2020</p>
+        <hr />
+        <p>This release iterates on our very first &ldquo;minimal viable product&rdquo; release. The primary objective was to improve the experience for Windows users and fix non-English translation files.</p>
+<p>This is also the first release where we have provided a source tarball for Linux distribution packagers. Please note that you will need to mark <code>libgimp</code> as a conflicting package as there is a lot of code and file name refactoring we still need to do.</p>
+<p>We also took community feedback on board and reinstated the &ldquo;Color&rdquo; icon pack and &ldquo;Grey&rdquo; UI theme. Upstream contributors are also now credited in <strong>Help</strong> &gt; <strong>About</strong> &gt; <strong>Credits</strong>.</p>
+<h2 id="installation">Installation</h2>
+<p>GNU/Linux users can install Glimpse Image Editor 0.1.2 as a Flatpak from the Flathub repository. There are also a number of additional installation options for Linux detailed on our <a href="/downloads/">Downloads</a> page.</p>
+<p>Windows users can use an MSI file to install Glimpse Image Editor 0.1.2 on 32-bit and 64-bit systems running Windows 7 or later. We chose that type of installer to assist businesses and schools using centralised software management systems. This can also be found on the <a href="/downloads/">Downloads</a> page.</p>
+<h2 id="known-issues">Known Issues</h2>
+<ul>
+<li>Linux AppImages for 0.1.0 and 0.1.2 are not yet available <a href="https://github.com/glimpse-editor/Glimpse/issues/108">#108</a></li>
+<li>Windows users cannot run Python plug-ins <a href="https://github.com/glimpse-editor/Glimpse/issues/178">#178</a></li>
+<li>There is no macOS port at the current time <a href="https://github.com/glimpse-editor/Glimpse/issues/227">#227</a></li>
+<li>Man pages in the terminal have not been updated</li>
+<li>Compatibility with upstream offline help pages has not been tested</li>
+</ul>
+<h2 id="new-features">New Features</h2>
+<p>Glimpse 0.1.2 is still based on <a href="https://www.gimp.org/news/2019/06/12/gimp-2-10-12-released/">GNU Image Manipulation Program 2.10.12</a>. It also still uses the following dependency package versions:</p>
+<ul>
+<li><a href="http://www.gegl.org/babl/">BABL</a> 0.1.68</li>
+<li><a href="http://www.gegl.org/">GEGL</a> 0.4.16</li>
+<li><a href="http://mypaint.org/">MyPaint</a> 1.3.0</li>
+</ul>
+<h3 id="windows-improvements">Windows Improvements</h3>
+<ul>
+<li>Translation files are now included in the MSI installer <a href="https://github.com/glimpse-editor/Glimpse/issues/240">#240</a></li>
+<li>Glimpse Image Editor and GNU Image Manipulation Program no longer share the same task bar icon <a href="https://github.com/glimpse-editor/Glimpse/issues/247">#247</a></li>
+<li>Windows installer now supports upgrading existing installations <a href="https://github.com/glimpse-editor/Glimpse/pull/314">#314</a></li>
+</ul>
+<h3 id="ui-improvements">UI Improvements</h3>
+<ul>
+<li>&ldquo;Color&rdquo; icon pack and &ldquo;Gray&rdquo; UI theme have been reinstated <a href="https://github.com/glimpse-editor/Glimpse/issues/232">#232</a></li>
+<li>The &ldquo;fun&rdquo; brushes have now been removed <a href="https://github.com/glimpse-editor/Glimpse/issues/286">#286</a></li>
+<li>Upstream contributors and translators are now appropriately credited through the UI <a href="https://github.com/glimpse-editor/Glimpse/issues/228">#228</a></li>
+<li>Renamed the &ldquo;Gimpressionist&rdquo; plug-in to &ldquo;Impressionist&rdquo; <a href="https://github.com/glimpse-editor/Glimpse/issues/267">#267</a></li>
+<li>Fixed various problems in translation files <a href="https://github.com/glimpse-editor/Glimpse/issues/230">#230</a> <a href="https://github.com/glimpse-editor/Glimpse/issues/238">#238</a></li>
+<li>Fixed text color chooser that still used Wilber icon and upstream name <a href="https://github.com/glimpse-editor/Glimpse/issues/250">#250</a></li>
+<li>Fixed &ldquo;legacy&rdquo; UI theme in Snapcraft <a href="https://github.com/glimpse-editor/Glimpse/pull/271">#271</a></li>
+</ul>
+<h3 id="code-improvements">Code Improvements</h3>
+<ul>
+<li>Moved <code>build</code> folder to <code>build-aux</code> to follow GNOME conventions <a href="https://github.com/glimpse-editor/Glimpse/issues/233">#233</a></li>
+<li>Added packaging documentation to the <code>snap</code> and <code>flatpak</code> folders to match <code>windows-msi</code> <a href="https://github.com/glimpse-editor/Glimpse/pull/305">#305</a></li>
+<li>Fixed <code>make check</code> so we can produce source tarballs for Linux distribution maintainers <a href="https://github.com/glimpse-editor/Glimpse/pull/251">#251</a></li>
+</ul>
+<h2 id="credits">Credits</h2>
+<p>We would like to thank everyone who contributed towards making Glimpse 0.1.2 a success, particularly those unnamed individuals who spread the word about our project on social media, shared their feature requests with us and provided feedback to the development team during the beta testing phase.</p>
+<h3 id="creator">Creator</h3>
+<ul>
+<li>Bobby Moss</li>
+</ul>
+<h3 id="maintainers">Maintainers</h3>
+<ul>
+<li>chaomodus</li>
+<li>Christopher Davis</li>
+<li>Luna</li>
+</ul>
+<h3 id="code-contributors">Code Contributors</h3>
+<ul>
+<li>Heather Ellsworth</li>
+<li>Ken VanDine</li>
+<li>Mathieu Bridon</li>
+<li>Mike Burns</li>
+<li>skyejonke</li>
+</ul>
+<h3 id="documentation-contributors">Documentation Contributors</h3>
+<ul>
+<li>Dave Kretz</li>
+</ul>
+<h3 id="artwork-contributors">Artwork Contributors</h3>
+<ul>
+<li>James Daniel</li>
+</ul>
+<h3 id="20-tier-sponsor-contributors">$20+ Tier Sponsor Contributors</h3>
+<ul>
+<li>Sami Mannila</li>
+</ul>
+<h3 id="5-tier-backers-and-one-off-donors">$5+ Tier Backers and One-off Donors</h3>
+<p>We would like to say a special thank you to all of our financial backers on <a href="https://opencollective.com/glimpse">Open Collective</a> regardless of whether they are listed below or not. Without your help this release would not have been possible, and your continued support is highly appreciated.</p>
+<ul>
+<li>Chris</li>
+<li>Conner</li>
+<li>Dzuk</li>
+<li>Janne Marko</li>
+<li>Jes Wolfe</li>
+<li>kretz</li>
+<li>Magnus Gustafsson</li>
+<li>nitrohorse</li>
+<li>Samuel Pickard</li>
+<li>Stan Sorochan</li>
+<li>Tim Dehring</li>
+<li>Transmutable</li>
+</ul>
+
+    </div>
+
+        </main>
+        <footer style="background-color: #000000" class="footer" role="contentinfo">
+  <div class="container footer">
+    <span class="text-white"><a href="/">&copy; Glimpse Image Editor</a> | <a href="/privacy/">Privacy Policy</a> | <a href="https://github.com/glimpse-editor/Glimpse" target="_blank">Source Code</a></span>
+  </div>
+</footer>
+    </body>
+</html>
