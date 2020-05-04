@@ -1,6 +1,6 @@
 ---
 title: "About (FAQs)"
-date: 2020-04-10T13:00:00+01:00
+date: 2020-05-04T19:51:00+01:00
 draft: false
 menu: "main"
 ---
@@ -107,15 +107,15 @@ If we come up with some popular improvements that really enhance the user experi
 ## How does your release numbering work? {#how-does-your-release-numbering-work}
 Glimpse Image Editor 0.1.0 is based on the GNU Image Manipulation Program 2.10.12. All 0.1.x releases add our changes, backport useful upstream functionality and update key dependencies on the same 2.10.12 base.
 
-Glimpse Image Editor 0.2.0 will be rebased on whichever release of the GNU Image Manipulation Program is current and stable on 2020-07-05, and we intend to release it before September 2020.
+Glimpse Image Editor 0.2.0 will be rebased on the GNU Image Manipulation Program 2.10.18, and we intend to release it in July 2020. All 0.2.x releases will add our changes, back port useful functionality and update key dependencies on the same 2.10.18 base.
 
-Whenever we produce a 0.x.0 release, we will continue adding features to it every few months until July the following year. We then intend to provide "maintenance updates" providing patches and updated dependencies for up to a year afterwards if any severe bugs or security issues are reported to us.
+We intend to continue providing "maintenance updates" with patches and updated dependencies for at least a year after each 0.x.0 release.
 
 "Beta test" and "Stable" release versions always end in an even number. Odd numbered versions are "Unstable" builds created from our development branch.
 
-Glimpse Image Editor 1.0.0 will be a complete re-fork based on the GNU Image Manipulation Program 3.x. We feel this is necessary because of the major changes that will be included in that upstream release.
+Glimpse Image Editor 1.0.0 is currently reserved in case we decide to fork the GNU Image Manipulation Program 3.x. 
 
-Glimpse Image Editor 2.0.0 could be another fork of the GNU Image Manipulation Program, or we may switch to an entirely new image editing application that we wrote ourselves.
+1.0.0 or 2.0.0 may be used by the "rewrite" stream, which aims to create a completely new image editing program with a different user interface and cross-platform graphical toolkit. That will not be based on the GNU Image Manipulation Program.
 
 [Return to top](#contents)
 
@@ -259,9 +259,10 @@ All of our channels are on matrix.org. You can get access to the invite-only cha
 - **#glimpse**: "Glimpse Community" channel that anyone can join so long as they keep discussion on topic, support the project and comply with our code of conduct
 - **#glimpse-offtopic**: Off-topic chatter between well-known members of our community in a safe, welcoming environment
 - **#glimpse-github**: Matrix alternative to receiving Github notifications by email
-- **#glimpse-2x**: Focussed discussion for the Glimpse 2.x "UI rewrite" working group
 - **#glimpse-contributors**: "Glimpse Contributors" channel for core contributors. Only people listed in our `AUTHORS` file are eligible to join.
 - **#glimpse-admin**: "Glimpse Admin" channel for our moderators to support each other. This is a private channel used by members of the governance team.
+
+There is also a [separate Discord server](https://discord.gg/hZhRceq) for the "rewrite" development stream.
 
 [Return to top](#contents)
 
