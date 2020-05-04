@@ -4,6 +4,7 @@ title = "Glimpse"
 theme = "glimpse"
 SectionPagesMenu = "main"
 rssLimit = 20
+publishDir = "docs"
 
 [params]
   custom_css = ["css/glimpse.css"]
