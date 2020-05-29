@@ -1,6 +1,6 @@
 ---
 title: "About (FAQs)"
-date: 2020-05-04T19:51:00+01:00
+date: 2020-05-29T05:57:00+01:00
 draft: false
 menu: "main"
 ---
@@ -18,6 +18,7 @@ Glimpse is an open source image editor based on the GNU Image Manipulation Progr
 
 ### Technical Questions
 - [How does your release numbering work?](#how-does-your-release-numbering-work)
+- [When does my software go "end of life"?](#when-does-my-software-go-end-of-life)
 - [Which operating systems do you support?](#which-operating-systems-do-you-support)
 - [Who signs the Windows installer?](#who-signs-the-windows-installer)
 - [Can I install Glimpse and GNU Image Manipulation Program on the same machine?](#can-i-install-glimpse-and-gnu-image-manipulation-program-on-the-same-machine)
@@ -116,6 +117,23 @@ We intend to continue providing "maintenance updates" with patches and updated d
 Glimpse Image Editor 1.0.0 is currently reserved in case we decide to fork the GNU Image Manipulation Program 3.x. 
 
 1.0.0 or 2.0.0 may be used by the "rewrite" stream, which aims to create a completely new image editing program with a different user interface and cross-platform graphical toolkit. That will not be based on the GNU Image Manipulation Program.
+
+[Return to top](#contents)
+
+## When does my software go "end of life"? {#when-does-my-software-go-end-of-life}
+This is our intended lifecycle for every "new base" (0.x) release:
+
+* Six month window for new feature releases
+* Six month window for maintenance releases
+* Six month window where we will only issue a release to patch a showstopping bug or security vulnerability
+
+For example, Glimpse Image Editor 0.1.0 (based on GNU Image Manipulation Program 2.10.12) was released on 2020-11-22. We published new feature releases (0.1.2 and 0.1.2r2) before 2020-05-22. At least one maintenance release (0.1.4) will be published before 2020-11-22. Any further releases after that would only be considered until 2021-05-22, when the 0.1.x releases would all be considered "end of life"
+
+In future we plan to release "new base" releases in July as that ensures we coincide with normal IT maintenance schedules and the academic year in most countries.
+
+The would mean if Glimpse Image Editor 0.2.0 (based on GNU Image Manipulation Program 2.10.18) is released in July 2020 as planned, it could receive new feature releases until January 2021, maintenance releases until July 2021, and then finally all 0.2.x releases would be "end of life" in January 2022.
+
+Our expectation is that most people will stick to a 0.x release for around a year. The extra six months is provided as an extra grace period for larger deployments and less technical users that may take longer to adopt new releases.
 
 [Return to top](#contents)
 

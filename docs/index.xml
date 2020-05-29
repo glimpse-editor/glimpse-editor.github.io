@@ -14,7 +14,7 @@
     <item>
       <title>About (FAQs)</title>
       <link>https://glimpse-editor.org/about/</link>
-      <pubDate>Mon, 04 May 2020 19:51:00 +0100</pubDate>
+      <pubDate>Fri, 29 May 2020 05:57:00 +0100</pubDate>
       
       <guid>https://glimpse-editor.org/about/</guid>
       <description>&lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
@@ -32,6 +32,7 @@
 &lt;h3 id=&#34;technical-questions&#34;&gt;Technical Questions&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#how-does-your-release-numbering-work&#34;&gt;How does your release numbering work?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#when-does-my-software-go-end-of-life&#34;&gt;When does my software go &amp;ldquo;end of life&amp;rdquo;?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#which-operating-systems-do-you-support&#34;&gt;Which operating systems do you support?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#who-signs-the-windows-installer&#34;&gt;Who signs the Windows installer?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#can-i-install-glimpse-and-gnu-image-manipulation-program-on-the-same-machine&#34;&gt;Can I install Glimpse and GNU Image Manipulation Program on the same machine?&lt;/a&gt;&lt;/li&gt;
@@ -96,6 +97,18 @@
 &lt;p&gt;&amp;ldquo;Beta test&amp;rdquo; and &amp;ldquo;Stable&amp;rdquo; release versions always end in an even number. Odd numbered versions are &amp;ldquo;Unstable&amp;rdquo; builds created from our development branch.&lt;/p&gt;
 &lt;p&gt;Glimpse Image Editor 1.0.0 is currently reserved in case we decide to fork the GNU Image Manipulation Program 3.x.&lt;/p&gt;
 &lt;p&gt;1.0.0 or 2.0.0 may be used by the &amp;ldquo;rewrite&amp;rdquo; stream, which aims to create a completely new image editing program with a different user interface and cross-platform graphical toolkit. That will not be based on the GNU Image Manipulation Program.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;#contents&#34;&gt;Return to top&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;when-does-my-software-go-end-of-life&#34;&gt;When does my software go &amp;ldquo;end of life&amp;rdquo;?&lt;/h2&gt;
+&lt;p&gt;This is our intended lifecycle for every &amp;ldquo;new base&amp;rdquo; (0.x) release:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Six month window for new feature releases&lt;/li&gt;
+&lt;li&gt;Six month window for maintenance releases&lt;/li&gt;
+&lt;li&gt;Six month window where we will only issue a release to patch a showstopping bug or security vulnerability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For example, Glimpse Image Editor 0.1.0 (based on GNU Image Manipulation Program 2.10.12) was released on 2020-11-22. We published new feature releases (0.1.2 and 0.1.2r2) before 2020-05-22. At least one maintenance release (0.1.4) will be published before 2020-11-22. Any further releases after that would only be considered until 2021-05-22, when the 0.1.x releases would all be considered &amp;ldquo;end of life&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;In future we plan to release &amp;ldquo;new base&amp;rdquo; releases in July as that ensures we coincide with normal IT maintenance schedules and the academic year in most countries.&lt;/p&gt;
+&lt;p&gt;The would mean if Glimpse Image Editor 0.2.0 (based on GNU Image Manipulation Program 2.10.18) is released in July 2020 as planned, it could receive new feature releases until January 2021, maintenance releases until July 2021, and then finally all 0.2.x releases would be &amp;ldquo;end of life&amp;rdquo; in January 2022.&lt;/p&gt;
+&lt;p&gt;Our expectation is that most people will stick to a 0.x release for around a year. The extra six months is provided as an extra grace period for larger deployments and less technical users that may take longer to adopt new releases.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;#contents&#34;&gt;Return to top&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;which-operating-systems-do-you-support&#34;&gt;Which operating systems do you support?&lt;/h2&gt;
 &lt;p&gt;We support systems running Windows 7 or newer, and modern variants of GNU/Linux.&lt;/p&gt;
