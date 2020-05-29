@@ -127,13 +127,13 @@ This is our intended lifecycle for every "new base" (0.x) release:
 * Six month window for maintenance releases
 * Six month window where we will only issue a release to patch a showstopping bug or security vulnerability
 
-For example, Glimpse Image Editor 0.1.0 (based on GNU Image Manipulation Program 2.10.12) was released on 2020-11-22. We published new feature releases (0.1.2 and 0.1.2r2) before 2020-05-22. At least one maintenance release (0.1.4) will be published before 2020-11-22. Any further releases after that would only be considered until 2021-05-22, when the 0.1.x releases would all be considered "end of life"
+For example, Glimpse Image Editor 0.1.0 (based on GNU Image Manipulation Program 2.10.12) was released on 2020-11-22. We published new feature releases (0.1.2 and 0.1.2r2) before 2020-05-22. At least one maintenance release (0.1.4) will be published before 2020-11-22. Any further releases after that would only be considered until 2021-05-22, when the 0.1 base would be "end of life"
 
 In future we plan to release "new base" releases in July as that ensures we coincide with normal IT maintenance schedules and the academic year in most countries.
 
-The would mean if Glimpse Image Editor 0.2.0 (based on GNU Image Manipulation Program 2.10.18) is released in July 2020 as planned, it could receive new feature releases until January 2021, maintenance releases until July 2021, and then finally all 0.2.x releases would be "end of life" in January 2022.
+The would mean if Glimpse Image Editor 0.2.0 (based on GNU Image Manipulation Program 2.10.18) is released in July 2020 as planned, it could receive new feature releases until January 2021, maintenance releases until July 2021, and then finally the 0.2 base would be "end of life" in January 2022.
 
-Our expectation is that most people will stick to a 0.x release for around a year. The extra six months is provided as an extra grace period for larger deployments and less technical users that may take longer to adopt new releases.
+Our expectation is that most people will stick to a 0.x base for around a year. The extra six months is provided as an extra grace period for larger deployments and users who need to upgrade their computer to support the latest base.
 
 [Return to top](#contents)
 
