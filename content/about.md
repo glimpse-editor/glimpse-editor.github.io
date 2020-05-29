@@ -135,8 +135,6 @@ If we do not sign our MSI installer then potential users can run into a number o
 
 We initially tried a self-signed certificate, but that did not resolve the problem. The Glimpse project is not a registered company and cannot afford to reimburse individuals for certificate authority notarization requirements, so we cannot provide our own code signing certificate. As a result we rely on a trusted individual to voluntarily sign each MSI installer we release on our behalf.
 
-There are plans to also package the software as an MSIX file and [submit it to the Microsoft Store](https://github.com/glimpse-editor/Glimpse/issues/180). We believe that the ability to run Glimpse Image Editor in a secure sandbox that has been audited/signed by Microsoft themselves and downloaded from a trusted source will satisfy the Windows security requirements for most organizations.
-
 [Return to top](#contents)
 
 ## Can I install Glimpse and GNU Image Manipulation Program on the same machine? {#can-i-install-glimpse-and-gnu-image-manipulation-program-on-the-same-machine}

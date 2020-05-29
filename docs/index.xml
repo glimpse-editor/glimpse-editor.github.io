@@ -6,7 +6,7 @@
     <description>Recent content on Glimpse</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 May 2020 19:51:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2020 19:00:00 +0100</lastBuildDate>
     
         <atom:link href="https://glimpse-editor.org/index.xml" rel="self" type="application/rss+xml" />
     
@@ -106,7 +106,6 @@
 &lt;p&gt;&lt;a href=&#34;https://cynthia.re/&#34;&gt;Cynthia Revström&lt;/a&gt;, a renowned security researcher. She signs our Windows installers with an Extended Validation (EV) code signing certificate belonging to a registered company called &lt;a href=&#34;https://qs.nu/&#34;&gt;Qs.nu&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;If we do not sign our MSI installer then potential users can run into a number of problems. Certain web browsers block the download of &amp;ldquo;untrusted&amp;rdquo; files, Windows SmartScreen creates error screens that non-technical people find difficult to override, and anti-virus programs incorrectly flagging Glimpse Image Editor as &amp;ldquo;malware&amp;rdquo; can interfere with the installation process and normal operation of the program.&lt;/p&gt;
 &lt;p&gt;We initially tried a self-signed certificate, but that did not resolve the problem. The Glimpse project is not a registered company and cannot afford to reimburse individuals for certificate authority notarization requirements, so we cannot provide our own code signing certificate. As a result we rely on a trusted individual to voluntarily sign each MSI installer we release on our behalf.&lt;/p&gt;
-&lt;p&gt;There are plans to also package the software as an MSIX file and &lt;a href=&#34;https://github.com/glimpse-editor/Glimpse/issues/180&#34;&gt;submit it to the Microsoft Store&lt;/a&gt;. We believe that the ability to run Glimpse Image Editor in a secure sandbox that has been audited/signed by Microsoft themselves and downloaded from a trusted source will satisfy the Windows security requirements for most organizations.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;#contents&#34;&gt;Return to top&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;can-i-install-glimpse-and-gnu-image-manipulation-program-on-the-same-machine&#34;&gt;Can I install Glimpse and GNU Image Manipulation Program on the same machine?&lt;/h2&gt;
 &lt;p&gt;On Windows, you can safely install and run both applications at the same time.&lt;/p&gt;
