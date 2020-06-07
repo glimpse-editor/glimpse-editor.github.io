@@ -5,7 +5,7 @@ draft: false
 ---
 This is the very first binary release for Glimpse Image Editor. The primary objective was to complete the re-brand, remove obvious distractions from the user interface, learn the various technologies involved and lay the groundwork for future development.
 
-This project was started on Friday 5th July 2019 by a small group of [fediverse](https://en.wikipedia.org/wiki/Fediverse) users who had never even set eyes on the upstream code before. Over the last four months we have been overwhelmed by the support we have received from over 1000 social media followers across [Twitter](https://twitter.com/glimpse_editor) and [Mastodon](https://bobadon.co.uk/@glimpse), dozens of financial backers across Patreon and [Open Collective](https://opencollective.com/glimpse), and over 100 people who have joined [our public Matrix channel](https://glimpse-editor.org/about/[#glimpse:matrix.org](https://matrix.to/#/#glimpse:matrix.org)) to volunteer their expertise and ensure we make good decisions. We would like to thank everyone that helped us achieve our objectives, and we hope we can keep the momentum going as we start to plan what comes next in Glimpse 0.2.0.
+This project was started on Friday 5th July 2019 by a small group of [fediverse](https://en.wikipedia.org/wiki/Fediverse) users who had never even set eyes on the upstream code before. Over the last four months we have been overwhelmed by the support we have received from over 1000 social media followers across [Twitter](https://twitter.com/glimpse_editor) and [Mastodon](https://bobadon.co.uk/@glimpse), dozens of financial backers across Patreon and [Open Collective](https://opencollective.com/glimpse), and over 100 people who have joined [our public Matrix channel](https://glimpse-editor.github.io/about/[#glimpse:matrix.org](https://matrix.to/#/#glimpse:matrix.org)) to volunteer their expertise and ensure we make good decisions. We would like to thank everyone that helped us achieve our objectives, and we hope we can keep the momentum going as we start to plan what comes next in Glimpse 0.2.0.
 
 We are also pleased to announce that in October 2019 we [donated $50 to the GNU Image Manipulation Program](https://opencollective.com/glimpse/expenses/10167) as part of our commitment to share a portion of the donations we receive for each new release with them. We hope in future this amount will increase and be augmented with new bug fixes and features from our own contributors.
 
@@ -62,7 +62,7 @@ current tagged releases
 * Added [Vagrant](https://www.vagrantup.com/) support so the code can be built
 & run without needing to install the prerequisites on the host system
 * Provided comprehensive build documentation for Windows and Linux in the `HACKING` file and at
-https://wiki.glimpse-editor.org/index.php?title=Building_Glimpse
+https://github.com/glimpse-editor/Glimpse/wiki
 * Improved integration with the GNOME Builder IDE
 * Provided new code level documentation of our own (such as code of conduct,
 contributing guide, changelog, etc)

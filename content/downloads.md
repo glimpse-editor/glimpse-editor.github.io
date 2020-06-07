@@ -58,6 +58,6 @@ Unfortunately Glimpse Image Editor is not supported on MacOS. We recommend eithe
 You may also be interested in trying [Seashore](https://apps.apple.com/us/app/seashore/id1448648921?mt=12), an older fork of the GNU Image Manipulation Program designed specifically for MacOS. While it does have fewer features, it may still be suitable for your intended use case.
 
 ### Build our code
-We have provided instructions for building and packaging the Glimpse Image Editor source code on our project wiki: https://wiki.glimpse-editor.org/index.php?title=Building_Glimpse
+We have provided instructions for building and packaging the Glimpse Image Editor source code on our project wiki: https://github.com/glimpse-editor/Glimpse/wiki
 
-You can also test out our own beta and development releases by following these instructions: https://wiki.glimpse-editor.org/index.php?title=Testing_Glimpse
+You can also test out our own beta and development releases by following these instructions: https://github.com/glimpse-editor/Glimpse/wiki#testing
