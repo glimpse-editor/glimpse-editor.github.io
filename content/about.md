@@ -43,7 +43,7 @@ Glimpse is an open source image editor based on the GNU Image Manipulation Progr
 ## What is the correct name for your project? {#what-is-the-correct-name-for-your-project}
 The free software we produce is called "Glimpse Image Editor", but we sometimes shorten that to just "Glimpse". We refer to our governance structure, core contributors and participants on our public Matrix channel as "the Glimpse project". We often call our social media followers, donors and end users "the Glimpse Community".
 
-If you are a blogger or a member of the technology industry press, we do not yet have branding guidelines in place. However we have provided screenshots, our branding assets and instructions for their basic usage here: https://github.com/glimpse-editor/branding
+If you are a blogger or a member of the technology industry press, we do not yet have branding guidelines in place. However we have provided screenshots, our branding assets and instructions for their basic usage here: https://github.com/glimpse-editor/branding. You may also contact us directly [by email](mailto:glimpse.editor@icloud.com) for further information about the project.
 
 [Return to top](#contents)
 
@@ -272,7 +272,7 @@ Finally, the project may from time to time run polls on social media to canvas o
 ## What are all the Matrix channels for? {#what-are-all-the-matrix-channels-for}
 All of our channels are on matrix.org. You can get access to the invite-only channels by asking for it on the "Glimpse Community" channel.
 
-- **#glimpse**: "Glimpse Community" channel that anyone can join so long as they keep discussion on topic, support the project and comply with our code of conduct
+- **#glimpse**: "Glimpse Community" channel that anyone can join so long as they [follow the rules](https://github.com/glimpse-editor/Glimpse/wiki/Good-Practices#membership-of-the-matrix-channel-is-a-privilege-not-a-right) and comply with our [code of conduct](/code-of-conduct/)
 - **#glimpse-offtopic**: Off-topic chatter between well-known members of our community in a safe, welcoming environment
 - **#glimpse-github**: Matrix alternative to receiving Github notifications by email
 - **#glimpse-contributors**: "Glimpse Contributors" channel for core contributors. Only people listed in our `AUTHORS` file are eligible to join.

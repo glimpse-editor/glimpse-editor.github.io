@@ -1,6 +1,6 @@
 ---
 title: "Contribute"
-date: 2020-05-03T16:00:00+01:00
+date: 2020-06-07T16:43:00+01:00
 draft: false
 menu: "main"
 ---
@@ -25,6 +25,8 @@ We have highlighted which stream each link belongs to. If there is no named stre
  * [Matrix](https://matrix.to/#/#glimpse:matrix.org) (fork)
  * [Discord](https://discord.gg/hZhRceq) (rewrite)
 
+  **Warning**: Before joining our public Matrix channel, we strongly encourage you to read [the rules you are expected to follow](https://github.com/glimpse-editor/Glimpse/wiki/Good-Practices#membership-of-the-matrix-channel-is-a-privilege-not-a-right).
+
 ## News
  * [Facebook](https://fb.me/glimpse.editor) (fork)
  * [Mastodon](https://mastodon.art/@glimpse)
@@ -36,6 +38,9 @@ We have highlighted which stream each link belongs to. If there is no named stre
  * [Open Collective](https://opencollective.com/glimpse)
 
  We also recommend donating to [GNU Image Manipulation Program](https://www.gimp.org/donating/), the upstream project on which the fork relies.
+
+ ## Media/Press Contact
+ * [Email](mailto:glimpse.editor@icloud.com)
 
 ## Community Supported Channels
 We welcome members of our community starting their own unofficial support forums and communication channels.
