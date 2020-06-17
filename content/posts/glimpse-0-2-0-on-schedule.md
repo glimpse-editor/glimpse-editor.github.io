@@ -1,6 +1,6 @@
 ---
 title: "Glimpse Image Editor 0.2.0 On Schedule"
-date: 2020-06-14T20:45:00+01:00
+date: 2020-06-17T20:00:00+01:00
 draft: false
 ---
 Check out our [Contribute](/contribute/) page for social media and news links to follow our progress.
