@@ -44,7 +44,7 @@ Remaining tasks include:
 ## Servers Decommissioned and Replaced
 As stated in previous blog posts, we have decommissioned the vast majority of our servers on Linode to cut our running costs and safeguard our project's future. That is possible because we now know how many contributors and users we need to facilitate, where before we were concerned we might have to scale rapidly in a very short space of time.
 
-We are particularly proud of our new developer wiki. Not only does it cover various ways to build and package the code for Windows and Linux, it also lists known issues and hosts important project documents. It will continue to evolve and grow over time.
+We are particularly proud of our [new developer wiki](https://github.com/glimpse-editor/Glimpse/wiki). Not only does it cover various ways to build and package the code for Windows and Linux, it also lists known issues and hosts important project documents. It will continue to evolve and grow over time.
 
 There will no longer be a development repository for Flatpaks, but we intend to provide Linux AppImage files for our development, beta and release branches on Github. These will be automatically generated with Github Actions.
 
