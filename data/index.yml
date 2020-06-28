@@ -14,7 +14,7 @@ features:
     GNU/Linux users can also install Glimpse Image Editor from Flathub and Snapcraft.'
     image: 'glimpse-0-1-2-windows.JPG'
     alt: 'A picture Glimpse with light theme applying an animation to a photo of houses'
-  - header: 'More Usable'
+  - header: 'More Usable (Coming Soon)'
     summary: 'Now that we have a solid base to work from, and the right developer documentation and tooling in place, we aim to start including new usability fixes and improvements in future releases.'
     image: 'flatpak/0.1/light-theme2.jpg'
     alt: 'A picture Glimpse with light theme applying an animation to a photo of houses'
