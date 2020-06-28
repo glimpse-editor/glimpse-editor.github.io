@@ -13,7 +13,7 @@ features:
     The new Windows MSI installer we created can be imported into existing centralized software management tools, and each installation of Glimpse Image Editor on Windows only uses ~500MB of hard drive space.
     GNU/Linux users can also install Glimpse Image Editor from Flathub and Snapcraft.'
     image: 'glimpse-0-1-2-windows.JPG'
-    alt: 'A picture Glimpse with light theme applying an animation to a photo of houses'
+    alt: 'A picture Glimpse launching on Windows 10'
   - header: 'More Usable (Coming Soon)'
     summary: 'Now that we have a solid base to work from, and the right developer documentation and tooling in place, we aim to start including new usability fixes and improvements in future releases.'
     image: 'flatpak/0.1/light-theme2.jpg'
@@ -23,9 +23,9 @@ features:
     We also pass along a portion of our donations to the GNU Image Manipulation Program contributors, provide appropriate credit through our UI, and work closely with them so we can share our improvements 
     and resolve any problems they raise with us. '
     image: 'cytonn-photography-n95VMLxqM2I-unsplash.jpg'
-    alt: 'A picture Glimpse with light theme applying an animation to a photo of houses'
+    alt: 'A picture of two hands shaking in a gesture of friendship'
   - header: 'Planning For The Future'
     summary: '"Glimpse NX" is a completely new permissively-licensed image editing program that is being written from the ground up with the D programming language and a bespoke cross-platform UI toolkit. 
     We will provide more details about that exciting new project as it develops.'
     image: 'glimpse-nx-placeholder.jpg'
-    alt: 'A picture Glimpse with light theme applying an animation to a photo of houses'
+    alt: 'A placeholder Glimpse NX logo on a black background'
