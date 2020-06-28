@@ -4,7 +4,7 @@ date: 2020-06-28T23:49:00+01:00
 draft: false
 menu: "main"
 ---
-The latest release is Glimpse Image Editor 0.1.2. It is based on the GNU Image Manipulation Program 2.10.12, and is provided under the terms of the GNU General Public License v3. [Release Notes](/posts/glimpse-0-1-2-release-notes/)
+The latest release is Glimpse Image Editor 0.1.2. It is based on the [GNU Image Manipulation Program](https://www.gimp.org/) 2.10.12, and is provided under the terms of the GNU General Public License v3. [Release Notes](/posts/glimpse-0-1-2-release-notes/)
 
 ### Windows
 Glimpse Image Editor 0.1.2 is supported on 32-bit and 64-bit systems running Windows 7 or later.
@@ -53,7 +53,7 @@ These builds are provided by third parties in the wider Linux community. We do n
 * [`glimpse:IBBboard`](https://software.opensuse.org//download.html?project=home%3AIBBoard%3Adesktop&package=glimpse) on the OpenSUSE Open Build Service
 
 ### MacOS
-Unfortunately Glimpse Image Editor is not supported on MacOS. We recommend either running the Windows version in a virtualized environment or sticking with [the GNU Image Manipulation Program](https://www.gimp.org/downloads/). 
+Unfortunately Glimpse Image Editor is not supported on MacOS. We recommend either running the Windows version in a virtualized environment or sticking with the [GNU Image Manipulation Program](https://www.gimp.org/downloads/). 
 
 You may also be interested in trying [Seashore](https://apps.apple.com/us/app/seashore/id1448648921?mt=12), an older fork of the GNU Image Manipulation Program designed specifically for MacOS. While it does have fewer features, it may still be suitable for your intended use case.
 
