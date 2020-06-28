@@ -1,10 +1,10 @@
 ---
 title: "Downloads"
-date: 2020-04-10T21:00:00+01:00
+date: 2020-06-28T23:49:00+01:00
 draft: false
 menu: "main"
 ---
-The latest release is Glimpse Image Editor 0.1.2, and it is provided under the terms of the GNU General Public License v3. [Release Notes](/posts/glimpse-0-1-2-release-notes/)
+The latest release is Glimpse Image Editor 0.1.2. It is based on the GNU Image Manipulation Program 2.10.12, and is provided under the terms of the GNU General Public License v3. [Release Notes](/posts/glimpse-0-1-2-release-notes/)
 
 ### Windows
 Glimpse Image Editor 0.1.2 is supported on 32-bit and 64-bit systems running Windows 7 or later.
