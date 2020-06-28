@@ -25,7 +25,7 @@ features:
     image: 'cytonn-photography-n95VMLxqM2I-unsplash.jpg'
     alt: 'A picture Glimpse with light theme applying an animation to a photo of houses'
   - header: 'Planning For The Future'
-    summary: '"Glimpse NX" is a completely new permissively-licensed image editing program that is being written from the group up with the D programming language and a bespoke cross-platform UI toolkit. 
+    summary: '"Glimpse NX" is a completely new permissively-licensed image editing program that is being written from the ground up with the D programming language and a bespoke cross-platform UI toolkit. 
     We will provide more details about that exciting new project as it develops.'
     image: 'glimpse-nx-placeholder.jpg'
     alt: 'A picture Glimpse with light theme applying an animation to a photo of houses'
