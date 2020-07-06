@@ -1,6 +1,6 @@
 ---
 title: "Code of Conduct"
-date: 2020-07-06T19:47:00+00:00
+date: 2020-07-06T19:47:00+01:00
 draft: false
 menu: "main"
 ---
