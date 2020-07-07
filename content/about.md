@@ -1,6 +1,6 @@
 ---
 title: "About (FAQs)"
-date: 2020-07-06T19:47:00+01:00
+date: 2020-07-07T01:00:00+01:00
 draft: false
 menu: "main"
 ---
@@ -245,7 +245,7 @@ The way we govern ourselves is something that evolves over time based on feedbac
 
 Most day-to-day discussion for the forked code happens in the **#glimpse:matrix.org** (or "Glimpse Community") Matrix channel. Anyone can join so long as they comply with our [code of conduct](/code-of-conduct/) and [follow the rules](https://github.com/glimpse-editor/Glimpse/wiki/Good-Practices#membership-of-the-matrix-channel-is-a-privilege-not-a-right). This is where most of the decision-making happens, and our community has the opportunity to voice their opinions or share their domain-specific knowledge there.
 
-Day-to-day discussion for Glimpse NX (sometimes called "the rewrite") happens on a separate [Discord server](https://discord.gg/hZhRceq). You can read their rules by following the links on the `#intro` channel.
+Day-to-day discussion for Glimpse NX (sometimes called "the rewrite") happens on a separate [Discord server](https://discord.gg/hZhRceq). You can read their rules by following the links on the `#rules-and-info` channel.
 
 Anyone we have credited as a Glimpse project contributor can join the "Contributors" area on Discord. These people make the low-level technical decisions necessary to deliver items that have already been agreed, and provide extra input for future governance decisions.
 
@@ -265,7 +265,7 @@ All of our channels are on matrix.org. You can get access to the invite-only cha
 - **#glimpse**: "Glimpse Community" channel that anyone can join so long as they [follow the rules](https://github.com/glimpse-editor/Glimpse/wiki/Good-Practices#membership-of-the-matrix-channel-is-a-privilege-not-a-right) and comply with our [code of conduct](/code-of-conduct/)
 - **#glimpse-offtopic**: Off-topic chatter between well-known members of our community in a safe, welcoming environment.
 
-There is also a separate [Discord server](https://discord.gg/hZhRceq) for our project moderation channels and the Glimpse NX "rewrite" development stream. You can read their rules by following the links on the `#intro` channel.
+There is also a separate [Discord server](https://discord.gg/hZhRceq) for our project moderation channels and the Glimpse NX "rewrite" development stream. You can read their rules by following the links on the `#rules-and-info` channel.
 
 [Return to top](#contents)
 
