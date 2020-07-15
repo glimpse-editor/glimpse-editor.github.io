@@ -1,0 +1,10 @@
+nav {
+  div.navbar-collapse ul.navbar-nav li.navbar-item a.nav-link {
+    /* address navigate bootstrap opacity which is hard to read */
+    color: #ffffff;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
