@@ -1,14 +1,14 @@
 ---
 title: "Contribute"
-date: 2020-06-07T16:43:00+01:00
+date: 2020-07-18T01:00:00+01:00
 draft: false
 menu: "main"
 ---
 Please note that we are developing Glimpse Image Editor in two parallel streams.
 
-The "fork" stream is already providing a workable solution for people who dislike the "gimp" name or encounter barriers when they advocate the GNU Image Manipulation Program in schools, universities and workplaces.
+The "fork" stream is already providing a workable solution for people who dislike the "gimp" name or encounter barriers when they advocate the GNU Image Manipulation Program in schools, universities and workplaces. You can read more about our development priorities and our target userbase here: https://github.com/glimpse-editor/Glimpse/wiki/Development-Priorities
 
-The "rewrite" stream aims to create a completely new image editing program with a different user interface and cross-platform graphical toolkit. That will not be based on the GNU Image Manipulation Program.
+The "rewrite" stream (also known as "Glimpse NX") aims to create a completely new image editing program with a different user interface and cross-platform graphical toolkit. That will not be based on the GNU Image Manipulation Program. We will provide more details about this in coming months.
 
 We have highlighted which stream each link belongs to. If there is no named stream, the link applies to both.
 
