@@ -1,13 +1,13 @@
 ---
 title: "About (FAQs)"
-date: 2020-07-07T01:00:00+01:00
+date: 2020-07-18T01:00:00+01:00
 draft: false
 menu: "main"
 ---
 ## Contents {#contents}
-Glimpse Image Editor is an open source image editing program based on the GNU Image Manipulation Program 2.10.12.
+Glimpse Image Editor is an open source image editing program based on the GNU Image Manipulation Program 2.10.12. You can read more about our development priorities and our target userbase here: https://github.com/glimpse-editor/Glimpse/wiki/Development-Priorities
 
-Glimpse NX is a completely new open source image editing program that is still in the early stages of development.
+Glimpse NX is a completely new open source image editing program that is still in the early stages of development. We will provide more information about it in coming months.
 
 The goal of both projects is to experiment with new ideas and expand the use of free software.
 
@@ -88,6 +88,8 @@ However, we want to go further, and we will do that by focusing on usability cha
 
 Finally, we also want to make it easier for power users to find and install third party plug-ins. Initially that will take the form of an optional installer containing a selection of plug-ins already, but that is an area we can hopefully develop more over time.
 
+You can read more about our development priorities and our target userbase here: https://github.com/glimpse-editor/Glimpse/wiki/Development-Priorities
+
 [Return to top](#contents)
 
 ## Is forking the project a duplication of effort? {#is-forking-the-project-a-duplication-of-effort}
@@ -107,6 +109,8 @@ The Glimpse project is also run entirely by passionate enthusiasts. Development 
 We anticipate in the coming months and years that Glimpse will be a place where people can experiment with fixes that upstream may not have had the resources to work on and new ideas that upstream may have felt unable or unwilling to try for legacy reasons. You can read more about our [development priorities](https://github.com/glimpse-editor/Glimpse/wiki/Development-Priorities) on the project wiki.
 
 If we come up with some popular improvements that really enhance the user experience or fix bugs that impact both projects, then we would assist with contributing them back upstream so the wider community can benefit.
+
+You can read more about our development priorities and our target userbase here: https://github.com/glimpse-editor/Glimpse/wiki/Development-Priorities
 
 [Return to top](#contents)
 
