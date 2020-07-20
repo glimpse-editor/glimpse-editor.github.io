@@ -261,7 +261,7 @@ As for the project itself, we have not built a formal organization around it. We
 [Return to top](#contents)
 
 ## How much do you earn from this project? {#how-much-do-you-earn-from-this-project}
-Nothing. This is a strictly not-for-profit venture. Any money that we do not use to cover our own costs is eventually passed along to the GNU Image Manipulation Program developers.
+Nothing. This is a strictly not-for-profit venture. Any money that we do not use to cover our own costs is [eventually passed along](https://opencollective.com/glimpse/expenses?tag=donation) to the GNU Image Manipulation Program developers. 
 
 When we switch across to our new image editing program ("Glimpse NX") and stop forking the GNU Image Manipulation Program, any "surplus" money will continue to be held by Open Collective, and we will follow our usual governance process to determine how that money will be spent.
 
