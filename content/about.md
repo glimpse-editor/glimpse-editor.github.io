@@ -268,7 +268,7 @@ When we switch across to our new image editing program ("Glimpse NX") and stop f
 [Return to top](#contents)
 
 ## Are you scamming me? {#are-you-scamming-me}
-No. Unfortunately there are people on the Internet who disagree with what we are doing for political reasons, and as a result they regularly try to smear the Glimpse project and our contributors with false accusations.
+No. There are people on the Internet who disagree with what we are doing for political reasons, and as a result unfortunately a small number of them try to smear the Glimpse project and our contributors with false accusations.
 
 To determine for yourself if we have delivered on the objectives we have set out, you can compare your current experience of the software against our [Development Priorities](https://github.com/glimpse-editor/Glimpse/wiki/Development-Priorities), the `NEWS` file provided with the source code, and the release notes we produce with every release on [our blog](/posts/).
 
