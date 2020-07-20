@@ -217,7 +217,7 @@ That was a choice made early on for entirely practical reasons such as project d
 
 As a project we are aware some people have ethical concerns about using Github, and that other projects appear above us in [the search results](https://github.com/search?utf8=%E2%9C%93&q=glimpse&type=). For those reasons we periodically discuss how our contributors feel about using it, as well as the merits and drawbacks of potential alternatives.
 
-There are no immediate plans to move our code, but there are early plans to host a separate code mirror for use with our build system.
+There are no immediate plans to move our code, but we are open to potentially mirroring our project to other platforms if that can be balanced against the maintenance burden of doing so.
 
 [Return to top](#contents)
 
