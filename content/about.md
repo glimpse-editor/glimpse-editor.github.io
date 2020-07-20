@@ -1,6 +1,6 @@
 ---
 title: "About (FAQs)"
-date: 2020-07-18T01:00:00+01:00
+date: 2020-07-20T14:45:00+01:00
 draft: false
 menu: "main"
 ---
@@ -32,12 +32,18 @@ The goal of both projects is to experiment with new ideas and expand the use of 
 - [Could you just run "find and replace" to fix the name?](#could-you-just-run-find-and-replace-to-fix-the-name)
 - [When are you going to implement the bug-fix or feature I asked for?](#when-are-you-going-to-implement-the-feature-i-asked-for)
 - [Can you make Glimpse look like Adobe Photoshop?](#can-you-make-glimpse-look-like-adobe-photoshop)
+- [How do I install third-party plugins?](#how-do-i-install-third-party-plugins)
+
+### Money Matters
+- [Why do you need monetary donations?](#why-do-you-need-monetary-donations)
+- [Do you plan to sell Glimpse Image Editor?](#do-you-plan-to-sell-glimpse-image-editor)
+- [How much do you earn from this project?](#how-much-do-you-earn-from-this-project)
+- [Are you scamming me?](#are-you-scamming-me)
 
 ### Project Governance
 - [Where is the Glimpse code of conduct?](#where-is-the-glimpse-code-of-conduct)
 - [How does your project govern itself?](#how-does-this-project-govern-itself)
 - [What are all the Matrix channels for?](#what-are-all-the-matrix-channels-for)
-- [Why do you need monetary donations?](#why-do-you-need-monetary-donations)
 - [How do I stay up-to-date with this project?](#how-do-i-stay-up-to-date-with-this-project)
 - [How do I contribute to this project?](#how-do-i-contribute-to-this-project)
 
@@ -229,6 +235,59 @@ In short, it is not easy to rebrand the GNU Image Manipulation Program. Similarl
 
 [Return to top](#contents)
 
+## How do I install third-party plugins? {#how-do-i-install-third-party-plugins}
+We provide a full listing for how to install various third-party plugins on this wiki page: https://github.com/glimpse-editor/Glimpse/wiki#third-party-plugin-installation-guides
+
+If there is a third party plugin you would like us to support better, feel free to raise an issue on our Github project: https://github.com/glimpse-editor/Glimpse/issues
+
+[Return to top](#contents)
+
+## Why do you need monetary donations? {#why-do-you-need-monetary-donations}
+Just like many other free software projects we need to host the collaboration tools we use to develop and share the project. We have to purchase domain names, cloud servers, code signing certificates and subscriptions from service providers to make this project a success. In addition we also intend to pay the artists we commission for the re-brand, market our software, and eventually help our contributors represent us at conferences.
+
+If you would like to donate some money to Glimpse project, you can do so by donating on [Open Collective](https://opencollective.com/glimpse). Our [Github Sponsors](https://github.com/sponsors/glimpse-editor) page is directly linked to our Open Collective profile. 
+
+We also encourage those who want to support the GNU Image Manipulation Program to use [their donation page](https://www.gimp.org/donating/) to do so.
+
+[Return to top](#contents)
+
+## Do you plan to sell Glimpse Image Editor? {#do-you-plan-to-sell-glimpse-image-editor}
+No. Glimpse Image Editor is an open source application, and we have no plans to sell copies of the software. The same applies to our the new image editing application we are developing called "Glimpse NX".
+
+If that policy ever changes, it will go through the usual governance channels for this project, and our community will be consulted about it first. In practice, there is little or no support within the Glimpse project to start charging for copies of the software, so it is extremely unlikely to ever happen.
+
+As for the project itself, we have not built a formal organization around it. We are simply a group of volunteers that share online infrastructure and follow mutually agreed procedures. Apart from our project's name and logo, there is nothing for any prospective company or charity to buy.
+
+[Return to top](#contents)
+
+## How much do you earn from this project? {#how-much-do-you-earn-from-this-project}
+Nothing. This is a strictly not-for-profit venture. Any money that we do not use to cover our own costs is eventually passed along to the GNU Image Manipulation Program developers.
+
+When we switch across to our new image editing program ("Glimpse NX") and stop forking the GNU Image Manipulation Program, any "surplus" money will continue to be held by Open Collective, and we will follow our usual governance process to determine how that money will be spent.
+
+[Return to top](#contents)
+
+## Are you scamming me? {#are-you-scamming-me}
+No. Unfortunately there are people on the Internet who disagree with what we are doing for political reasons, and as a result they regularly try to smear the Glimpse project and our contributors with false accusations.
+
+To determine for yourself if we have delivered on the objectives we have set out, you can compare your current experience of the software against our [Development Priorities](https://github.com/glimpse-editor/Glimpse/wiki/Development-Priorities), the `NEWS` file provided with the source code, and the release notes we produce with every release on [our blog](/posts/).
+
+You can also review how much we have received in donations and the ways we have spent that money on [our Open Collective profile](https://opencollective.com/glimpse). Open Collective is a 501(c) charity based in the United States, and they collect all donations on our behalf. We cannot access that money without raising an invoice for work or providing receipted evidence of an expense. Open Collective automatically publishes records of every donation we receive and expense claim we file publicly, and in real time.
+
+Our [Github Sponsors](https://github.com/sponsors/glimpse-editor) page is directly linked to our Open Collective profile, so all donations received via that channel are also recorded on Open Collective without our intervention.
+
+It is also our policy to provide a link to the [GNU Image Manipulation Program donation page](https://www.gimp.org/donating/) whenever we provide links to our own donation page so that it is clear to prospective users that there are two separate projects. 
+
+We also state wherever possible that Glimpse Image Editor is based on the GNU Image Manipulation Program, and clarify which version Glimpse Image Editor is based on. You can review the source code and compliance with applicable licenses on [our Github repository](https://github.com/glimpse-editor/Glimpse). We also display the names of upstream contributors in the **Help** > **About** > **Credits...** section of the software with a "(GNU I.M.P)" tag next to each applicable entry.
+
+Whenever we provide download figures, we always provide links to the tools and websites we used so that you can independently verify that the numbers we have published and our interpretation of them are correct.
+
+Finally, you can review all of our previous blog posts to understand how our project has evolved and changed since it first started. Our project's website is also [kept under version control](https://github.com/glimpse-editor/getglimpse-web), so you can also review any changes that we have made to specific pages and posts.
+
+While we doubt we will convince everyone, we hope that our commitment to transparency will help reassure those with an open mind that there is no sinister conspiracy, nefarious agenda, or evil plan.
+
+[Return to top](#contents)
+
 ## Where is the Glimpse code of conduct? {#where-is-the-glimpse-code-of-conduct}
 You will find it on [this page](/code-of-conduct/). Our code of conduct is based on [the contributor covenant](https://www.contributor-covenant.org/) and will be developed and amended over time as the need arises. As this project spawned from [the fediverse](https://joinmastodon.org/) our experiences in that online space are going to inform the project's future governance and direction.
 
@@ -270,15 +329,6 @@ All of our channels are on matrix.org. You can get access to the invite-only cha
 - **#glimpse-offtopic**: Off-topic chatter between well-known members of our community in a safe, welcoming environment.
 
 There is also a separate [Discord server](https://discord.gg/hZhRceq) for our project moderation channels and the Glimpse NX "rewrite" development stream. You can read their rules by following the links on the `#rules-and-info` channel.
-
-[Return to top](#contents)
-
-## Why do you need monetary donations? {#why-do-you-need-monetary-donations}
-Just like many other free software projects we need to host the collaboration tools we use to develop and share the project. We have to purchase domain names, cloud servers, code signing certificates and subscriptions from service providers to make this project a success. In addition we also intend to pay the artists we commission for the re-brand, market our software, and eventually help our contributors represent us at conferences.
-
-If you would like to donate some money to Glimpse project, you can do so by donating on [Open Collective](https://opencollective.com/glimpse). Our [Github Sponsors](https://github.com/sponsors/glimpse-editor) page is directly linked to our Open Collective profile. 
-
-We also encourage those who want to support the GNU Image Manipulation Program to use [their donation page](https://www.gimp.org/donating/) to do so.
 
 [Return to top](#contents)
 
