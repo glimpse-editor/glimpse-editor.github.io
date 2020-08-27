@@ -1,6 +1,6 @@
 ---
 title: "Downloads"
-date: 2020-08-26T19:30:00+01:00
+date: 2020-08-27T04:45:00+01:00
 draft: false
 menu: "main"
 ---
@@ -29,14 +29,12 @@ This installs a native 64-bit version of Glimpse Image Editor 0.2.0 with [G'MIC]
 Support for legacy 32-bit plugins is still experimental with the 64-bit Windows installer. You should [review our wiki](https://github.com/glimpse-editor/Glimpse/wiki#third-party-plugin-installation-guides) before reporting any bugs.
 
 #### External Download Mirrors
-These servers are supported and maintained by third party developers. We strongly recommend running a virus scan on your system whenever you download the Glimpse Image Editor 0.2.0 installer from an unfamiliar source.
+These servers are not directly supported by us, and are maintained by third party developers. We strongly recommend running a virus scan on your system whenever you download the Glimpse Image Editor 0.2.0 installer from these sources.
 
-* [Chocolatey](https://chocolatey.org/packages/glimpse/)
-* [SourceForge](https://sourceforge.net/projects/glimpse-image-editor/)
-* [Softpedia](https://www.softpedia.com/dyn-search.php?search_term=glimpse)
+[Chocolatey](https://chocolatey.org/packages/glimpse/) | [Softpedia](https://www.softpedia.com/get/Multimedia/Graphic/Graphic-Editors/Glimpse-Image-Editor.shtml) | [SourceForge](https://sourceforge.net/projects/glimpse-image-editor/)
 
 ### Linux
-We distribute Glimpse Image Editor 0.2.0 on Flathub and Snapcraft for end users. We also provide a source tarball for Linux distribution maintainers.
+We distribute Glimpse Image Editor 0.2.0 on Flathub and the Snap Store for end users. We also provide a source tarball for Linux distribution maintainers.
 
 To assist users of some Linux distributions, an AppImage is also planned. [#108](https://github.com/glimpse-editor/Glimpse/issues/108)
 
