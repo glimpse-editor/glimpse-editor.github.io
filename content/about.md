@@ -1,6 +1,6 @@
 ---
 title: "About (FAQs)"
-date: 2020-08-22T06:35:00+01:00
+date: 2020-08-31T02:00:00+01:00
 draft: false
 menu: "main"
 ---
@@ -35,6 +35,7 @@ The goal of both projects is to experiment with new ideas and expand the use of 
 - [When are you going to implement the bug-fix or feature I asked for?](#when-are-you-going-to-implement-the-feature-i-asked-for)
 - [Can you make Glimpse look like Adobe Photoshop?](#can-you-make-glimpse-look-like-adobe-photoshop)
 - [How do I install third-party plugins?](#how-do-i-install-third-party-plugins)
+- [How do I migrate my settings from Glimpse 0.1.x to 0.2.x?](#how-do-i-migrate-my-settings-from-glimpse-0-1-x-to-0-2-x)
 
 ### Money Matters
 - [Why do you need monetary donations?](#why-do-you-need-monetary-donations)
@@ -256,6 +257,11 @@ In short, it is not easy to rebrand the GNU Image Manipulation Program. Similarl
 We provide a full listing for how to install various third-party plugins on this wiki page: https://github.com/glimpse-editor/Glimpse/wiki#third-party-plugin-installation-guides
 
 If there is a third party plugin you would like us to support better, feel free to raise an issue on our Github project: https://github.com/glimpse-editor/Glimpse/issues
+
+[Return to top](#contents)
+
+## How do I migrate my settings from Glimpse 0.1.x to 0.2.x? {#how-do-i-migrate-my-settings-from-glimpse-0-1-x-to-0-2-x}
+Follow the instructions on our wiki for instructions on how to do that on [Windows](https://github.com/glimpse-editor/Glimpse/wiki/How-to-migrate-configuration-settings-from-Glimpse-Image-Editor-0.1.x-to-0.2.x-%28Windows%29) and [Linux](https://github.com/glimpse-editor/Glimpse/wiki/How-to-migrate-configuration-settings-from-Glimpse-Image-Editor-0.1.x-to-0.2.x-%28Linux%29).
 
 [Return to top](#contents)
 
