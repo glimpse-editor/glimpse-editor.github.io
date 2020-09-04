@@ -1,6 +1,6 @@
 ---
 title: "Downloads"
-date: 2020-08-30T23:45:00+01:00
+date: 2020-09-04T12:00:00+01:00
 draft: false
 menu: "main"
 ---
@@ -31,7 +31,8 @@ Support for legacy 32-bit plugins is still experimental with the 64-bit Windows 
 #### External Download Mirrors
 These servers are not directly supported by us, and are maintained by third party developers. We strongly recommend running a virus scan on your system whenever you download the Glimpse Image Editor 0.2.0 installer from these sources.
 
-[Chocolatey](https://chocolatey.org/packages/glimpse/) | [Softpedia](https://www.softpedia.com/get/Multimedia/Graphic/Graphic-Editors/Glimpse-Image-Editor.shtml) | [SourceForge](https://sourceforge.net/projects/glimpse-image-editor/)
+* Repositories: [Chocolatey](https://chocolatey.org/packages/glimpse/) | [WinGet](https://winget.run/pkg/Glimpse/Glimpse)
+* Direct downloads: [Softpedia](https://www.softpedia.com/get/Multimedia/Graphic/Graphic-Editors/Glimpse-Image-Editor.shtml) | [SourceForge](https://sourceforge.net/projects/glimpse-image-editor/)
 
 ### Linux
 We distribute Glimpse Image Editor 0.2.0 on Flathub and the Snap Store for end users. We also provide a source tarball for Linux distribution maintainers.
@@ -70,8 +71,9 @@ $ sudo snap install glimpse-editor
 #### Community-supported sources
 These builds are provided by third parties in the wider Linux community. We do not create, package or directly support these sources, so if you raise any bugs for them that would not apply to most Linux users, we may direct you elsewhere to get the issue fixed.
 
-* [`glimpse-editor-git`](https://aur.archlinux.org/packages/glimpse-editor-git/) in the AUR
-* [`glimpse:IBboard`](https://software.opensuse.org//download.html?project=home%3AIBBoard%3Adesktop&package=glimpse) on the OpenSUSE Open Build Service
+* [`glimpse-editor-git`](https://aur.archlinux.org/packages/glimpse-editor-git/) @ AUR repository for [Arch](https://www.archlinux.org/) and [Manjaro](https://manjaro.org/)
+* [`media-gfx/glimpse`](https://gitweb.gentoo.org/repo/proj/guru.git/tree/media-gfx/glimpse) @ Guru repository for [Gentoo](https://www.gentoo.org/)
+* [`glimpse:IBboard`](https://software.opensuse.org//download.html?project=home%3AIBBoard%3Adesktop&package=glimpse) @ Open Build Service for [OpenSUSE](https://www.opensuse.org/)
 
 ### MacOS
 Unfortunately Glimpse Image Editor is not supported on MacOS. We recommend either running the Windows version in a virtualized environment or sticking with the [GNU Image Manipulation Program](https://www.gimp.org/downloads/). 
