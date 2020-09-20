@@ -1,6 +1,6 @@
 ---
 title: "Downloads"
-date: 2020-09-20T18:45:00+01:00
+date: 2020-09-20T19:49:00+01:00
 draft: false
 menu: "main"
 ---
@@ -59,11 +59,11 @@ $ flatpak install glimpse-0.2.0.flatpak
 ```
 
 #### AppImage
-AppImages for Linux behave much like a [Universal Binary](https://en.wikipedia.org/wiki/Universal_binary) does on macOS. You download a single file containing the application and its dependencies, set executable permissions, then run it. You can find more information and links to optional update tools at https://appimage.org/.
+AppImages for Linux behave much like a [Universal Binary](https://en.wikipedia.org/wiki/Universal_binary) does on macOS. You download a single file containing the application and its dependencies, set executable permissions, then run it. You can find more information and links to optional update tools at https://appimage.github.io/Glimpse-Image-Editor/.
 
 We have configured a Github Action that builds and publishes a new AppImage every time we make changes to our development branch here: https://github.com/glimpse-editor/Glimpse/releases/tag/continuous
 
-You should only select this installation option on a production system if a stable version of Glimpse Image Editor has not been provided in your distribution repositories and you are unable to run our provided Flatpak on your system. You will also need to accept that you may have to deal with some bugs in exchange for receiving new features before everyone else does.
+You should select this installation option if a stable version of Glimpse Image Editor has not been provided in your package manager and you are unable to run our provided Flatpak on your system. You will also need to accept that you may have to deal with some bugs in exchange for receiving new features before everyone else does.
 
 **Please note**: We do not include support for Python 2 plug-ins with our AppImage. Python 2 [is now end of life](https://www.python.org/doc/sunset-python-2/), and as a result it is being phased out in many Linux distributions and package managers.
 
