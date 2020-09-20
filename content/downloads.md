@@ -1,13 +1,13 @@
 ---
 title: "Downloads"
-date: 2020-09-20T12:00:00+01:00
+date: 2020-09-20T18:45:00+01:00
 draft: false
 menu: "main"
 ---
 The latest release is Glimpse Image Editor 0.2.0. It is based on the [GNU Image Manipulation Program](https://www.gimp.org/) 2.10.18, and is provided under the terms of the GNU General Public License v3. [Release Notes](/posts/glimpse-0-2-0-release-notes/)
 
 #### Quick Download Links
-[Windows](https://github.com/glimpse-editor/Glimpse/releases/download/v0.2.0/glimpse-0.2.0-i686.msi) (Recommended) | [Windows](https://github.com/glimpse-editor/Glimpse/releases/download/v0.2.0/glimpse-0.2.0-x64.msi) (64-bit with G'MIC) | [Linux](https://www.flathub.org/repo/appstream/org.glimpse_editor.Glimpse.flatpakref) (Stable Flatpak) | [Linux](https://github.com/glimpse-editor/Glimpse/releases/tag/continuous) (In-Development AppImage)
+[Windows](https://github.com/glimpse-editor/Glimpse/releases/download/v0.2.0/glimpse-0.2.0-i686.msi) (Recommended) | [Windows](https://github.com/glimpse-editor/Glimpse/releases/download/v0.2.0/glimpse-0.2.0-x64.msi) (64-bit with G'MIC) | [Linux](https://www.flathub.org/repo/appstream/org.glimpse_editor.Glimpse.flatpakref) (Stable Flatpak) | [Linux](https://github.com/glimpse-editor/Glimpse/releases/tag/continuous) (Latest AppImage)
 
 ### Windows
 Glimpse Image Editor 0.2.0 is supported on 32-bit and 64-bit systems running Windows 7 or later. If you experience problems during installation, you should review the [Known Issues](https://github.com/glimpse-editor/Glimpse/wiki/Known-Issues-%28Windows%29) page before reporting a bug.
