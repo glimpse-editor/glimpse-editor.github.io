@@ -345,7 +345,7 @@ The Glimpse Project is run by a self-appointed board called "the governance team
 
 Most day-to-day discussion for the forked code happens in the **#glimpse:matrix.org** (or "Glimpse Community") Matrix channel. Anyone can join so long as they comply with our [code of conduct](/code-of-conduct/) and [follow the rules](https://github.com/glimpse-editor/Glimpse/wiki/Good-Practices#membership-of-the-matrix-channel-is-a-privilege-not-a-right). This is where most of the decision-making happens, and our community has the opportunity to voice their opinions or share their domain-specific knowledge there.
 
-We also host a separate [Discord server](https://discord.gg/hZhRceq) for Glimpse NX development and technical support queries. You can read the rules for that on the `#rules-and-info` channel.
+We also host a separate [Discord server](https://discord.gg/hZhRceq) for Glimpse NX development and technical support queries. The governance team also discusses project moderation decisions in a private channel on that server. You can read the rules for joining this server's public channels on the `#rules-and-info` channel.
 
 [Github Issues](https://github.com/glimpse-editor/Glimpse/issues) are used to track bug reports, suggestions and questions from the wider community, and items we have agreed as a project need action. Action items are allocated to a milestone to give an indication of their priority and likely timeline, but these are always provisional until the work is done.
 
