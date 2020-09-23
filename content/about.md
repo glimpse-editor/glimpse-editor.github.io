@@ -1,6 +1,6 @@
 ---
 title: "About (FAQs)"
-date: 2020-09-08T08:45:00+01:00
+date: 2020-09-23T02:30:00+01:00
 draft: false
 menu: "main"
 ---
@@ -341,21 +341,15 @@ We know how important it is to enact the right code of conduct and enforce the r
 [Return to top](#contents)
 
 ## How does your project govern itself? {#how-does-this-project-govern-itself}
-The way we govern ourselves is something that evolves over time based on feedback we receive and what we find works and does not work. The summary provided in this answer is intended to illustrate how we currently make decisions and are held accountable by our community.
-
-[Github Issues](https://github.com/glimpse-editor/Glimpse/issues) are used to track bug reports, suggestions and questions from the wider community, and items we have agreed as a project need action. Action items are allocated to a milestone to give an indication of their priority and likely timeline, but these are always provisional until the work is done.
+The Glimpse Project is run by a self-appointed board called "the governance team", and it is currently made up of three members: [Bobby Moss](https://twitter.com/trechnex), [Christopher Davis](https://social.libre.fi/users/brainblasted), and [Luna](https://twitter.com/Clipsey5). Decisions are made with a majority vote after consultation with project contributors and any other interested parties.
 
 Most day-to-day discussion for the forked code happens in the **#glimpse:matrix.org** (or "Glimpse Community") Matrix channel. Anyone can join so long as they comply with our [code of conduct](/code-of-conduct/) and [follow the rules](https://github.com/glimpse-editor/Glimpse/wiki/Good-Practices#membership-of-the-matrix-channel-is-a-privilege-not-a-right). This is where most of the decision-making happens, and our community has the opportunity to voice their opinions or share their domain-specific knowledge there.
 
-We also host a separate [Discord server](https://discord.gg/hZhRceq) for technical support queries, and you can read the rules for that on the `#rules-and-info` channel.
+We also host a separate [Discord server](https://discord.gg/hZhRceq) for Glimpse NX development and technical support queries. You can read the rules for that on the `#rules-and-info` channel.
 
-Anyone we have credited as a Glimpse project contributor can join the "Contributors" area on Discord. These people make the low-level technical decisions necessary to deliver items that have already been agreed, and provide extra input for future governance decisions.
-
-While they might make some time-sensitive moderation decisions as individuals, all other decisions are not considered "agreed" until they have been discussed on the "Glimpse Community" channel and a consensus has been achieved between all members of the "governance team". Initiatives originating from the governance team instead of the community are sometimes discussed on the "Glimpse Contributors" Matrix channel first.
+[Github Issues](https://github.com/glimpse-editor/Glimpse/issues) are used to track bug reports, suggestions and questions from the wider community, and items we have agreed as a project need action. Action items are allocated to a milestone to give an indication of their priority and likely timeline, but these are always provisional until the work is done.
 
 No decision is ever set in stone and can be revisited if new information comes to light or there is enough support within the project to do so. The governance team will generally only block the re-opening of an issue or delay a decision if the discussion is becoming too heated or obstructs the day-to-day running of the project.
-
-There are currently three people in our governance team: [Bobby Moss](https://mastodon.sdf.org/@trechnex) (started the fork), [Christopher Davis](https://social.libre.fi/users/brainblasted) (posted the renaming issue on upstream gitlab repository) and [Luna](https://social.pixie.town/@Clipsey) (started the "UI rewrite" planning). New members are appointed, and that action requires consultation with Glimpse project contributors and a unanimous vote in favor from the existing governance team.
 
 Finally, the project may from time to time run polls on social media to canvas opinion for specific issues if there is support for doing so. They are always non-binding and only intended to facilitate the existing decision-making process.
 
