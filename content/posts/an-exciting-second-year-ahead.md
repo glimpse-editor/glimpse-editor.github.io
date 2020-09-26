@@ -11,7 +11,7 @@ We are pleased to say that the reception for Glimpse Image Editor 0.2.0 from our
 Detailed below are remaining items of work for Glimpse Image Editor 0.2.0, and our development priorities for the next two releases. **These are all provisional plans, and are subject to change**.
 
 ### Glimpse Image Editor 0.2.0
-* Update the Snap store
+* Update the Snap store [#477](https://github.com/glimpse-editor/Glimpse/issues/477)
 * Complete the Linux AppImage [#108](https://github.com/glimpse-editor/Glimpse/issues/108)
 * Distribute our Windows installer through Scoop [#65](https://github.com/glimpse-editor/Glimpse/issues/65)
 * Port to macOS and distribute through Homebrew [#402](https://github.com/glimpse-editor/Glimpse/issues/402)
