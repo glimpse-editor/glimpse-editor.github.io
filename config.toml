@@ -12,7 +12,7 @@ publishDir = "glimpse-editor.github.io"
   featuredImg = "kelly-sikkema-SGl7ntWLUkw-unsplash.jpg"
   projectName = "Glimpse Image Editor"
   logo = "logo_hex_full_invert.svg"
-  tagline = "A Photo Editor For Everyone"
+  tagline = "A Free Cross-Platform Photo Editor"
 
 [markup.goldmark.renderer]
 unsafe= true
