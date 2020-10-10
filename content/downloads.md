@@ -1,6 +1,6 @@
 ---
 title: "Downloads"
-date: 2020-09-20T19:49:00+01:00
+date: 2020-10-10T02:45:00+01:00
 draft: false
 menu: "main"
 ---
@@ -58,6 +58,17 @@ To install the single-file bundle at the command line:
 $ flatpak install glimpse-0.2.0.flatpak
 ```
 
+#### Snap
+If `snapd` is not already installed on your machine, follow these instructions: https://snapcraft.io/docs/installing-snapd
+
+##### Installing from Snap Store
+You can find Glimpse Image Editor by searching in your distribution's software center, or you can [click on this link](https://snapcraft.io/glimpse-editor) from the Snap Store.
+
+Alternatively you can install it manually at the command line:
+```
+$ sudo snap install glimpse-editor
+```
+
 #### AppImage
 AppImages for Linux behave much like a [Universal Binary](https://en.wikipedia.org/wiki/Universal_binary) does on macOS. You download a single file containing the application and its dependencies, set executable permissions, then run it. You can find more information and links to optional update tools at https://appimage.github.io/Glimpse-Image-Editor/.
 
@@ -70,7 +81,6 @@ You should select this installation option if a stable version of Glimpse Image 
 #### Community-supported sources
 These builds are provided by third parties in the wider Linux community. We do not create, package or directly support these sources, so if you raise any bugs for them that would not apply to most Linux users, we may direct you elsewhere to get the issue fixed.
 
-* [`glimpse-editor`](https://snapcraft.io/glimpse-editor/) @ Snap Store for [Ubuntu](https://ubuntu.com/) (and [others](https://snapcraft.io/about))
 * [`glimpse-editor-git`](https://aur.archlinux.org/packages/glimpse-editor-git/) @ AUR repository for [Arch](https://www.archlinux.org/) and [Manjaro](https://manjaro.org/)
 * [`media-gfx/glimpse`](https://gitweb.gentoo.org/repo/proj/guru.git/tree/media-gfx/glimpse) @ Guru repository for [Gentoo](https://www.gentoo.org/)
 * [`glimpse:IBboard`](https://software.opensuse.org//download.html?project=home%3AIBBoard%3Adesktop&package=glimpse) @ Open Build Service for [OpenSUSE](https://www.opensuse.org/)
