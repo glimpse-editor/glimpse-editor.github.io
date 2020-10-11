@@ -1,6 +1,6 @@
 ---
 title: "Downloads"
-date: 2020-10-10T02:55:00+01:00
+date: 2020-10-11T08:45:00+01:00
 draft: false
 menu: "main"
 ---
@@ -51,11 +51,11 @@ $ flatpak install flathub org.glimpse_editor.Glimpse
 ##### Installing from other third-party Flatpak repositories
 If you would prefer to use your own third party repository for dependency resolution instead of Flathub, we also provide a [single-file bundle](https://docs.flatpak.org/en/latest/single-file-bundles.html):
 
-**glimpse-0.2.0.flatpak** (49.4 MB) | [Direct download](https://github.com/glimpse-editor/Glimpse/releases/download/v0.2.0/glimpse-0.2.0.flatpak) | *Sha256: 9f53758d5d572ef0ff4159862cc70bd4a2b80e4201e93b7f35c9ca62541f16a8*
+**glimpse-0.2.0r2.flatpak** (49.6 MB) | [Direct download](https://github.com/glimpse-editor/Glimpse/releases/download/v0.2.0/glimpse-0.2.0r2.flatpak) | *Sha256: 81b5707e12e44788f90f98c9c357bb213e7774b01369546e919b496306f51407*
 
 To install the single-file bundle at the command line:
 ```
-$ flatpak install glimpse-0.2.0.flatpak
+$ flatpak install glimpse-0.2.0r2.flatpak
 ```
 
 #### Snap
