@@ -7,7 +7,7 @@ menu: "main"
 The latest release is Glimpse Image Editor 0.2.0. It is based on the [GNU Image Manipulation Program](https://www.gimp.org/) 2.10.18, and is provided under the terms of the GNU General Public License v3. [Release Notes](/posts/glimpse-0-2-0-release-notes/)
 
 #### Quick Download Links
-[Windows](https://github.com/glimpse-editor/Glimpse/releases/download/v0.2.0/glimpse-0.2.0-x64.msi) (Recommended) | [Windows](https://github.com/glimpse-editor/Glimpse/releases/download/v0.2.0/glimpse-0.2.0-i686.msi) (x86 Legacy Version) | [Linux](https://www.flathub.org/repo/appstream/org.glimpse_editor.Glimpse.flatpakref) (Stable Flatpak) | [Linux](https://snapcraft.io/glimpse-editor) (Stable Snap) | [Linux](https://github.com/glimpse-editor/Glimpse/releases/tag/continuous) (Latest AppImage)
+[Windows](https://github.com/glimpse-editor/Glimpse/releases/download/v0.2.0/glimpse-0.2.0-x64.msi) (Recommended) | [Windows](https://github.com/glimpse-editor/Glimpse/releases/download/v0.2.0/glimpse-0.2.0-i686.msi) (x86 Compatible Version) | [Linux](https://www.flathub.org/repo/appstream/org.glimpse_editor.Glimpse.flatpakref) (Stable Flatpak) | [Linux](https://snapcraft.io/glimpse-editor) (Stable Snap) | [Linux](https://github.com/glimpse-editor/Glimpse/releases/tag/continuous) (Latest AppImage)
 
 ### Windows
 Glimpse Image Editor 0.2.0 is supported on 32-bit and 64-bit systems running Windows 7 or later. If you experience problems during installation, you should review the [Known Issues](https://github.com/glimpse-editor/Glimpse/wiki/Known-Issues-%28Windows%29) page before reporting a bug.
