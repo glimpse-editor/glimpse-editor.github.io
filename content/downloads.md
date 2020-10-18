@@ -1,6 +1,6 @@
 ---
 title: "Downloads"
-date: 2020-10-11T08:45:00+01:00
+date: 2020-10-18T06:10:00+01:00
 draft: false
 menu: "main"
 ---
@@ -27,6 +27,11 @@ This installs a native 64-bit version of Glimpse Image Editor 0.2.0 with [G'MIC]
 **glimpse-0.2.0-x64.msi** (304 MB) | [Direct download](https://github.com/glimpse-editor/Glimpse/releases/download/v0.2.0/glimpse-0.2.0-x64.msi) | *Sha256: 420dbbe11fef2a1d741083eb72f99732b9aec620d1d8274f9fb7a30e650030ff*
 
 Support for legacy 32-bit plugins is still experimental with the 64-bit Windows installer. You should [review our wiki](https://github.com/glimpse-editor/Glimpse/wiki#third-party-plugin-installation-guides) before reporting any bugs.
+
+#### Glimpse Image Editor 0.1.2 Installer
+This installs the previous version of Glimpse Image Editor, which was based on the GNU Image Manipulation Program 2.10.12. You should choose this option if you need binary compatibility with GNU Image Manipulation Program plug-ins.
+
+**glimpse-0.1.2.msi** (232 MB) | https://github.com/glimpse-editor/Glimpse/releases/download/v0.1.2/glimpse-0.1.2.msi | *Sha256: 99C3DF2884310CB74C39A15FB63E93FBF2112F581DC5325B37123467618D89E8*
 
 #### External Download Mirrors
 These servers are not directly supported by us, and are maintained by third party developers. We strongly recommend running a virus scan on your system whenever you download the Glimpse Image Editor 0.2.0 installer from these sources.
