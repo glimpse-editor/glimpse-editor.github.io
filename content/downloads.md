@@ -26,8 +26,6 @@ This installs a 32-bit (x86) version of Glimpse Image Editor 0.2.0. You should c
 
 **glimpse-0.2.0-i686.msi** (189 MB) | [Direct download](https://github.com/glimpse-editor/Glimpse/releases/download/v0.2.0/glimpse-0.2.0-i686.msi) | *Sha256: 2163403ca13d27be399b7fc1348719b2a9a4ddc4bc8c4b00aa8edd608bacfdbd*
 
-You can download previous versions of Glimpse Image Editor for Windows [from Github](https://github.com/glimpse-editor/Glimpse/releases/).
-
 #### Glimpse Image Editor 0.1.2 (x86) Installer
 This installs the previous version of Glimpse Image Editor, which was based on the GNU Image Manipulation Program 2.10.12. You should choose this option if you need binary compatibility with third-party GNU Image Manipulation Program plug-ins.
 
