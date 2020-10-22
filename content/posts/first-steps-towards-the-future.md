@@ -1,6 +1,6 @@
 ---
 title: "First Steps Towards The Future"
-date: 2020-10-21T21:45:00+01:00
+date: 2020-10-22T04:40:00+01:00
 draft: false
 ---
 Check out our [Contribute](/contribute/) page for social media and news links to follow our progress.
@@ -65,4 +65,4 @@ Work has begun preparing the tech stack for Glimpse NX. Thanks to work from GNOM
 
 In addition to the GTK4 bindings, Bilal was able to generate working [Babl and Gegl bindings](https://gitlab.gnome.org/bilelmoussaoui/gegl-rs). Bilal is an amazing developer, and his work on bindings is incredibly helpful.
 
-Alongside the technological efforts, design work on the next version of Glimpse will be incrementally added over time to the [Glimpse NX design repository](https://github.com/glimpse-editor/glimpse-nx-design). If you wish to contribute to these discussions and have a part in shaping the future of Glimpse, please read our guidelines and [request to join the server](https://discord.gg/hZhRceq).
+Alongside the technological efforts, design work on the next version of Glimpse has begun in the [Glimpse NX design repository](https://github.com/glimpse-editor/glimpse-nx-design) issues tab. If you wish to contribute to these discussions and have a part in shaping the future of Glimpse, please read our guidelines and [request to join the server](https://discord.gg/hZhRceq).
