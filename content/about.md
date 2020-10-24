@@ -1,6 +1,6 @@
 ---
 title: "About (FAQs)"
-date: 2020-10-09T21:10:00+01:00
+date: 2020-10-24T10:00:00+01:00
 draft: false
 menu: "main"
 ---
@@ -134,7 +134,7 @@ We also frequently link to the GNU Image Manipulation Program developers' [donat
 
 We anticipate in the coming months and years that Glimpse will be a place where people can experiment with fixes that upstream may not have had the resources to work on and new ideas that upstream may have felt unable or unwilling to try for legacy reasons. You can read more about our [development priorities](https://github.com/glimpse-editor/Glimpse/wiki/Development-Priorities) on the project wiki.
 
-Whenever we make improvements or spot a bug, we discuss them with the GNU Image Manipulation Program developers directly on [their IRC channel](https://www.gimp.org/irc.html). The biggest wins have been on Windows, where we helped the upstream developers significantly reduce hard disk usage on that platform, and we make them aware of any native build problems that we spot on [MSYS2](https://www.msys2.org/).
+Whenever we make improvements or spot a bug, we usually make the GNU Image Manipulation Program developers aware of it on [their IRC channel](https://www.gimp.org/irc.html).
 
 [Return to top](#contents)
 
@@ -174,16 +174,16 @@ We intend to continue providing "maintenance updates" with patches and updated d
 
 "Beta test" and "Stable" release versions always end in an even number. Odd numbered versions are "Unstable" builds created from our development branch.
 
-Glimpse Image Editor 1.0.0 is currently reserved in case we decide to fork the GNU Image Manipulation Program 3.x.
+Glimpse Image Editor 1.0.0 is currently reserved for "Glimpse Redux". We view that as a backup plan in case the GNU Image Manipulation Program 3.0.x (with its totally different technology stack) are released before Glimpse NX is ready.
 
 Glimpse NX (the interface rewrite) will have its own version scheme.
 
 [Return to top](#contents)
 
 ## Which operating systems do you support? {#which-operating-systems-do-you-support}
-We support systems running Windows 7 or newer, and modern variants of Linux.
+We support systems running Windows 7 or newer, and most modern variants of Linux.
 
-Unfortunately Glimpse Image Editor is not supported on MacOS. We recommend either running the Windows version in a virtualized environment or sticking with [the GNU Image Manipulation Program](https://www.gimp.org/downloads/). 
+Unfortunately [despite our best efforts](https://github.com/glimpse-editor/Glimpse/issues/402), Glimpse Image Editor is not supported on MacOS. We recommend either running Glimpse Image Editor in a virtualized environment or sticking with [the GNU Image Manipulation Program](https://www.gimp.org/downloads/).
 
 You may also be interested in trying [Seashore](https://apps.apple.com/us/app/seashore/id1448648921?mt=12), an older fork of the GNU Image Manipulation Program designed specifically for MacOS. While it does have fewer features, it may still be suitable for your intended use case.
 
@@ -210,13 +210,13 @@ If you are using a Linux build from a third party source that we do not directly
 ## Are you going to publish this for my favorite Linux distribution? {#are-you-going-to-publish-this-for-my-favorite-linux-distribution}
 You can see all the Linux installation methods we are aware of for Glimpse Image Editor on [our downloads page](/downloads/).
 
-We intend to provide our own directly-supported AppImage builds very soon. You can track the progress here: [#108](https://github.com/glimpse-editor/Glimpse/issues/108).
+We already publish builds on [Flathub](https://flathub.org/apps/details/org.glimpse_editor.Glimpse) and [the Snap Store](https://snapcraft.io/glimpse-editor).
 
-We already publish builds on [Flathub](https://flathub.org/apps/details/org.glimpse_editor.Glimpse) and [Snapcraft](https://snapcraft.io/glimpse-editor).
+You can also install our latest development snapshot as an [AppImage](https://appimage.github.io/Glimpse-Image-Editor/).
 
 All other installation mechanisms for Linux are considered "community supported". That means we do not have any say about how they are built, packaged or maintained. We link to them, but if you raise bug tickets with us we may direct you back to those sources instead.
 
-At the request of package maintainers, we have run `make dist` against source tarballs from Glimpse Image Editor 0.1.2 onwards.
+We recommend Linux/BSD distribution package maintainers mark `gimp` and `glimpse` packages as conflicts for the time being. We intend to resolve those conflicts in Glimpse Image Editor 0.3.0 (expected July 2021) by standardizing on the `glimpse-editor` command, updating the manual pages and refactoring `libgimp` to `libglimpse`. You can track progress here: [#7](https://github.com/glimpse-editor/Glimpse/issues/7)
 
 [Return to top](#contents)
 
@@ -239,11 +239,11 @@ Finally, if the change you want isn't requested in either place then feel free t
 [Return to top](#contents)
 
 ## Can you make Glimpse look like Adobe Photoshop? {#can-you-make-glimpse-look-like-adobe-photoshop}
-Technically yes, but we are not going to do that. If you still want to do it though, try the [PhotoGIMP](https://github.com/glimpse-editor/Glimpse/wiki/How-to-Install-the-PhotoGIMP-Plugin) plugin.
+If you want the closest possible experience, we recommend you install the [PhotoGIMP](https://github.com/glimpse-editor/Glimpse/wiki/How-to-Install-the-PhotoGIMP-Plugin) plugin.
 
-We understand why it is important for Glimpse Image Editor to feel familiar to users of existing image editing applications, but we also think it's important for us to do our own thing. Not only will that lead to more new and interesting ideas, it should also avoid any potential legal problems.
+We understand why it is important for Glimpse Image Editor to feel familiar to users of existing image editing applications, and that is why we are incorporating a number of PhotoGIMP's features into our "fork" of the GNU Image Manipulation Program. However, we think it is also important for us to do our own thing because that will create more new and interesting ideas, and it should also avoid any potential legal problems.
 
-The developers of the GNU Image Manipulation Program have the same stance on this, and they go into much more detail on [their FAQ page](https://www.gimp.org/docs/userfaq.html#i-dont-like-gimps-user-interface-why-cant-you-just-copy-adobe-photoshop).
+The developers of the GNU Image Manipulation Program have a similar stance on this, and you can read more about it on [their FAQ page](https://www.gimp.org/docs/userfaq.html#i-dont-like-gimps-user-interface-why-cant-you-just-copy-adobe-photoshop).
 
 [Return to top](#contents)
 
@@ -257,7 +257,6 @@ There are no plans to move our code, and we believe the time and resources requi
 [Return to top](#contents)
 
 ## Could you just run "find and replace" to fix the name? {#could-you-just-run-find-and-replace-to-fix-the-name}
-
 We could, but that would completely destroy plug-in compatibility and break the upstream subcomponents on which we rely. That would also cause serious problems with all the build scripts and be very time-consuming to fix.
 
 To preserve compatibility we had to maintain existing file names, variable names, constants, class names, methods and APIs. This meant we had to provide our own files, variables and constants, then identify where we wanted to use them, swap in those values wherever that did not break compatibility, and find a suitable replacement wherever we referred to upstream code that we had not modified (we settled on "GNU I.M.P"). That cannot be achieved using find-and-replace tools or regular expressions alone.
