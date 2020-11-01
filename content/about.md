@@ -1,6 +1,6 @@
 ---
 title: "About (FAQs)"
-date: 2020-10-24T10:00:00+01:00
+date: 2020-11-01T23:45:00+00:00
 draft: false
 menu: "main"
 ---
@@ -253,6 +253,8 @@ That was a choice made early on for practical reasons such as project discoverab
 As a project we are aware that some people have ethical concerns about using Github, and that other projects appear above us in [the search results](https://github.com/search?utf8=%E2%9C%93&q=glimpse&type=). For those reasons we periodically discuss how our contributors feel about using it, as well as the merits and drawbacks of potential alternatives.
 
 There are no plans to move our code, and we believe the time and resources required to do so at the present time significantly outweigh the benefits. However, we are open to potentially mirroring our project to other platforms if that can be balanced against the maintenance burden of doing so.
+
+If you do not have a Github account because you do not use the service or have chosen to boycott it, we now accept bug reports and feature requests [via email](mailto:glimpse-editor@fire.fundersclub.com).
 
 [Return to top](#contents)
 

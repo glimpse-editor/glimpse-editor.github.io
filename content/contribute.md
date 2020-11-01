@@ -1,6 +1,6 @@
 ---
 title: "Contribute"
-date: 2020-09-10T21:00:00+01:00
+date: 2020-11-01T23:45:00+00:00
 draft: false
 menu: "main"
 ---
@@ -14,6 +14,8 @@ The "rewrite" stream (also known as "Glimpse NX") aims to create a lightweight n
  * [Bug Reports](https://github.com/glimpse-editor/Glimpse/issues)
  * [Development Road Map](https://github.com/glimpse-editor/Glimpse/milestones)
  * [Source Code](https://github.com/glimpse-editor/Glimpse)
+
+ You can also submit bug reports and feature requests [via email](mailto:glimpse-editor@fire.fundersclub.com).
 
 ## Art, mockups, etc.
  * [Branding](https://github.com/glimpse-editor/branding)
