@@ -1,6 +1,6 @@
 ---
 title: "About (FAQs)"
-date: 2020-11-01T23:45:00+00:00
+date: 2020-11-04T21:00:00+00:00
 draft: false
 menu: "main"
 ---
@@ -15,10 +15,8 @@ The goal of both projects is to experiment with new ideas and expand the use of 
 - [What is the correct name for your project?](#what-is-the-correct-name-for-your-project)
 - [What is Glimpse Image Editor?](#what-is-glimpse-image-editor)
 - [What is Glimpse NX?](#what-is-glimpse-nx)
-- [What is Glimpse Redux?](#what-is-glimpse-redux)
 - [What is wrong with the "GIMP" name?](#what-is-wrong-with-the-gimp-name)
 - [Are there any disabled people involved with the project?](#are-there-any-disabled-people-involved-with-the-project)
-- [Why are you forking?](#why-are-you-forking)
 - [Do you intend to replace the GNU Image Manipulation Program?](#do-you-intend-to-replace-the-gnu-image-manipulation-program)
 - [Why do you call yourself "open source"?](#why-do-you-call-yourself-open-source)
 - [Did you know that name is used elsewhere?](#did-you-know-that-name-is-used-elsewhere)
@@ -85,21 +83,6 @@ As stated in previous blog posts, we did originally consider the possibility of 
 
 [Return to top](#contents)
 
-## What is Glimpse Redux? {#what-is-glimpse-redux}
-"Glimpse Redux" is the codename we are using for the preparation work we are doing for an eventual re-fork on the (still to be released) GNU Image Manipulation Program 3.0.
-
-Currently Glimpse Image Editor is based on GNU Image Manipulation Program 2.10.18, and our stable releases will continue to be based on upstream 2.10.x releases for as long as the upstream project continues to produce them. We will not produce formal releases for our fork of the GNU Image Manipulation Program 3.0 code base until after it has been released by the upstream developers first.
-
-The reason why we need to work on this effort separately is because the GNU Image Manipulation Program 3.0 uses a different technology stack and has a slightly different featureset. It is also highly likely that 3.0 will deprecate most existing plugins and break many of the features we have already implemented.
-
-So that our own users do not have to wait 12+ months for us to catch up after the GNU Image Manipulation Program 3.0 is released, we intend to create a new Github repository that follows the correct upstream branch so that we can gradually reimplement our customizations on that code ahead of time. When the GNU Image Manipulation 3.0 is eventually released, we will plan and schedule a smooth transition from the existing Glimpse Image Editor code to the Glimpse Redux code.
-
-Initially the Github repository for Glimpse Redux will only be visible to our core contributors. Once we have produced the appropriate developer documentation and working reproducible builds, we will make the repository visible to the public so that we can open up this effort to third-party plugin developers and community software packagers.
-
-To confirm, we will not be renaming Glimpse Image Editor. "Glimpse Redux" is a temporary codename we are using for the preparation work described above.
-
-[Return to top](#contents)
-
 ## What is wrong with the "GIMP" name? {#what-is-wrong-with-the-gimp-name}
 It was originally chosen by Spencer Kimball and Peter Mattis as a joke reference to a questionable scene in an 18 certificate movie called "Pulp Fiction". The word "gimp" also has [other meanings](https://www.merriam-webster.com/dictionary/gimp) that may be considered ableist.
 
@@ -118,23 +101,16 @@ While there are many improvements we all need to make on the legacy systems we m
 
 [Return to top](#contents)
 
-## Why are you forking? {#why-are-you-forking}
-We want to expand the use of free/libre and open source software, and we think we can make some cool changes to the already excellent functionality in the GNU Image Manipulation Program to achieve that objective.
-
-You can read more about our development priorities and our target userbase here: https://github.com/glimpse-editor/Glimpse/wiki/Development-Priorities
-
-[Return to top](#contents)
-
 ## Do you intend to replace the GNU Image Manipulation Program? {#do-you-intend-to-replace-the-gnu-image-manipulation-program}
-No, this project does not intend to replace or supplant the GNU Image Manipulation Program. We aim to expand the userbase for that software, and modifying the code to make it more appealing to a broader audience is already helping us to achieve that objective.
+No, this project does not intend to replace or supplant the GNU Image Manipulation Program. We aim to expand the userbase for that software, and creating a respin that makes it more appealing to a new audience is already helping us to achieve that objective.
 
 The Glimpse project is run entirely by passionate enthusiasts. Development on the GNU Image Manipulation Program has continued as normal with the same core group of developers that were working on it before, and their progress has not been hindered by this project at all.
 
 We also frequently link to the GNU Image Manipulation Program developers' [donations page](https://www.gimp.org/donating/) throughout our documentation, and you can review the donations we periodically make ourselves here: https://opencollective.com/glimpse/expenses?tag=donation
 
-We anticipate in the coming months and years that Glimpse will be a place where people can experiment with fixes that upstream may not have had the resources to work on and new ideas that upstream may have felt unable or unwilling to try for legacy reasons. You can read more about our [development priorities](https://github.com/glimpse-editor/Glimpse/wiki/Development-Priorities) on the project wiki.
+Whenever we make improvements or spot a bug in the upstream code, we usually make the GNU Image Manipulation Program developers aware of it on [their IRC channel](https://www.gimp.org/irc.html).
 
-Whenever we make improvements or spot a bug, we usually make the GNU Image Manipulation Program developers aware of it on [their IRC channel](https://www.gimp.org/irc.html).
+You can read more about what we intend to add in our own "fork" or "respin" on the [development priorities](https://github.com/glimpse-editor/Glimpse/wiki/Development-Priorities) page of the project wiki.
 
 [Return to top](#contents)
 
@@ -174,7 +150,7 @@ We intend to continue providing "maintenance updates" with patches and updated d
 
 "Beta test" and "Stable" release versions always end in an even number. Odd numbered versions are "Unstable" builds created from our development branch.
 
-Glimpse Image Editor 1.0.0 is currently reserved for "Glimpse Redux". We view that as a backup plan in case the GNU Image Manipulation Program 3.0.x (with its totally different technology stack) are released before Glimpse NX is ready.
+Glimpse Image Editor 1.0.0 is currently reserved for "Glimpse Redux". We view that as a backup plan in case the GNU Image Manipulation Program 3.0.x (with its totally different technology stack) is released before Glimpse NX is ready.
 
 Glimpse NX (the interface rewrite) will have its own version scheme.
 
@@ -183,7 +159,7 @@ Glimpse NX (the interface rewrite) will have its own version scheme.
 ## Which operating systems do you support? {#which-operating-systems-do-you-support}
 We support systems running Windows 7 or newer, and most modern variants of Linux.
 
-Unfortunately [despite our best efforts](https://github.com/glimpse-editor/Glimpse/issues/402), Glimpse Image Editor is not supported on MacOS. We recommend either running Glimpse Image Editor in a virtualized environment or sticking with [the GNU Image Manipulation Program](https://www.gimp.org/downloads/).
+Unfortunately [despite our best efforts](https://github.com/glimpse-editor/Glimpse/issues/402), Glimpse Image Editor is not supported natively on MacOS. We recommend either running Glimpse Image Editor in a virtualized environment or sticking with [the GNU Image Manipulation Program](https://www.gimp.org/downloads/).
 
 You may also be interested in trying [Seashore](https://apps.apple.com/us/app/seashore/id1448648921?mt=12), an older fork of the GNU Image Manipulation Program designed specifically for MacOS. While it does have fewer features, it may still be suitable for your intended use case.
 
@@ -205,18 +181,20 @@ On Linux, the Flatpak and Snapcraft builds that we support and maintain are full
 
 If you are using a Linux build from a third party source that we do not directly support (such as AUR or your distribution's package repositories) then it is unlikely because there may be package and file name conflicts. You should ask the people responsible for maintaining those packages for confirmation and any help you might need.
 
+We plan to assist Linux and BSD distribution maintainers by fixing problems that would require them to mark other packages as conflicts in order to distribute Glimpse Image Editor. You can track progress in this issue: [#320](https://github.com/glimpse-editor/Glimpse/issues/320)
+
 [Return to top](#contents)
 
 ## Are you going to publish this for my favorite Linux distribution? {#are-you-going-to-publish-this-for-my-favorite-linux-distribution}
 You can see all the Linux installation methods we are aware of for Glimpse Image Editor on [our downloads page](/downloads/).
 
-We already publish builds on [Flathub](https://flathub.org/apps/details/org.glimpse_editor.Glimpse) and [the Snap Store](https://snapcraft.io/glimpse-editor).
+We already publish our own stable builds on [Flathub](https://flathub.org/apps/details/org.glimpse_editor.Glimpse) and [the Snap Store](https://snapcraft.io/glimpse-editor).
 
 You can also install our latest development snapshot as an [AppImage](https://appimage.github.io/Glimpse-Image-Editor/).
 
 All other installation mechanisms for Linux are considered "community supported". That means we do not have any say about how they are built, packaged or maintained. We link to them, but if you raise bug tickets with us we may direct you back to those sources instead.
 
-We recommend Linux/BSD distribution package maintainers mark `gimp` and `glimpse` packages as conflicts for the time being. We intend to resolve those conflicts in Glimpse Image Editor 0.3.0 (expected July 2021) by standardizing on the `glimpse-editor` command, updating the manual pages and refactoring `libgimp` to `libglimpse`. You can track progress here: [#7](https://github.com/glimpse-editor/Glimpse/issues/7)
+We recommend Linux/BSD distribution package maintainers mark `gimp` and `glimpse` packages as conflicts for the time being. We intend to resolve those conflicts in Glimpse Image Editor 0.3.0 (expected July 2021) by standardizing on the `glimpse-editor` command, updating the manual pages and refactoring `libgimp` to `libglimpse`. You can track progress here: [#320](https://github.com/glimpse-editor/Glimpse/issues/320)
 
 [Return to top](#contents)
 
@@ -252,22 +230,20 @@ That was a choice made early on for practical reasons such as project discoverab
 
 As a project we are aware that some people have ethical concerns about using Github, and that other projects appear above us in [the search results](https://github.com/search?utf8=%E2%9C%93&q=glimpse&type=). For those reasons we periodically discuss how our contributors feel about using it, as well as the merits and drawbacks of potential alternatives.
 
-There are no plans to move our code, and we believe the time and resources required to do so at the present time significantly outweigh the benefits. However, we are open to potentially mirroring our project to other platforms if that can be balanced against the maintenance burden of doing so.
+We have tried self-hosted solutions in the past, and you can see evidence of that in our blog and Open Collective profile. The main problem is that the build process for Glimpse Image Editor requires a lot of compute power, and we do not receive enough donations to replicate the same functionality we can achieve with Github Actions. In addition deploying, hardening and maintaining multiple servers is not a straightforward task, and time our volunteer contributors spend being server administrators is time that they cannot spend developing Glimpse Image Editor or Glimpse NX.
 
-If you do not have a Github account because you do not use the service or have chosen to boycott it, we now accept bug reports and feature requests [via email](mailto:glimpse-editor@fire.fundersclub.com).
+There are currently no plans to move the Glimpse Image Editor source code from Github. However, if you do not want to sign up for that website or have chosen to boycott it, we now accept bug reports and feature requests [via email](mailto:glimpse-editor@fire.fundersclub.com).
+
+We are still exploring potential host platforms for Glimpse NX. The project will initially be developed on Github, but once we have a minimum viable product we will have a better understanding of our technical requirements and can then start exploring other alternatives.
 
 [Return to top](#contents)
 
 ## Could you just run "find and replace" to fix the name? {#could-you-just-run-find-and-replace-to-fix-the-name}
-We could, but that would completely destroy plug-in compatibility and break the upstream subcomponents on which we rely. That would also cause serious problems with all the build scripts and be very time-consuming to fix.
+No. That would break API compatibility with submodule dependencies and plugins, and the build system would also require a lot of refactoring. In addition, you would also break all the translation files and the mechanisms that keep them up-to-date. All of those problems would be very time-consuming to fix.
 
 To preserve compatibility we had to maintain existing file names, variable names, constants, class names, methods and APIs. This meant we had to provide our own files, variables and constants, then identify where we wanted to use them, swap in those values wherever that did not break compatibility, and find a suitable replacement wherever we referred to upstream code that we had not modified (we settled on "GNU I.M.P"). That cannot be achieved using find-and-replace tools or regular expressions alone.
 
-In addition to changing the name we also wanted to change the project logo. We commissioned an artist to do that for us, and subsequently had to make code fixes to the application to swap in our own art assets.
-
-Finally, we also had to ensure that our changes were applied appropriately in the existing translation files and did not break the automated mechanisms in the build systems that keep them up-to-date.
-
-In short, it is not easy to rebrand the GNU Image Manipulation Program. Similarly, the reason why this project is not just "one man and his Github repository" is because we do have other objectives and intend to create software that other people actually want to use.
+It is not straightforward to rebrand the GNU Image Manipulation Program. You can read more about our other aims and objectives on the [Development Priorities](https://github.com/glimpse-editor/Glimpse/wiki/Development-Priorities) wiki page.
 
 [Return to top](#contents)
 
@@ -284,11 +260,15 @@ Follow the instructions on our wiki for instructions on how to do that on [Windo
 [Return to top](#contents)
 
 ## Why do you need monetary donations? {#why-do-you-need-monetary-donations}
-Just like many other free/libre and open source software projects we need to host the collaboration tools we use to develop and share the project. We have to purchase domain names, cloud servers, code signing certificates and subscriptions from service providers to make this project a success. In addition we also intend to pay the artists we commission for the re-brand, market our software, and eventually help our contributors represent us at conferences.
+We have used the donations we have received so far to fund server hosting, web domains and new artwork. You can review all of our spending in [the expenses section](https://opencollective.com/glimpse/expenses) of our Open Collective profile.
 
-If you would like to donate some money to Glimpse project, you can do so by donating on [Open Collective](https://opencollective.com/glimpse). Our [Github Sponsors](https://github.com/sponsors/glimpse-editor) page is directly linked to our Open Collective profile. 
+If you would like to donate money to the Glimpse project, you can do so on [Open Collective](https://opencollective.com/glimpse). We also support [Github Sponsors](https://github.com/sponsors/glimpse-editor), and that platform automatically passes those funds to Open Collective once a month.
 
-We also encourage those who want to support the GNU Image Manipulation Program to use [their donation page](https://www.gimp.org/donating/) to do so. We also pass along a portion of our own donations upstream periodically: https://opencollective.com/glimpse/expenses?tag=donation
+Open Collective is a trusted 501(c) charity. None of our contributors can receive donated funds without a valid receipt or invoice, and any spending requires the formal approval of both Open Collective and the Glimpse governance team. All donations and spending is displayed publicly and in real time so that you can make an informed choice before donating, and you can hold us accountable afterwards if you do not feel that we have spent your money wisely.
+
+When we first started the Glimpse project we made a commitment to pass along a portion of our donations to the GNU Image Manipulation Program developers, and we will continue to do for as long as we "fork" or "respin" their project. You can judge how well we are keeping our promise yourself by [reviewing how much we have sent so far](https://opencollective.com/glimpse/expenses?tag=donation) and then comparing that amount to our estimated annual budget.
+
+We also encourage everyone that would like to support the GNU Image Manipulation Program developers to use [their donation page](https://www.gimp.org/donating/) to do so.
 
 [Return to top](#contents)
 
@@ -302,7 +282,9 @@ As for the project itself, we have not built a formal organization or legal enti
 [Return to top](#contents)
 
 ## How much do you earn from this project? {#how-much-do-you-earn-from-this-project}
-Nothing. This is a strictly not-for-profit venture. Any money that we do not use to cover our own costs is [eventually passed along](https://opencollective.com/glimpse/expenses?tag=donation) to the GNU Image Manipulation Program developers. 
+Nothing. This is a strictly not-for-profit venture, and all donated funds are held by a trusted 501(c) charity called [Open Collective](https://opencollective.com/glimpse).
+
+None of our contributors can receive donated funds without a valid receipt or invoice, and any spending requires the formal approval of both Open Collective and the Glimpse governance team. All donations and spending is displayed publicly and in real time so that you can make an informed choice before donating, and you can hold us accountable afterwards if you do not feel that we have spent your money wisely.
 
 [Return to top](#contents)
 
@@ -311,7 +293,9 @@ No. Unfortunately there are people on the Internet who disagree with our project
 
 To determine for yourself if we have delivered on the objectives we have set out, you can compare your current experience of the software against our [Development Priorities](https://github.com/glimpse-editor/Glimpse/wiki/Development-Priorities), the `NEWS` file provided with [the source code](https://github.com/glimpse-editor/Glimpse), and the release notes we produce on [our blog](/posts/).
 
-You can also review how much we have received in donations and the ways we have spent that money on [our Open Collective profile](https://opencollective.com/glimpse). Open Collective is a 501(c) charity based in the United States, and they collect all donations on our behalf. We cannot access that money without raising an invoice for work or providing receipted evidence of an expense. Open Collective automatically publishes records of every donation we receive and expense claim we file publicly, and in real time. 
+You can also review how much we have received in donations and the ways we have spent that money on [our Open Collective profile](https://opencollective.com/glimpse).
+
+Open Collective is a trusted 501(c) charity. None of our contributors can receive donated funds without a valid receipt or invoice, and any spending requires the formal approval of both Open Collective and the Glimpse governance team. All donations and spending is displayed publicly and in real time so that you can make an informed choice before donating, and you can hold us accountable afterwards if you do not feel that we have spent your money wisely.
 
 Our [Github Sponsors](https://github.com/sponsors/glimpse-editor) page is directly linked to our Open Collective profile via [Stripe](https://stripe.com/), so all donations received from that channel are also collected and recorded by Open Collective without our intervention.
 
@@ -330,18 +314,14 @@ While we doubt we will convince everyone, we hope that our commitment to transpa
 [Return to top](#contents)
 
 ## Will you adopt a cryptocurrency or blockchain reward system? {#will-you-adopt-a-cryptocurrency-or-blockchain-reward-system}
-The current answer is "no", and we have no interest in our project being used as the experimental basis for such an initiative.
+No, and we have no interest in our project being used as the experimental basis for such an initiative.
 
 If you would like to make the case for this idea, ensure you have read our [Matrix channel rules](https://github.com/glimpse-editor/Glimpse/wiki/Good-Practices#membership-of-the-matrix-channel-is-a-privilege-not-a-right) and the [Code of Conduct](/code-of-conduct/) before proceeding. You should also read ["How does your project govern itself?"](#how-does-this-project-govern-itself) so you understand why our moderators may limit debate on some topics.
 
 [Return to top](#contents)
 
 ## Where is the Glimpse code of conduct? {#where-is-the-glimpse-code-of-conduct}
-You will find it on [this page](/code-of-conduct/). Our code of conduct is based on [the contributor covenant](https://www.contributor-covenant.org/) and will be developed and amended over time as the need arises. As this project spawned from [the fediverse](https://joinmastodon.org/) our experiences in that online space are going to inform the project's future governance and direction.
-
-There is no [benevolent dictator for life](https://en.wikipedia.org/wiki/Benevolent_dictator_for_life) in the traditional sense for this fork because we believe in the merits of collective decision-making. They might sometimes take longer to make decisions, but a group is often less fallible, makes better-considered choices and reflects the will of the wider community more accurately than an individual.
-
-That approach has worked well for us so far, and you can read more about our governance structure here: ["How does your project govern itself?"](#how-does-this-project-govern-itself)
+You will find it on [this page](/code-of-conduct/). Our code of conduct is based on [the contributor covenant](https://www.contributor-covenant.org/) and will be developed and amended over time as the need arises. As this project spawned from [the fediverse](https://joinmastodon.org/) our experiences in that online space inform the project's future governance and direction.
 
 We also want to make it clear that we value and encourage diverse representation in leadership positions within our community, and we believe that is the best way to enforce a code of conduct that protects all contributors and promotes wider participation. At this early stage our initial governance team is formed entirely of individuals from marginalized communities, and that makes our project [very atypical](https://opensource.com/article/17/9/diversity-and-inclusion-innovation). That emerged organically as a result of the project starting on [the fediverse](https://fediverse.party/).
 
