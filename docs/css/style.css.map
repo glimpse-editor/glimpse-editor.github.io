@@ -1,0 +1,23 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sourceRoot": "/Users/bobbymoss/Code/glimpse-editor.github.io",
+	"sources": [
+		"themes/glimpse/assets/scss/main.scss",
+		"themes/glimpse/assets/scss/branding.scss",
+		"themes/glimpse/assets/scss/fonts/manrope.scss",
+		"themes/glimpse/assets/scss/partials/nav.scss",
+		"themes/glimpse/assets/scss/partials/footer.scss",
+		"themes/glimpse/assets/scss/partials/pagination.scss"
+	],
+	"sourcesContent": [
+		"/*\n\n  Main entry point for the Glimpse theme\n\n*/\n\nhtml {\n  min-height: 100%;\n  min-height: -webkit-fill-available;\n}\n\nbody {\n  color: #000012;\n}\n\n@import \"./branding.scss\";\n@import \"./fonts/manrope.scss\";\n\nh1,\nh2,\nh3 {\n  font-weight: 600;\n}\n\na {\n  color: $blue2;\n  &:hover {\n    color: $blue1;\n  }\n}\n\n// Components\n@import \"./partials/nav.scss\";\n@import \"./partials/footer.scss\";\n@import \"./partials/pagination.scss\";\n",
+		"$background: #000012;\n$document: #ffffff;\n\n.document-background {\n  background-color: $document;\n}\n\n/* gradient colors */\n$red1: #f458ba;\n$red2: #ee767a;\n$red3: #fad58a;\n\n$red_gradient: linear-gradient(to left, $red1, $red2, $red3);\n\n.gradient-red {\n  background-color: $red2; /* fall back color */\n  background-image: $red_gradient;\n}\n\n$green1: #5ee2e7;\n$green2: #99e7c4;\n$green3: #e6ed43;\n\n$green_gradient: linear-gradient(to left, $green1, $green2, $green3);\n\n.gradient-green {\n  background-color: $green2; /* fall back color */\n  background-image: $green_gradient;\n}\n\n$blue1: #7e56f7;\n$blue2: #677cf6;\n$blue3: #3db0f0;\n\n$blue_gradient: linear-gradient(to left, $blue1, $blue2, $blue3);\n\n.text-branding-blue {\n  color: $blue2;\n}\n.text-branding-blue:hover {\n  color: $blue1;\n}\n.gradient-blue {\n  background-color: $blue2; /* fall back color */\n  background-image: $blue_gradient;\n}\n\n.background-solid {\n  background-color: $background;\n}\n",
+		"@font-face {\n  font-family: \"Manrope\";\n  src: url(\"/webfonts/Manrope-Regular.woff\") format(\"woff\");\n  font-weight: 400;\n}\n@font-face {\n  font-family: \"Manrope\";\n  src: url(\"/webfonts/Manrope-Bold.woff\") format(\"woff\");\n  font-weight: 600;\n}\n\nhtml {\n  font-size: 100%;\n}\nbody {\n  font-family: \"Manrope\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto,\n    Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif;\n  font-size: 1rem;\n}\n",
+		"nav {\n  div.navbar-collapse ul.navbar-nav li.navbar-item a.nav-link {\n    /* address navigate bootstrap opacity which is hard to read */\n    color: #ffffff;\n\n    &:hover {\n      text-decoration: underline;\n    }\n  }\n}\n",
+		"footer {\n  // background: #202020;\n  padding: 2rem 0;\n}\n",
+		"ul.pagination {\n  li.page-item {\n    a.page-link {\n      color: $blue2;\n    }\n\n    &.active {\n      a.page-link {\n        color: #fff;\n        background-color: $blue2;\n        border-color: $blue2;\n      }\n    }\n  }\n}\n"
+	],
+	"names": [],
+	"mappings": "AAMA,AAAA,IAAI,AAAC,CACH,UAAU,CAAE,IAAI,CAChB,UAAU,CAAE,sBAAsB,CACnC,AAED,AAAA,IAAI,AAAC,CACH,KAAK,CAAE,OAAO,CACf,ACVD,AAAA,oBAAoB,AAAC,CACnB,gBAAgB,CAHP,IAAO,CAIjB,AASD,AAAA,aAAa,AAAC,CACZ,gBAAgB,CANX,OAAO,CAOZ,gBAAgB,CAJH,mDAA6C,CAK3D,AAQD,AAAA,eAAe,AAAC,CACd,gBAAgB,CANT,OAAO,CAOd,gBAAgB,CAJD,mDAAmD,CAKnE,AAQD,AAAA,mBAAmB,AAAC,CAClB,KAAK,CANC,OAAO,CAOd,AACD,AAAA,mBAAmB,CAAC,KAAK,AAAC,CACxB,KAAK,CAVC,OAAO,CAWd,AACD,AAAA,cAAc,AAAC,CACb,gBAAgB,CAZV,OAAO,CAab,gBAAgB,CAVF,mDAAgD,CAW/D,AAED,AAAA,iBAAiB,AAAC,CAChB,gBAAgB,CAhDL,OAAO,CAiDnB,ACjDD,UAAU,CACR,WAAW,CAAE,SAAS,CACtB,GAAG,CAAE,qCAAqC,CAAC,cAAc,CACzD,WAAW,CAAE,GAAG,CAElB,UAAU,CACR,WAAW,CAAE,SAAS,CACtB,GAAG,CAAE,kCAAkC,CAAC,cAAc,CACtD,WAAW,CAAE,GAAG,CAGlB,AAAA,IAAI,AAAC,CACH,SAAS,CAAE,IAAI,CAChB,AACD,AAAA,IAAI,AAAC,CACH,WAAW,CAAE,sIACyD,CACtE,SAAS,CAAE,IAAI,CAChB,AFAD,AAAA,EAAE,CACF,EAAE,CACF,EAAE,AAAC,CACD,WAAW,CAAE,GAAG,CACjB,AAED,AAAA,CAAC,AAAC,CACA,KAAK,CCMC,OAAO,CDFd,AALD,AAEE,CAFD,CAEG,KAAK,AAAC,CACN,KAAK,CCGD,OAAO,CDFZ,AG5BH,AACE,GADC,CACD,GAAG,AAAA,gBAAgB,CAAC,EAAE,AAAA,WAAW,CAAC,EAAE,AAAA,YAAY,CAAC,CAAC,AAAA,SAAS,AAAC,CAE1D,KAAK,CAAE,OAAO,CAKf,AARH,AAKI,GALD,CACD,GAAG,AAAA,gBAAgB,CAAC,EAAE,AAAA,WAAW,CAAC,EAAE,AAAA,YAAY,CAAC,CAAC,AAAA,SAAS,CAIvD,KAAK,AAAC,CACN,eAAe,CAAE,SAAS,CAC3B,ACPL,AAAA,MAAM,AAAC,CAEL,OAAO,CAAE,MAAM,CAChB,ACHD,AAEI,EAFF,AAAA,WAAW,CACX,EAAE,AAAA,UAAU,CACV,CAAC,AAAA,UAAU,AAAC,CACV,KAAK,CJ4BH,OAAO,CI3BV,AAJL,AAOM,EAPJ,AAAA,WAAW,CACX,EAAE,AAAA,UAAU,AAKT,OAAO,CACN,CAAC,AAAA,UAAU,AAAC,CACV,KAAK,CAAE,IAAI,CACX,gBAAgB,CJsBhB,OAAO,CIrBP,YAAY,CJqBZ,OAAO,CIpBR"
+}

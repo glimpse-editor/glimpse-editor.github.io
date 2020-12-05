@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    
+    <link rel="shortcut icon" href="/favicon-32x32.png" type="image/x-icon" />
+    
+
+    
+    
+    <link rel="stylesheet" href="https://glimpse-editor.org/css/style.css">
+
+    
+    <title>More Transparency And Automation | Glimpse</title>
+    
+</head>
+  <body class="document-background">
+    <nav class="navbar navbar-expand-lg navbar-dark gradient-blue">
+    <a class="navbar-brand" href="/">
+        <img src="/logo_hex_full_invert.svg" alt="Glimpse" height="60">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse align-items-center" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+        
+        
+        
+            <li class="navbar-item ">
+                <a class="nav-link" href="/about/" title="About (FAQs)">About (FAQs)</a>
+            </li>
+            
+        
+        
+            <li class="navbar-item ">
+                <a class="nav-link" href="/code-of-conduct/" title="Code of Conduct">Code of Conduct</a>
+            </li>
+            
+        
+        
+            <li class="navbar-item ">
+                <a class="nav-link" href="/contribute/" title="Contribute">Contribute</a>
+            </li>
+            
+        
+        
+            
+        
+        
+            <li class="navbar-item  active">
+                <a class="nav-link" href="/posts/" title="Posts">Posts</a>
+            </li>
+            
+        
+        <li class="navbar-item">
+            <a href="/downloads" class="nav-link "><span class="btn-sm bg-white text-body font-weight-bold" style="font-size:1rem;">Download</span></a>
+        </li>
+        </ul>
+    </div>
+</nav>
+    <main>
+      
+    <div class="container my-5">
+        <h5>Posts</h5>
+        <h1 class="mb-3 page-header">More Transparency And Automation</h1>
+        <p>Wednesday, September 11, 2019</p>
+        <hr />
+        <p>Instead of providing a weekly reminder of our social media and project links across the web, check out our all-new <a href="../../contribute/">Contribute</a> page!</p>
+<p>We are still on schedule to release Glimpse 0.1 some time in September 2019. The application is mostly code-complete, so the outstanding work items primarily relate to artwork, packaging and automated builds. Minor patches may also still be applied for code cleanup and documentation.</p>
+<h2 id="glimpse-project-adopts-open-collective">Glimpse project adopts Open Collective</h2>
+<p>After feedback from the community asking us to support more donation methods, we have now setup an account on <a href="https://opencollective.com/glimpse">Open Collective</a>.</p>
+<p>The great thing about this service is that as supporters and users of Glimpse 0.1 you will be able see how much we receive in donations and how we use those funds to advance the project. It also means the business and legal side of receiving donations is taken care of for us by a well-known US-based charity, and more than one person can administer the funds.</p>
+<p>We will continue to support Patreon donations for the foreseeable future, but periodically those funds will need to be transferred across to Open Collective. Switching across from Patreon gives you the option of sending one-off instead of monthly donations, is tax-deductible (in the US) and saves the project money on transfer fees.</p>
+<p>More information: <a href="https://opencollective.com/glimpse/updates/welcome-to-the-glimpse-open-collective-profile">https://opencollective.com/glimpse/updates/welcome-to-the-glimpse-open-collective-profile</a></p>
+<h2 id="work-started-on-travis-ci-integration">Work started on Travis CI integration</h2>
+<p>Based on a great suggestion from Mathieu Bridon, Bobby Moss has ported the Linux build instructions to Travis-CI and started testing automated builds using the system.</p>
+<p>This is still a work in progress as Bobby wants to setup the publishing steps for Windows, Mac and Linux in the same build file. You can take a look at the latest progress here: <a href="https://github.com/glimpse-editor/Glimpse/tree/travis-ci">https://github.com/glimpse-editor/Glimpse/tree/travis-ci</a></p>
+<h2 id="new-project-logo">New project logo</h2>
+<p>We are very grateful to the amazing <a href="https://jamesdaniel.dev/">James Daniel</a> for working with us to produce our project logo. We have finally banished the public domain question mark we were using as a placeholder to the dustbin of history!</p>
+<p>They also produced new icons for us to use for the application launcher and throughout the project. These have not yet been applied to the codebase and we are still working on usage guidelines, but you can see a preview of that work here: <a href="https://github.com/glimpse-editor/branding">https://github.com/glimpse-editor/branding</a></p>
+<h2 id="code-changes">Code changes</h2>
+<p>Dominic Watson added the Glimpse project <a href="../../code-of-conduct/">code of conduct</a> on this website to the codebase as <code>CODE_OF_CONDUCT.md</code>.</p>
+<p>Bobby Moss completed his previous work removing Wilber&rsquo;s eyes and flashing red &ldquo;jump scare&rdquo; easter egg from the main window after receiving feedback from XenonFiber about a patch submitted upstream. He also updated the code level documentation and &ldquo;Help&rdquo; links to include the new web domain.</p>
+<p>We also saw some interesting new UI concepts from marcato10 and taciturasa that were assessed and discussed by the 2.x UI rewrite stream running in parallel to current development efforts.</p>
+<h2 id="project-decisions">Project decisions</h2>
+<p>Unascribed raised the issue that the hash values in our code&rsquo;s commit tree do not match upstream. The project determined that the fix for this was &ldquo;high impact with low benefit&rdquo;, so decided against doing so. Users are advised that they can still run <code>diff</code> on the commit tree and files to verify file integrity. More information: <a href="https://github.com/glimpse-editor/Glimpse/issues/132">https://github.com/glimpse-editor/Glimpse/issues/132</a></p>
+<p>The project also discussed where to host the release executables for Glimpse 0.1. The Linux packages are likely to be hosted on <a href="https://flathub.org/home">Flathub</a> and <a href="https://appimage.github.io/">AppImageHub</a>, while the Mac and Windows packages will most likely be mirrored from a Github release tag. We are also investigating what is required for us to support torrent files.</p>
+<p>We also agreed and implemented the new artwork and Open Collective account discussed earlier in this blog post.</p>
+<h2 id="website-updates">Website updates</h2>
+<p>Bobby Moss updated the <a href="../../contribute/">Contribute</a> page so it grouped things together a little better and provided new donate links. He also added a new default favicon based on the new project logo.</p>
+
+    </div>
+
+    </main>
+    <footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="row row-cols-2">
+      <div class="col">
+        <span class="mr-3"
+          >&copy; Copyright
+          <a href="/">Glimpse Image Editor</a></span
+        >
+      </div>
+      <div class="col text-right">
+        <a href="/privacy/" class="figure">Privacy Policy</a>
+        <a href="/code-of-conduct/" class="ml-3 figure">Code of Conduct</a>
+        <a href="https://github.com/glimpse-editor/Glimpse" class="ml-3 figure" target="_blank"
+          >Source Code</a
+        >
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>

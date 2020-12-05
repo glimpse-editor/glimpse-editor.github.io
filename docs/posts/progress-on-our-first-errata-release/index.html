@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    
+    <link rel="shortcut icon" href="/favicon-32x32.png" type="image/x-icon" />
+    
+
+    
+    
+    <link rel="stylesheet" href="https://glimpse-editor.org/css/style.css">
+
+    
+    <title>Progress On Our First Errata Release | Glimpse</title>
+    
+</head>
+  <body class="document-background">
+    <nav class="navbar navbar-expand-lg navbar-dark gradient-blue">
+    <a class="navbar-brand" href="/">
+        <img src="/logo_hex_full_invert.svg" alt="Glimpse" height="60">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse align-items-center" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+        
+        
+        
+            <li class="navbar-item ">
+                <a class="nav-link" href="/about/" title="About (FAQs)">About (FAQs)</a>
+            </li>
+            
+        
+        
+            <li class="navbar-item ">
+                <a class="nav-link" href="/code-of-conduct/" title="Code of Conduct">Code of Conduct</a>
+            </li>
+            
+        
+        
+            <li class="navbar-item ">
+                <a class="nav-link" href="/contribute/" title="Contribute">Contribute</a>
+            </li>
+            
+        
+        
+            
+        
+        
+            <li class="navbar-item  active">
+                <a class="nav-link" href="/posts/" title="Posts">Posts</a>
+            </li>
+            
+        
+        <li class="navbar-item">
+            <a href="/downloads" class="nav-link "><span class="btn-sm bg-white text-body font-weight-bold" style="font-size:1rem;">Download</span></a>
+        </li>
+        </ul>
+    </div>
+</nav>
+    <main>
+      
+    <div class="container my-5">
+        <h5>Posts</h5>
+        <h1 class="mb-3 page-header">Progress On Our First Errata Release</h1>
+        <p>Friday, January 31, 2020</p>
+        <hr />
+        <p>Check out our <a href="/contribute/">Contribute</a> page for social media and news links to follow our progress.</p>
+<p><strong>Please note:</strong> We have now moved to a different Mastodon account! Follow us at <a href="https://mastodon.art/@glimpse">@glimpse@mastodon.art</a></p>
+<h2 id="audience-figures-update">Audience Figures Update</h2>
+<p>Glimpse Image Editor 0.1.0 was released on Friday 22nd November 2019. <a href="/posts/glimpse-0-1-0-release-notes/">Release Notes</a></p>
+<p>These download figures were correct at the time of publication. There has been 6860 downloads in total from our directly supported sources (Github and Flathub):</p>
+<ul>
+<li>Our Windows release has been downloaded 4190 times (+490). <a href="http://www.somsubhra.com/github-release-stats/?username=glimpse-editor&amp;repository=Glimpse">Source</a></li>
+<li>Our Linux release on Flathub has been downloaded 2670 times (+570). <a href="https://gitlab.com/ahayzen/flathub-api-stats-generator">Source</a></li>
+</ul>
+<p>Heather Ellsworth reports that there are 1630 active installs from Snapcraft.</p>
+<h2 id="progress-on-glimpse-image-editor-011">Progress on Glimpse Image Editor 0.1.1</h2>
+<p>Bobby Moss created a huge utility pull request that resolved a number of important bugs:</p>
+<ul>
+<li>GNU Image Manipulation Program and Glimpse Image Editor currently share the same Windows task bar icon if you run them at the same time <a href="https://github.com/glimpse-editor/Glimpse/issues/247">#247</a></li>
+<li>Still displays &ldquo;GIMP&rdquo; in the splash screen title <a href="https://github.com/glimpse-editor/Glimpse/issues/230">#230</a></li>
+<li>&ldquo;GIMP&rdquo; is still used throughout the Help and About menus in the German translation <a href="https://github.com/glimpse-editor/Glimpse/issues/238">#238</a></li>
+<li>&ldquo;GIMP&rdquo; still being incorrectly used throughout parts of the application in non-English translations <a href="https://github.com/glimpse-editor/Glimpse/issues/240">#240</a></li>
+</ul>
+<p>The pull request also updated the application version, updated the list of Glimpse contributors, and updated the documentation. You can review all the changes here: <a href="https://github.com/glimpse-editor/Glimpse/pull/263">https://github.com/glimpse-editor/Glimpse/pull/263</a></p>
+<p>The remaining bugs that still need to be resolved are listed here:</p>
+<ul>
+<li>&ldquo;GIMP&rdquo; and Wilber mascot still used in the color picker <a href="https://github.com/glimpse-editor/Glimpse/issues/250">#250</a></li>
+<li>Restore the &ldquo;Color&rdquo; icon theme <a href="https://github.com/glimpse-editor/Glimpse/issues/232">#232</a></li>
+<li>Fix Python Support on Windows <a href="https://github.com/glimpse-editor/Glimpse/issues/178">#178</a></li>
+<li>Rename the &ldquo;Gimpressionist&rdquo; plug-in <a href="https://github.com/glimpse-editor/Glimpse/issues/267">#267</a></li>
+</ul>
+<p>We have revised our expected release timeline to &ldquo;some time in February 2020&rdquo;. <a href="https://wiki.glimpse-editor.org/index.php?title=User:TrechNex">Bobby&rsquo;s wiki page</a> has been updated accordingly.</p>
+<p>Shortly before this post was published we also received an excellent contribution from Ken VanDine that fixed the legacy user interface theme for Linux users who installed Glimpse Image Editor through Snapcraft. That fix will be included in this release: <a href="https://github.com/glimpse-editor/Glimpse/pull/271">https://github.com/glimpse-editor/Glimpse/pull/271</a></p>
+<h2 id="updated-plans-for-glimpse-image-editor-020">Updated Plans for Glimpse Image Editor 0.2.0</h2>
+<p>After a number of people (including chaomodus) suggested it, we are now determining how to include <a href="https://gmic.eu/">the G&rsquo;MIC toolkit</a> with Glimpse Image Editor by default. We <a href="https://twitter.com/gmic_ip/status/1217899762554408960">confirmed with the project</a> that the license was compatible, and in future releases we will integrate the plug-ins functions more tightly within the user interface. You can follow the Github issue&rsquo;s progress here: <a href="https://github.com/glimpse-editor/Glimpse/issues/262">https://github.com/glimpse-editor/Glimpse/issues/262</a></p>
+<p>Kretz also suggested that we include the &ldquo;GIMP Resynthesizer&rdquo; plug-in: <a href="https://github.com/glimpse-editor/Glimpse/issues/270">https://github.com/glimpse-editor/Glimpse/issues/270</a></p>
+<p>Let us know if you have more ideas for plug-ins we should consider bundling with Glimpse Image Editor. You can also see a preview of potential issues we might cover on our milestones page: <a href="https://github.com/glimpse-editor/Glimpse/milestones">https://github.com/glimpse-editor/Glimpse/milestones</a></p>
+<h2 id="chaomodus-joins-the-glimpse-project-governance-team">Chaomodus joins the Glimpse project governance team</h2>
+<p>You may have seen chaomodus mentioned in previous blog posts because of their excellent work running <a href="https://wiki.glimpse-editor.org">our development wiki</a>. They have helped out with the project from the very beginning, and assisted Luna (Clipsey) numerous times with our parallel user interface rewriting efforts.</p>
+<p>Chaomodus has also taken on the task of revamping our build tooling and infrastructure, and recently started trialling a Gitea server as an optional alternative for people who have moral objections to using Github.</p>
+<p>We hope you will give them a warm welcome as our newest member of the governance team. You can see more details about how the Glimpse project governs itself on <a href="/about/#how-does-this-project-govern-itself">our FAQs page</a>.</p>
+<p>It has also not escaped our notice that this continues our trend of diverse representation in leadership positions for our project! The lesson other free software projects can take from us is that if you treat joining your public communication channels as a privilege instead of a right, pro-actively police your project&rsquo;s code of conduct and value creating a pleasant culture over nursing peoples&rsquo; egos, then this can in fact emerge organically.</p>
+<h2 id="enjoy-yourselves-at-fosdem">Enjoy yourselves at FOSDEM!</h2>
+<p>We would just like to confirm that we do not have any official representation this year, and none of our governance team are in attendance. We are unlikely to be present at any conferences this year because it is still quite early in our project&rsquo;s lifespan and we do not yet have the resources to send people to them.</p>
+<p>However, we know many of you are attending FOSDEM this weekend and hope you all have a lovely weekend. The creator of our fork Bobby Moss (who once lived in Belgium for a year and attended FOSDEM himself in 2012 and 2015) particularly recommends <a href="https://hoegaarden.com/">Hoegaarden</a> and <a href="https://leffe.com/en/leffe-blond">Leffe Blond</a> as good beer choices!</p>
+
+    </div>
+
+    </main>
+    <footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="row row-cols-2">
+      <div class="col">
+        <span class="mr-3"
+          >&copy; Copyright
+          <a href="/">Glimpse Image Editor</a></span
+        >
+      </div>
+      <div class="col text-right">
+        <a href="/privacy/" class="figure">Privacy Policy</a>
+        <a href="/code-of-conduct/" class="ml-3 figure">Code of Conduct</a>
+        <a href="https://github.com/glimpse-editor/Glimpse" class="ml-3 figure" target="_blank"
+          >Source Code</a
+        >
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>

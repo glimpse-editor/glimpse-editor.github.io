@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    
+    <link rel="shortcut icon" href="/favicon-32x32.png" type="image/x-icon" />
+    
+
+    
+    
+    <link rel="stylesheet" href="https://glimpse-editor.org/css/style.css">
+
+    
+    <title>Beta Testing Underway For 0.2.0 | Glimpse</title>
+    
+</head>
+  <body class="document-background">
+    <nav class="navbar navbar-expand-lg navbar-dark gradient-blue">
+    <a class="navbar-brand" href="/">
+        <img src="/logo_hex_full_invert.svg" alt="Glimpse" height="60">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse align-items-center" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+        
+        
+        
+            <li class="navbar-item ">
+                <a class="nav-link" href="/about/" title="About (FAQs)">About (FAQs)</a>
+            </li>
+            
+        
+        
+            <li class="navbar-item ">
+                <a class="nav-link" href="/code-of-conduct/" title="Code of Conduct">Code of Conduct</a>
+            </li>
+            
+        
+        
+            <li class="navbar-item ">
+                <a class="nav-link" href="/contribute/" title="Contribute">Contribute</a>
+            </li>
+            
+        
+        
+            
+        
+        
+            <li class="navbar-item  active">
+                <a class="nav-link" href="/posts/" title="Posts">Posts</a>
+            </li>
+            
+        
+        <li class="navbar-item">
+            <a href="/downloads" class="nav-link "><span class="btn-sm bg-white text-body font-weight-bold" style="font-size:1rem;">Download</span></a>
+        </li>
+        </ul>
+    </div>
+</nav>
+    <main>
+      
+    <div class="container my-5">
+        <h5>Posts</h5>
+        <h1 class="mb-3 page-header">Beta Testing Underway For 0.2.0</h1>
+        <p>Tuesday, July 21, 2020</p>
+        <hr />
+        <p>Check out our <a href="/contribute/">Contribute</a> page for social media and news links to follow our progress.</p>
+<p>We are still currently on track to release Glimpse Image Editor 0.2.0 before the end of July 2020. That is subject to change if we discover a major problem during beta testing, or if we need extra time to produce our new Windows installers.</p>
+<p>To commemorate our project&rsquo;s first anniversary and the upcoming release of Glimpse Image Editor 0.2.0, we intend to donate $350 USD to the GNU Image Manipulation Program developers. That will mean in our first year we will have contributed $500 USD of our donations in total back upstream.</p>
+<p>We also recently added some more answers to <a href="/about/">our FAQs page</a>, so we encourage our community to give that page another look.</p>
+<h2 id="linux-beta-testing-begins">Linux beta testing begins</h2>
+<p>On 2020-07-18 we published the latest 0.2.0 beta on Snapcraft. To try it out, follow the instructions on <a href="https://github.com/glimpse-editor/Glimpse/wiki/Beta-Testing-with-Snapcraft-%28Linux%29">this wiki page</a></p>
+<p>On 2020-07-19 we published the latest 0.2.0 beta on Flathub, and started publishing automatically-generated <a href="https://docs.flatpak.org/en/latest/single-file-bundles.html">single-file bundles</a> on Github. To try it out, follow the instructions on <a href="https://github.com/glimpse-editor/Glimpse/wiki/Beta-Testing-with-Flathub-%28Linux%29">this wiki page</a></p>
+<p>We will continue to update those builds over the next couple of weeks as we discover bugs and fix them ahead of release.</p>
+<p>Work is still ongoing with the Linux AppImage packaging. Unfortunately we seem to be running into some problems with this, so it is possible that may be delayed until after 0.2.0 is formally released. You can track progress on this Github Issue: <a href="https://github.com/glimpse-editor/Glimpse/issues/108">#108</a></p>
+<h2 id="windows-beta-testing-coming-soon">Windows beta testing coming soon</h2>
+<p>We intend to improve our existing 32-bit MSI installer with the option to set a custom install location. We will also continue reducing hard disk usage, and add &ldquo;quality of life&rdquo; improvements like better icons and a new application launcher. For the first time, we will also provide a 64-bit MSI installer.</p>
+<p>Our project would like to thank <a href="https://www.msys2.org/docs/ci/">the MSYS2 contributors</a> for making it possible for us to build the Glimpse Image Editor source code automatically with our own <a href="https://github.com/glimpse-editor/Glimpse/actions">Github Actions</a>.</p>
+<p>Both installers for the beta testing builds will arrive later on this week. The reason for the delay is that the contributor working on the <a href="https://wixtoolset.org/">WiX Toolset</a> manifests has been ill recently. Fortunately their COVID-19 test came back negative, and we wish them a speedy recovery!</p>
+<h2 id="new-wiki-pages-for-third-party-plugin-support">New wiki pages for third-party plugin support</h2>
+<p>We have provided new tutorials that explain how to install popular existing plugins for the GNU Image Manipulation Program in your existing Glimpse Image Editor 0.1.2 installation. You can read them here: <a href="https://github.com/glimpse-editor/Glimpse/wiki#third-party-plugin-installation-guides">https://github.com/glimpse-editor/Glimpse/wiki#third-party-plugin-installation-guides</a></p>
+<p>Those wiki pages also explain how far along we are with improving compatibility for <a href="https://gmic.eu/">G&rsquo;MIC</a>, <a href="http://liquidrescale.wikidot.com/">Liquid Rescale</a>, <a href="https://github.com/Diolinux/PhotoGIMP">PhotoGIMP</a> and <a href="https://github.com/bootchk/resynthesizer">Resynthesizer</a>.</p>
+<p>After Glimpse Image Editor 0.2.0 is released, we intend to provide a Linux AppImage that contains a number of third party plugins by default. We will likely adapt the work that has been done here: <a href="https://github.com/aferrero2707/gimp-appimage">https://github.com/aferrero2707/gimp-appimage</a></p>
+<p>We are also reviewing if there are changes in PhotoGIMP that we can include by default with Glimpse Image Editor to improve the user experience. You can track our progress on these Github Issues: <a href="https://github.com/glimpse-editor/Glimpse/issues/412">#412</a>, <a href="https://github.com/glimpse-editor/Glimpse/issues/414">#414</a></p>
+<h2 id="new-website-re-design">New website re-design</h2>
+<p>We would like to thank <a href="https://zachkrall.com/">Zach Krall</a> for their amazing redesign of our project website. It fits much better with the existing branding guidelines set out by <a href="https://jamesdaniel.dev/">James Daniel</a>, the artist that created our original logo.</p>
+<p><a href="https://trechnex.github.io/">Bobby Moss</a> also updated the homepage so it is clearer to newcomers what our project aims are, and which version of the GNU Image Manipulation Program our code is based on. We intend to replace the screenshots that are currently displayed before 0.2.0 is released.</p>
+<h2 id="planning-for-the-longer-term">Planning for the longer term</h2>
+<p>We are pleased to announce that Glimpse NX (previously known as &ldquo;the rewrite&rdquo;) is going to be where a lot of our developers and resources are going to be focussed over the next few years. There will be more details to share about that project in future blog posts.</p>
+<p>However, we will continue to provide updates for our fork of the GNU Image Manipulation Program. Our intention is to provide two releases each year. One will be published each July that rebases on a recent version of the GNU Image Manipulation Program, and another will be published each January that iterates on it. We will re-issue a release only if an urgent bug-fix or security update is required.</p>
+<p>Our existing release timetable (i.e. one release every 3-4 months) does not permit us enough time to take on more ambitious changes, such as writing our own plug-ins and customizing the user interface. Now that we have fulfilled our <a href="https://github.com/glimpse-editor/Glimpse/wiki/Development-Priorities">main development priorities</a>, we believe that spacing out our releases will enable us to focus on making UI improvements and differentiating the user experience.</p>
+<p>We are also looking into new forms of packaging we can support. For example: <a href="https://github.com/glimpse-editor/Glimpse/issues/322">#322</a>, <a href="https://github.com/glimpse-editor/Glimpse/issues/236">#236</a>, <a href="https://github.com/glimpse-editor/Glimpse/issues/402">#402</a></p>
+<h2 id="download-figures-update">Download figures update</h2>
+<p>All figures were correct on the day this blog post was published and sources have been provided so that you can independently verify them.</p>
+<p>If the figures are accurate then we believe that since 2020-05-04 we have had a noticeable increase in popularity with Windows users. Our userbase on Linux has remained approximately the same size, and we suspect some of our users may have switched from Snapcraft to Flathub. <a href="posts/anniversary-plans/">Source</a></p>
+<p>We know that Glimpse Image Editor has been downloaded at least 54025 (+8417) times across all platforms, versions and download sources since it was first released on 2019-11-22. A detailed breakdown is provided below.</p>
+<h3 id="linux">Linux</h3>
+<p>Heather Ellsworth reports that there have been 12197 (-4704) active users over the last month that have installed Glimpse Image Editor through <a href="https://snapcraft.io/glimpse-editor/">Snapcraft</a>. These figures are only available through a private dashboard, so we have <a href="/glimpse-snap-2020-07-21.png">provided a screenshot</a>.</p>
+<p>Glimpse Image Editor has been downloaded 18028 (+4803) times from <a href="https://flathub.org/apps/details/org.glimpse_editor.Glimpse">Flathub</a> across all versions since it was first released on 2019-11-22, and there have been 11356 recent requests for updates.</p>
+<p>We use <a href="https://gitlab.com/ahayzen/flathub-api-stats-generator">a third-party tool</a> to get Flathub statistics, and this is the command we run:</p>
+<pre><code>$ python3 main.py --report downloads_by_app --type data --output out.dat --report-args app-id=org.glimpse_editor.Glimpse
+</code></pre><p>The distribution tarballs we provided on Github for Glimpse Image Editor 0.1.2 have been downloaded 538 (+182) times. <a href="https://somsubhra.com/github-release-stats/?username=glimpse-editor&amp;repository=Glimpse">Source</a></p>
+<p>We do not have the figures for other community-supported Linux download sources.</p>
+<h3 id="windows">Windows</h3>
+<p>Glimpse Image Editor 0.1.2 has been downloaded 17959 (+8039) times from Github since its release on 2020-03-02. <a href="https://somsubhra.com/github-release-stats/?username=glimpse-editor&amp;repository=Glimpse">Source</a></p>
+<p>To date there have been 5080 (+59) direct downloads of Glimpse Image Editor 0.1.0 for Windows from Github since its release on 2019-11-22. <a href="https://somsubhra.com/github-release-stats/?username=glimpse-editor&amp;repository=Glimpse">Source</a></p>
+<p>There are two new unofficial third-party download sources for Windows users that provide download statistics:</p>
+<ul>
+<li>118 (+21) downloads from <a href="https://www.softpedia.com/dyn-search.php?search_term=glimpse">Softpedia</a></li>
+<li>105 (+17) downloads from <a href="https://sourceforge.net/projects/glimpse-image-editor/">SourceForge</a></li>
+</ul>
+
+    </div>
+
+    </main>
+    <footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="row row-cols-2">
+      <div class="col">
+        <span class="mr-3"
+          >&copy; Copyright
+          <a href="/">Glimpse Image Editor</a></span
+        >
+      </div>
+      <div class="col text-right">
+        <a href="/privacy/" class="figure">Privacy Policy</a>
+        <a href="/code-of-conduct/" class="ml-3 figure">Code of Conduct</a>
+        <a href="https://github.com/glimpse-editor/Glimpse" class="ml-3 figure" target="_blank"
+          >Source Code</a
+        >
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>

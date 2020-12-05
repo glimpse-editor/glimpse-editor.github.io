@@ -1,4 +1,0 @@
-[submodule "glimpse-editor.github.io"]
-	path = glimpse-editor.github.io
-	url = https://github.com/glimpse-editor/glimpse-editor.github.io.git
-	branch = master

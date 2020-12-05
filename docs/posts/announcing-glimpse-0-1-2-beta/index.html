@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    
+    <link rel="shortcut icon" href="/favicon-32x32.png" type="image/x-icon" />
+    
+
+    
+    
+    <link rel="stylesheet" href="https://glimpse-editor.org/css/style.css">
+
+    
+    <title>Announcing Glimpse 0.1.2 Beta | Glimpse</title>
+    
+</head>
+  <body class="document-background">
+    <nav class="navbar navbar-expand-lg navbar-dark gradient-blue">
+    <a class="navbar-brand" href="/">
+        <img src="/logo_hex_full_invert.svg" alt="Glimpse" height="60">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse align-items-center" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+        
+        
+        
+            <li class="navbar-item ">
+                <a class="nav-link" href="/about/" title="About (FAQs)">About (FAQs)</a>
+            </li>
+            
+        
+        
+            <li class="navbar-item ">
+                <a class="nav-link" href="/code-of-conduct/" title="Code of Conduct">Code of Conduct</a>
+            </li>
+            
+        
+        
+            <li class="navbar-item ">
+                <a class="nav-link" href="/contribute/" title="Contribute">Contribute</a>
+            </li>
+            
+        
+        
+            
+        
+        
+            <li class="navbar-item  active">
+                <a class="nav-link" href="/posts/" title="Posts">Posts</a>
+            </li>
+            
+        
+        <li class="navbar-item">
+            <a href="/downloads" class="nav-link "><span class="btn-sm bg-white text-body font-weight-bold" style="font-size:1rem;">Download</span></a>
+        </li>
+        </ul>
+    </div>
+</nav>
+    <main>
+      
+    <div class="container my-5">
+        <h5>Posts</h5>
+        <h1 class="mb-3 page-header">Announcing Glimpse 0.1.2 Beta</h1>
+        <p>Tuesday, February 18, 2020</p>
+        <hr />
+        <p>Check out our <a href="/contribute/">Contribute</a> page for social media and news links to follow our progress.</p>
+<h2 id="wait-what-happened-to-011">Wait&hellip; what happened to 0.1.1?</h2>
+<p>Don&rsquo;t panic! We inherited a build versioning scheme that seems to work well, so we now define odd number versions (eg. 0.1.1 and 0.1.99) as &ldquo;in development&rdquo; and even-number versions (eg. 0.1.0 and 0.1.2) as stable releases we take the time to beta test.</p>
+<p>You can find out more about how our release numbering works on <a href="/about/#how-does-your-release-numbering-work">our FAQs page</a>.</p>
+<h2 id="beta-testing-for-the-next-release-begins">Beta testing for the next release begins</h2>
+<p>On Monday evening Bobby Moss (trechnex) successfully packaged the beta builds for Glimpse Image Editor 0.1.2 and published them on Flathub (Linux) and our own build server (Windows). We would like to also thank Mathieu Bridon for his assistance setting up our project&rsquo;s beta channel on Flathub.</p>
+<p>We have already started two weeks of beta testing and bug fixing. Our target release date for 0.1.2 is Monday 2nd March 2020, but that is subject to change based on the severity of the bugs we uncover.</p>
+<p>For those who would like to help us with beta testing, here is a summary of the user-facing changes we have made:</p>
+<p>Features and fixes ready for testing:</p>
+<ul>
+<li>&ldquo;Color&rdquo; icon theme added</li>
+<li>&ldquo;Gray&rdquo; UI theme added</li>
+<li>Recent upstream contributors credited in Help &gt; About &gt; Credits</li>
+<li>&ldquo;Gimpressionist&hellip;&rdquo; renamed to &ldquo;Impressionist&hellip;&rdquo; in Filters &gt; Artistic</li>
+<li>Windows users can now select other languages in Edit &gt; Preferences &gt; Interface</li>
+<li>GNU Image Manipulation Program and Glimpse Image Editor no longer share the same Windows taskbar icon when they run at the same time</li>
+</ul>
+<p>Features and fixes still being worked on:</p>
+<ul>
+<li>Python-fu support on Windows <a href="https://github.com/glimpse-editor/Glimpse/issues/178">#178</a></li>
+<li>Upstream translator credits need fixing <a href="https://github.com/glimpse-editor/Glimpse/issues/300">#300</a></li>
+<li>Improved Windows installer <a href="https://github.com/glimpse-editor/Glimpse/issues/284">#284</a></li>
+<li>Miscellaneous bugs in <a href="https://github.com/glimpse-editor/Glimpse/milestone/9">0.1.2 milestone</a></li>
+</ul>
+<p>We strongly recommend that you do not attempt to try out these beta testing changes on a production machine you urgently rely on.</p>
+<p>Full instructions for participating in the beta are available on our development wiki: <a href="https://wiki.glimpse-editor.org/index.php?title=Testing_Glimpse">https://wiki.glimpse-editor.org/index.php?title=Testing_Glimpse</a></p>
+<h2 id="successful-website-migration">Successful website migration</h2>
+<p>Two weeks ago Chaomodus migrated our static hugo site and the development wiki to new servers, and so far we have had no outages.</p>
+<p>We previously ran everything from one server that Bobby Moss had provisioned in haste last August, so breaking out our systems into several more robust servers is something that promises to help us automate builds and improve uptime for our collaboration tools and websites.</p>
+<p>Within the next few months we intend to fully decommission the old server and run automated packaging and builds for Linux, Windows and (eventually) macOS on a separate Jenkins slave running Docker containers. Once that work is complete we will be able to spend more time improving Glimpse Image Editor and less on manually building and packaging things.</p>
+<p>Bobby Moss has already set up a new branching strategy to cover that, and added that information to <a href="https://wiki.glimpse-editor.org/index.php?title=Building_Glimpse">our development wiki</a>.</p>
+<h2 id="updates-to-our-faqs-page">Updates to our FAQs page</h2>
+<p>Governance team reviewed and updated a number of questions on our FAQs page, which we felt was important as our project has evolved a lot since some of these answers were written.</p>
+<p>Bobby Moss also wrote new answers explaining <a href="/about/#when-are-you-going-to-implement-the-feature-i-asked-for">how to find out if we&rsquo;re implementing a feature</a> and an explanation of <a href="/about/#how-does-your-release-numbering-work">how our version numbers work</a>.</p>
+<p>If you have additional questions, please contact us by using the links on our <a href="/contribute/">Contribute</a> page.</p>
+<h2 id="we-applied-to-join-the-github-sponsors-waiting-list">We applied to join the Github Sponsors waiting list</h2>
+<p>After one of our supporters notified us that <a href="https://blog.opencollective.com/double-the-love/">Github Sponsors now supports Open Collective</a> we opened up a discussion about it on our public Matrix channel.</p>
+<p>The reason this development piqued our interest is that all donations submitted via Github Sponsors would go directly to <a href="https://opencollective.com/glimpse">our Open Collective profile</a> without requiring our intervention.</p>
+<p>Github also charges no fees for this service, and they have committed to matching any donations we receive in our first year, up to a limit of $5000 USD. This move would also address the feedback we have received that we should support a secondary donation mechanism for those who do not wish to use PayPal.</p>
+<p>The response on Matrix was broadly positive, so we have applied to join the waiting list for this platform. Assuming we are accepted, we will briefly re-open the issue so that people can let us know how they feel about this decision before we proceed with it.</p>
+<p>As a reminder, money donated to our Open Collective is <a href="/about/#why-do-you-need-monetary-donations">only used to cover the costs of this project</a> and periodically pass some of those contributions upstream. You can see a full accounting of all the donations we have ever received and how we have spent that money so far on <a href="https://opencollective.com/glimpse">our Open Collective profile</a>.</p>
+<p>If you would like to thank our contributors directly for the many hours of unpaid volunteer work they do for our project, you should contact them about their own personal donation platforms.</p>
+<p>Creator: <a href="https://github.com/TrechNex">Bobby Moss</a>
+Maintainers: <a href="https://github.com/chaomodus">Chaomodus</a>, <a href="https://github.com/BrainBlasted">Christopher Davis</a>, <a href="https://github.com/Member1221">Luna</a>
+Flatpak: <a href="https://github.com/bochecha">Mathieu Bridon</a>
+Snapcraft: <a href="https://github.com/hellsworth">Heather Ellsworth</a></p>
+
+    </div>
+
+    </main>
+    <footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="row row-cols-2">
+      <div class="col">
+        <span class="mr-3"
+          >&copy; Copyright
+          <a href="/">Glimpse Image Editor</a></span
+        >
+      </div>
+      <div class="col text-right">
+        <a href="/privacy/" class="figure">Privacy Policy</a>
+        <a href="/code-of-conduct/" class="ml-3 figure">Code of Conduct</a>
+        <a href="https://github.com/glimpse-editor/Glimpse" class="ml-3 figure" target="_blank"
+          >Source Code</a
+        >
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>
