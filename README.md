@@ -1,8 +1,3 @@
-To test things locally, run the following after cloning:
-```
-$ git clone https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
-```
-
 To optionally add more themes:
 ```
 $ git clone --recursive https://github.com/gohugoio/hugoThemes themes/
