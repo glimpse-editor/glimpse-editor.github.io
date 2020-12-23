@@ -1,6 +1,6 @@
 ---
 title: "Contribute"
-date: 2020-11-01T23:45:00+00:00
+date: 2020-12-23T00:45:00+00:00
 draft: false
 menu: "main"
 ---
@@ -25,7 +25,7 @@ The "rewrite" stream (also known as "Glimpse NX") aims to create a lightweight n
  * [Matrix](https://matrix.to/#/#glimpse:matrix.org)
  * [Discord](https://discord.gg/hZhRceq)
 
-  **Warning**: Before joining our public Matrix channel, we strongly encourage you to read [the rules you are expected to follow](https://github.com/glimpse-editor/Glimpse/wiki/Good-Practices#membership-of-the-matrix-channel-is-a-privilege-not-a-right).
+**Note**: Our Matrix channels are now invite-only and will eventually be deprecated. [More information](/about/#why-are-you-deprecating-your-matrix-channels)
 
 ## News
  * [Facebook](https://fb.me/glimpse.editor)
