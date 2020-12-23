@@ -76,7 +76,7 @@ We would like to thank everyone who contributed towards making Glimpse 0.2.0 a s
 * Dave Kretz
 
 ### Artwork Contributors
-* Atra
+* Cristiano Vitorino
 * James Daniel
 * Zach Krall
 
