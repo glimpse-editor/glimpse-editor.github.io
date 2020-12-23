@@ -21,6 +21,6 @@ features:
     image: 'cytonn-photography-n95VMLxqM2I-unsplash.jpg'
     alt: 'A picture of two hands shaking in a gesture of friendship'
   - header: 'Planning For The Future'
-    summary: '"Glimpse NX" will provide a lightweight newcomer-friendly image editing experience with accessibility as its primary focus. We will provide more details about that exciting new free/libre software project as it develops.'
+    summary: '"Glimpse NX" will provide a lightweight newcomer-friendly image editing experience with accessibility as its primary focus. We will provide more details about that exciting new open source software project as it develops.'
     image: 'glimpse-nx-placeholder.jpg'
     alt: 'A placeholder Glimpse NX logo on a black background'
