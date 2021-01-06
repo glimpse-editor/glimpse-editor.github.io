@@ -1,6 +1,6 @@
 ---
 title: "About (FAQs)"
-date: 2020-12-23T00:30:00+00:00
+date: 2021-01-06T21:00:00+00:00
 draft: false
 menu: "main"
 ---
@@ -54,7 +54,7 @@ The goal of both projects is to experiment with new ideas and expand the use of 
 ---
 
 ## What is the correct name for your project? {#what-is-the-correct-name-for-your-project}
-The open source software we produce is called "Glimpse Image Editor", but we sometimes shorten that to just "Glimpse". We refer to our governance structure, core contributors and participants on our Matrix channel and Discord server as "the Glimpse project". We often call our social media followers, donors and end users "the Glimpse Community".
+The open source software we produce is called "Glimpse Image Editor", but we sometimes shorten that to just "Glimpse". We refer to our governance structure, core contributors and participants on our Discord server as "the Glimpse project". We often call our social media followers, donors and end users "the Glimpse Community".
 
 Glimpse NX is a separate project we plan to start soon where we will create a lightweight new interface for pre-existing GNU Image Manipulation Program libraries and frameworks. You may sometimes see it referred to as "the rewrite". We will provide more information about that project in coming weeks and months.
 
@@ -131,7 +131,7 @@ We are aware of a number of other unrelated projects called "Glimpse". We have m
 
 The project's current stance is that while we are theoretically open to changing our name, there is very limited support in favor of actually doing so. We granted our critics time to find an alternative name that addresses the concerns they raised, fulfils our project's requirements and enjoys popular support. Even with three months and our assistance they were not able to do so, so we consider the matter closed for the time being.
 
-See ["How does your project govern itself?"](#how-does-this-project-govern-itself) for more details about why we now limit discussion about this topic on our Matrix channels and Discord server.
+See ["How does your project govern itself?"](#how-does-this-project-govern-itself) for more details about why we now limit discussion about this topic on our Discord server.
 
 [Return to top](#contents)
 
@@ -333,11 +333,7 @@ We know how important it is to enact the right code of conduct and enforce the r
 ## How does your project govern itself? {#how-does-this-project-govern-itself}
 The Glimpse Project is run by a self-appointed board called "the governance team", and it is currently made up of three members: [Bobby Moss](https://twitter.com/trechnex), [Christopher Davis](https://social.libre.fi/users/brainblasted), and [Luna](https://twitter.com/Clipsey5). Decisions are made with a majority vote after consultation with project contributors and any other interested parties.
 
-The **#glimpse:matrix.org** Matrix channel and the `#general` channel it is bridged to on our Discord server is where most of our decision-making happens, and our community has the opportunity to voice their opinions and share their domain-specific knowledge there.
-
 We host a [Discord server](https://discord.gg/hZhRceq) for project decisions, Glimpse NX development and some technical support queries. The governance team also discusses project moderation decisions in a private channel on that server. You can read the rules for joining this server's public channels on the `#rules-and-info` channel.
-
-Discussion for the forked code originally started in the **#glimpse:matrix.org** (or "Glimpse Development") Matrix channel. That channel is now invite-only and will eventually be deprecated, but channel members are still expected to comply with our [code of conduct](/code-of-conduct/) and [follow the rules](https://github.com/glimpse-editor/Glimpse/wiki/Good-Practices#membership-of-the-matrix-channel-is-a-privilege-not-a-right).
 
 [Github Issues](https://github.com/glimpse-editor/Glimpse/issues) are used to track bug reports, suggestions and questions from the wider community, and items we have agreed as a project need action. Action items are allocated to a milestone to give an indication of their priority and likely timeline, but these are always provisional until the work is done.
 
@@ -348,33 +344,36 @@ Finally, the project may from time to time run polls on social media to canvas o
 [Return to top](#contents)
 
 ## What are all the Matrix channels for? {#what-are-all-the-matrix-channels-for}
-We currently maintain two invite-only channels on matrix.org, and both have been bridged to matching channels on [our Discord server](https://discord.gg/hZhRceq).
+At the time when we deprecated our Matrix channels in January 2021, we were maintaining two Matix channels on matrix.org:
 
 - **#glimpse**: "Glimpse Development" channel that anyone can request to join, and all members must [follow the rules](https://github.com/glimpse-editor/Glimpse/wiki/Good-Practices#membership-of-the-matrix-channel-is-a-privilege-not-a-right) and comply with our [code of conduct](/code-of-conduct/)
 - **#glimpse-offtopic**: Off-topic chatter between well-known members of our community in a safe, welcoming environment.
 
-The [Discord server](https://discord.gg/hZhRceq) was created for our project moderation channels and Glimpse NX development. You can read the rules on that server by following the links on the `#rules-and-info` channel.
+We have now moved moved across to a [Discord server](https://discord.gg/hZhRceq). It was originally used for our project moderation channels and Glimpse NX development, but we now also use it for day-to-day communication within our project. You can read the rules on that server by following the links on the `#rules-and-info` channel.
 
-We encourage new contributors to join Discord as that is where most project activity now happens. We eventually plan to deprecate our Matrix channels.
+We encourage new contributors to join Discord as that is where most project activity now happens.
 
 [Return to top](#contents)
 
 ## Why are you deprecating your Matrix channels? {#why-are-you-deprecating-your-matrix-channels}
+We deprecated them in January 2021, and have now fully moved across to [our Discord server](https://discord.gg/hZhRceq).
 
 As you will have read elsewhere on this FAQs page, there are two parallel development streams in the Glimpse project:
 
 - An open source fork of the GNU Image Manipulation Program 2.10.x called "Glimpse Image Editor"
 - A new open source image editing program for the GNOME desktop called "Glimpse NX"
 
-The eventual plan is to deprecate Glimpse Image Editor in favor of Glimpse NX. Matrix was the communication platform that was chosen by the fork's contributors, and Discord was chosen by the Glimpse NX contributors.
+The eventual plan is to deprecate Glimpse Image Editor in favor of Glimpse NX, and we expect that to happen some time in 2022.
 
-Our Matrix channels are now both invite-only and have been bridged to our Discord server. We encourage new contributors join [our Discord server](https://discord.gg/hZhRceq) as that is where most project activity now happens.
+Matrix was the communication platform that was chosen by the fork's contributors in July 2019 as a replacement for a freenode IRC channel. Discord was originally chosen in May 2020 by the Glimpse NX contributors. It makes sense that as we shifted resources away from the fork and towards Glimpse NX that activity would drop on Matrix and increase on Discord, and it reached the point that we could no longer justify the time we spend moderating and maintaining our Matrix channels.
 
-For reference, these are the core values we follow when we select our project tools and collaboration platforms:
+We spent three weeks through December 2020 experimenting with various ways we could create a communication bridge between Matrix and Discord. Unfortunately that did not prove to be a viable solution for us. Our project is too large for zero-cost off-the-shelf services, and we have learned repeatedly through experience that self-hosting can require a significant amount of time and resources to maintain.
+
+To assist our users and supporters that would like to better understand how we make decisions about our project tools and communication platforms, these are the core values we follow:
 - We should aim to lower the barrier to entry for newcomers that have never contributed to an open source project before
-- We are open to trying any tools that our regular contributors suggest, and then using that experience to inform our decisions
 - We require comprehensive moderation tools that are not time-consuming to maintain, learn or use effectively
-- While open source solutions are preferred, our contributors' time and welfare are more important
+- While open source solutions are preferred, our contributors' time and welfare are always more important
+- Our governance team does not make decisions without consulting the Glimpse project contributors, listening to their feedback, and exploring their suggestions
 
 [Return to top](#contents)
 
@@ -383,7 +382,7 @@ You can follow us on [the fediverse](https://mastodon.art/@glimpse) and [Twitter
 
 Our [Open Collective](https://opencollective.com/glimpse) backers also get regular updates about the project. 
 
-Our Matrix and Discord channels are primarily intended for existing and prospective contributors. If you only want to keep up with project news, we encourage you to follow our social media accounts and RSS feed instead.
+Our Discord server is primarily intended for existing and prospective contributors. If you only want to keep up with project news, we encourage you to follow our social media accounts and RSS feed instead.
 
 [Return to top](#contents)
 
