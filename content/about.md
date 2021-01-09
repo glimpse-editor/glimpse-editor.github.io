@@ -1,6 +1,6 @@
 ---
 title: "About (FAQs)"
-date: 2021-01-06T21:00:00+00:00
+date: 2021-01-09T19:45:00+00:00
 draft: false
 menu: "main"
 ---
@@ -233,7 +233,7 @@ As a project we are aware that some people have ethical concerns about using Git
 
 We have tried self-hosted solutions in the past, and you can see evidence of that in our blog and Open Collective profile. The main problem is that the build process for Glimpse Image Editor requires a lot of compute power, and we do not receive enough donations to replicate the same functionality we can achieve with Github Actions. In addition deploying, hardening and maintaining multiple servers is not a straightforward task, and time our volunteer contributors spend being server administrators is time that they cannot spend developing Glimpse Image Editor or Glimpse NX.
 
-There are currently no plans to move the Glimpse Image Editor source code from Github. However, if you do not want to sign up for that website or have chosen to boycott it, we now accept bug reports and feature requests [via email](mailto:glimpse-editor@fire.fundersclub.com).
+There are currently no plans to move the Glimpse Image Editor source code from Github. However, if you do not want to sign up for that website or have chosen to boycott it, we now accept bug reports and feature requests [via email](mailto:glimpse-editor@fire.fundersclub.com). You can also download copies of Glimpse Image Editor and the software program source code from [archive.org](https://archive.org/search.php?query=creator%3A%22Glimpse+Project%22).
 
 We are still exploring potential host platforms for Glimpse NX. The project will initially be developed on Github, but once we have a minimum viable product we will have a better understanding of our technical requirements and can then start exploring other alternatives.
 
