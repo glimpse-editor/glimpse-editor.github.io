@@ -46,7 +46,6 @@ The goal of both projects is to experiment with new ideas and expand the use of 
 ### Project Governance
 - [Where is the Glimpse code of conduct?](#where-is-the-glimpse-code-of-conduct)
 - [How does your project govern itself?](#how-does-this-project-govern-itself)
-- [What are all the Matrix channels for?](#what-are-all-the-matrix-channels-for)
 - [Why are you deprecating your Matrix channels?](#why-are-you-deprecating-your-matrix-channels)
 - [How do I stay up-to-date with this project?](#how-do-i-stay-up-to-date-with-this-project)
 - [How do I contribute to this project?](#how-do-i-contribute-to-this-project)
@@ -340,18 +339,6 @@ We host a [Discord server](https://discord.gg/hZhRceq) for project decisions, Gl
 No decision is ever set in stone and can be revisited if new information comes to light or there is enough support within the project to do so. The governance team will generally only block the re-opening of an issue or delay a decision if the discussion is becoming too heated or obstructs the day-to-day running of the project. The governance team also reserves the right to end a discussion if, after giving an idea a fair hearing, there is clearly a lack of support within the Glimpse project in favor of it being worked on or developed any further.
 
 Finally, the project may from time to time run polls on social media to canvas opinion for specific issues if there is support for doing so. They are always non-binding and only intended to facilitate the existing decision-making process.
-
-[Return to top](#contents)
-
-## What are all the Matrix channels for? {#what-are-all-the-matrix-channels-for}
-At the time when we deprecated our Matrix channels in January 2021, we were maintaining two Matix channels on matrix.org:
-
-- **#glimpse**: "Glimpse Development" channel that anyone can request to join, and all members must [follow the rules](https://github.com/glimpse-editor/Glimpse/wiki/Good-Practices#membership-of-the-matrix-channel-is-a-privilege-not-a-right) and comply with our [code of conduct](/code-of-conduct/)
-- **#glimpse-offtopic**: Off-topic chatter between well-known members of our community in a safe, welcoming environment.
-
-We have now moved moved across to a [Discord server](https://discord.gg/hZhRceq). It was originally used for our project moderation channels and Glimpse NX development, but we now also use it for day-to-day communication within our project. You can read the rules on that server by following the links on the `#rules-and-info` channel.
-
-We encourage new contributors to join Discord as that is where most project activity now happens.
 
 [Return to top](#contents)
 
