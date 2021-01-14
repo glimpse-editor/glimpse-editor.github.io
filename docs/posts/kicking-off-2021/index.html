@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    
+    <link rel="shortcut icon" href="/favicon-32x32.png" type="image/x-icon" />
+    
+
+    
+    
+    <link rel="stylesheet" href="https://glimpse-editor.org/css/style.css">
+
+    
+    <title>Kicking Off 2021 | Glimpse</title>
+    
+</head>
+  <body class="document-background">
+    <nav class="navbar navbar-expand-lg navbar-dark gradient-blue">
+    <a class="navbar-brand" href="/">
+        <img src="/logo_hex_full_invert.svg" alt="Glimpse" height="60">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse align-items-center" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+        
+        
+        
+            <li class="navbar-item ">
+                <a class="nav-link" href="/about/" title="About (FAQs)">About (FAQs)</a>
+            </li>
+            
+        
+        
+            <li class="navbar-item ">
+                <a class="nav-link" href="/code-of-conduct/" title="Code of Conduct">Code of Conduct</a>
+            </li>
+            
+        
+        
+            <li class="navbar-item ">
+                <a class="nav-link" href="/contribute/" title="Contribute">Contribute</a>
+            </li>
+            
+        
+        
+            
+        
+        
+            <li class="navbar-item  active">
+                <a class="nav-link" href="/posts/" title="Posts">Posts</a>
+            </li>
+            
+        
+        <li class="navbar-item">
+            <a href="/downloads" class="nav-link "><span class="btn-sm bg-white text-body font-weight-bold" style="font-size:1rem;">Download</span></a>
+        </li>
+        </ul>
+    </div>
+</nav>
+    <main>
+      
+    <div class="container my-5">
+        <h5>Posts</h5>
+        <h1 class="mb-3 page-header">Kicking Off 2021</h1>
+        <p>Thursday, January 14, 2021</p>
+        <hr />
+        <p>Check out our <a href="/contribute/">Contribute</a> page for social media and news links to follow our progress. You can also review our project&rsquo;s success so far and long term plans in our previous blog post, <a href="/posts/a-year-in-summary/">A Year In Summary</a>.</p>
+<h2 id="old-versions-of-glimpse-image-editor-now-available-on-archiveorg">Old versions of Glimpse Image Editor now available on Archive.org</h2>
+<p>Previously you could only find older releases <a href="https://github.com/glimpse-editor/Glimpse/releases">on Github</a>. To assist any users that are unable or unwilling to use that service, and to preserve Glimpse Image Editor for posterity, we have now started uploading our old release binaries and source code to <a href="https://archive.org/search.php?query=creator%3A%22Glimpse+Project%22">archive.org</a>.</p>
+<h2 id="we-fixed-our-linux-appimage">We fixed our Linux AppImage</h2>
+<p>Some of you may have spotted that our <a href="https://appimage.github.io/Glimpse-Image-Editor/">Linux AppImage</a> was missing <a href="https://github.com/glimpse-editor/Glimpse/issues/510">important components</a> for a number of weeks in December 2020 and January 2021. That was due to <a href="https://github.com/AppImageCrafters/appimage-builder/issues/78">a bug in the AppImage Creator</a> software, and we are grateful to <a href="https://github.com/azubieta">Alexis López Zubieta</a> for fixing the problem in that external project quickly.</p>
+<h2 id="updated-plans-for-glimpse-image-editor-022">Updated plans for Glimpse Image Editor 0.2.2</h2>
+<p>We had previously intended to provide a fully-fledged Glimpse Image Editor 0.2.2 release this month on both Windows and Linux. However, we are not part of a larger organization and our open source project relies entirely on unpaid volunteer contributions, so we are not immune from the impact of everything that has been going on in the world over the last six months. We have had to adapt our approach so that we can take care of our contributors, make good use of their limited time and still deliver a good experience for our users.</p>
+<p>Our plan to start providing tarballs that have had <code>make dist</code> run against them again has been postponed until we release Glimpse Image Editor 0.3.0. The specific version of the GNU Image Manipulation Program we used as a base for Glimpse Image Editor 0.2.x has known bugs that prevent us from doing this, and the multiple changes required to fix that problem are time-consuming to backport, so we have chosen to wait until we re-base on a newer version of the GNU I.M.P.</p>
+<p>Also, we are not able to incorporate the assets provided in the PhotoGIMP plugin due to ambiguous licensing terms for their use and redistribution. We will need more time to produce our own collection of extra permissively licensed brushes, fonts, patterns and filters.</p>
+<p>We will therefore be releasing a smaller optional &ldquo;micro-update&rdquo; later this month (January 2021) that applies backported patches, updates dependency versions and introduces minor feature improvements, such as being able to increase the UI font size in <strong>Edit</strong> &gt; <strong>Preferences</strong> &gt; <strong>Themes</strong>.</p>
+<p>This micro-update will still be tagged as <code>v0.2.2</code> in our Github repository as normal, so automated packaging processes should be able to deploy our changes to existing installations without any problems. You can preview these changes already in our <a href="https://appimage.github.io/Glimpse-Image-Editor/">Linux AppImage</a>.</p>
+<h2 id="changes-to-our-internal-project-communications">Changes to our internal project communications</h2>
+<p>On the subject of making good use of our contributors' time, it has been clear for much of 2020 that Glimpse project has outgrown its Matrix channels and our moderators' ability to manage them effectively.</p>
+<p>Most project activity is now happening on <a href="https://discord.gg/hZhRceq">our Discord server</a>, which we first started using in May 2020 to support the development of Glimpse NX. The feedback from our contributors about Discord has been very positive, and over time that system has proven to be more straightforward for us to moderate and manage.</p>
+<p>Our two remaining Matrix channels have been invite-only since the middle of December 2020, and at 2021-01-15 18:00 UTC we will finally close them. Both were originally started in July 2019 as a replacement for a freenode IRC channel, and in addition to a number of other Matrix channels we have already deprecated, they were very useful during the early development of Glimpse Image Editor.</p>
+<p>In December 2020, our contributors investigated the possibility of hosting a communication bridge between Matrix and Discord. Unfortunately we determined that solution was too time-consuming and impractical for us to maintain over a sustained period for a project of our size. After many in-depth discussions with our contributors, the Glimpse governance team has approved the decision to fully move all of our project&rsquo;s internal communications across to Discord for the time being.</p>
+<p>We know that some of you will have strong opinions about this decision. Before providing feedback to us on social media, we encourage you to read the FAQ answer that fully explains the story and reasoning behind the decision we made here: <a href="/about/#why-are-you-deprecating-your-matrix-channels">&ldquo;Why are you deprecating your Matrix channels?&quot;</a></p>
+<p>The Glimpse governance team would like to take this opportunity to thank <a href="https://element.io/">Element</a> for hosting our project free of charge on Matrix.org for 18 months, and for working with us in July 2019 when we were first setting up our open source project. We remain excited about the future of Matrix as a platform, and we wish them the best of luck for the future.</p>
+<p>We may revisit this decision if our project applies to join the <a href="https://circle.gnome.org/">GNOME Circle</a> scheme after Glimpse NX is released in 2022, as we would expect to review our choice of tools and technologies again at the same time. We are also open to suggestions about other communication tools we can support.</p>
+
+    </div>
+
+    </main>
+    <footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="row row-cols-2">
+      <div class="col">
+        <span class="mr-3"
+          >&copy; Copyright
+          <a href="/">Glimpse Image Editor</a></span
+        >
+      </div>
+      <div class="col text-right">
+        <a href="/privacy/" class="figure">Privacy Policy</a>
+        <a href="/code-of-conduct/" class="ml-3 figure">Code of Conduct</a>
+        <a href="https://github.com/glimpse-editor/Glimpse" class="ml-3 figure" target="_blank"
+          >Source Code</a
+        >
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>

@@ -3,19 +3,29 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://glimpse-editor.org/contribute/</loc>
-    <lastmod>2020-12-23T00:45:00+00:00</lastmod>
+    <loc>https://glimpse-editor.org/</loc>
+    <lastmod>2021-01-14T17:30:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://glimpse-editor.org/posts/kicking-off-2021/</loc>
+    <lastmod>2021-01-14T17:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://glimpse-editor.org/posts/</loc>
+    <lastmod>2021-01-14T17:30:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://glimpse-editor.org/about/</loc>
-    <lastmod>2020-12-23T00:30:00+00:00</lastmod>
+    <lastmod>2021-01-09T19:45:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://glimpse-editor.org/</loc>
-    <lastmod>2020-11-21T23:25:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://glimpse-editor.org/downloads/</loc>
+    <lastmod>2021-01-09T19:30:00+00:00</lastmod>
   </url>
   
   <url>
@@ -24,18 +34,8 @@
   </url>
   
   <url>
-    <loc>https://glimpse-editor.org/posts/</loc>
-    <lastmod>2020-11-21T23:25:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://glimpse-editor.org/posts/first-steps-towards-the-future/</loc>
     <lastmod>2020-10-22T04:40:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://glimpse-editor.org/downloads/</loc>
-    <lastmod>2020-10-18T06:30:00+01:00</lastmod>
   </url>
   
   <url>
@@ -96,6 +96,11 @@
   <url>
     <loc>https://glimpse-editor.org/posts/kicking-off-a-new-year/</loc>
     <lastmod>2020-01-14T21:14:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://glimpse-editor.org/contribute/</loc>
+    <lastmod>2020-01-09T22:00:00+00:00</lastmod>
   </url>
   
   <url>

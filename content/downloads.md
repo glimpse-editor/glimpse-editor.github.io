@@ -1,6 +1,6 @@
 ---
 title: "Downloads"
-date: 2020-10-18T06:30:00+01:00
+date: 2021-01-09T19:30:00+00:00
 draft: false
 menu: "main"
 ---
@@ -8,6 +8,8 @@ The latest release is Glimpse Image Editor 0.2.0. It is based on the [GNU Image 
 
 #### Quick Download Links
 [Windows](https://github.com/glimpse-editor/Glimpse/releases/download/v0.2.0/glimpse-0.2.0-x64.msi) (Recommended) | [Windows](https://github.com/glimpse-editor/Glimpse/releases/download/v0.2.0/glimpse-0.2.0-i686.msi) (x86 Compatible Version) | [Linux](https://www.flathub.org/repo/appstream/org.glimpse_editor.Glimpse.flatpakref) (Stable Flatpak) | [Linux](https://snapcraft.io/glimpse-editor) (Stable Snap) | [Linux](https://github.com/glimpse-editor/Glimpse/releases/tag/continuous) (Latest AppImage)
+
+You can also find and download older versions of Glimpse Image Editor and the software program source code from [Github](https://github.com/glimpse-editor/Glimpse/releases) and [archive.org](https://archive.org/search.php?query=creator%3A%22Glimpse+Project%22).
 
 ### Windows
 Glimpse Image Editor 0.2.0 is supported on 32-bit and 64-bit systems running Windows 7 or later. If you experience problems during installation, you should review the [Known Issues](https://github.com/glimpse-editor/Glimpse/wiki/Known-Issues-%28Windows%29) page before reporting a bug.
