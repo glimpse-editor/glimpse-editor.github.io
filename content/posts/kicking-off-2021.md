@@ -1,6 +1,6 @@
 ---
 title: "Kicking Off 2021"
-date: 2021-01-11T21:30:00+00:00
+date: 2021-01-14T17:30:00+00:00
 draft: false
 ---
 Check out our [Contribute](/contribute/) page for social media and news links to follow our progress. You can also review our project's success so far and long term plans in our previous blog post, [A Year In Summary](/posts/a-year-in-summary/).
