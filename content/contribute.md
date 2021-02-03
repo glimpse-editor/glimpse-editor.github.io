@@ -25,7 +25,6 @@ The "rewrite" stream (also known as "Glimpse NX") aims to create a lightweight n
 **Note**: Our Matrix channels were deprecated in January 2021. [More information](/about/#why-are-you-deprecating-your-matrix-channels)
 
 ## News
- * [Facebook](https://fb.me/glimpse.editor)
  * [Mastodon](https://mastodon.art/@glimpse)
  * [RSS](../posts/index.xml)
  * [Twitter](https://twitter.com/glimpse_editor)

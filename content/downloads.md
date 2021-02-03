@@ -1,6 +1,6 @@
 ---
 title: "Downloads"
-date: 2021-01-09T19:30:00+00:00
+date: 2021-02-17T19:00:00+00:00
 draft: false
 menu: "main"
 ---
@@ -9,7 +9,7 @@ The latest release is Glimpse Image Editor 0.2.0. It is based on the [GNU Image 
 #### Quick Download Links
 [Windows](https://github.com/glimpse-editor/Glimpse/releases/download/v0.2.0/glimpse-0.2.0-x64.msi) (Recommended) | [Windows](https://github.com/glimpse-editor/Glimpse/releases/download/v0.2.0/glimpse-0.2.0-i686.msi) (x86 Compatible Version) | [Linux](https://www.flathub.org/repo/appstream/org.glimpse_editor.Glimpse.flatpakref) (Stable Flatpak) | [Linux](https://snapcraft.io/glimpse-editor) (Stable Snap) | [Linux](https://github.com/glimpse-editor/Glimpse/releases/tag/continuous) (Latest AppImage)
 
-You can also find and download older versions of Glimpse Image Editor and the software program source code from [Github](https://github.com/glimpse-editor/Glimpse/releases) and [archive.org](https://archive.org/search.php?query=creator%3A%22Glimpse+Project%22).
+You can also find and download older versions of Glimpse Image Editor and the software program source code from [Github](https://github.com/glimpse-editor/Glimpse/releases).
 
 ### Windows
 Glimpse Image Editor 0.2.0 is supported on 32-bit and 64-bit systems running Windows 7 or later. If you experience problems during installation, you should review the [Known Issues](https://github.com/glimpse-editor/Glimpse/wiki/Known-Issues-%28Windows%29) page before reporting a bug.
@@ -37,7 +37,7 @@ This installs the previous version of Glimpse Image Editor, which was based on t
 These servers are not directly supported by us, and are maintained by third party developers. We strongly recommend running a virus scan on your system whenever you download the Glimpse Image Editor 0.2.0 installer from these sources.
 
 * Repositories: [Chocolatey](https://chocolatey.org/packages/glimpse/) | [WinGet](https://winget.run/pkg/Glimpse/Glimpse)
-* Direct downloads: [Softpedia](https://www.softpedia.com/get/Multimedia/Graphic/Graphic-Editors/Glimpse-Image-Editor.shtml) | [SourceForge](https://sourceforge.net/projects/glimpse-image-editor/)
+* Direct downloads: [Softpedia](https://www.softpedia.com/get/Multimedia/Graphic/Graphic-Editors/Glimpse-Image-Editor.shtml)
 
 ### Linux
 We distribute Glimpse Image Editor 0.2.0 on Flathub for end users. We also provide a continuously-updating Linux AppImage that follows the tip of our development branch.

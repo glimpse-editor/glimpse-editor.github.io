@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    
+    <link rel="shortcut icon" href="/favicon-32x32.png" type="image/x-icon" />
+    
+
+    
+    
+    <link rel="stylesheet" href="https://glimpse-editor.org/css/style.css">
+
+    
+    <title>Work Continues on Glimpse Image Editor 0.2.2 | Glimpse</title>
+    
+</head>
+  <body class="document-background">
+    <nav class="navbar navbar-expand-lg navbar-dark gradient-blue">
+    <a class="navbar-brand" href="/">
+        <img src="/logo_hex_full_invert.svg" alt="Glimpse" height="60">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse align-items-center" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+        
+        
+        
+            <li class="navbar-item ">
+                <a class="nav-link" href="/about/" title="About (FAQs)">About (FAQs)</a>
+            </li>
+            
+        
+        
+            <li class="navbar-item ">
+                <a class="nav-link" href="/code-of-conduct/" title="Code of Conduct">Code of Conduct</a>
+            </li>
+            
+        
+        
+            <li class="navbar-item ">
+                <a class="nav-link" href="/contribute/" title="Contribute">Contribute</a>
+            </li>
+            
+        
+        
+            
+        
+        
+            <li class="navbar-item  active">
+                <a class="nav-link" href="/posts/" title="Posts">Posts</a>
+            </li>
+            
+        
+        <li class="navbar-item">
+            <a href="/downloads" class="nav-link "><span class="btn-sm bg-white text-body font-weight-bold" style="font-size:1rem;">Download</span></a>
+        </li>
+        </ul>
+    </div>
+</nav>
+    <main>
+      
+    <div class="container my-5">
+        <h5>Posts</h5>
+        <h1 class="mb-3 page-header">Work Continues on Glimpse Image Editor 0.2.2</h1>
+        <p>Sunday, February 21, 2021</p>
+        <hr />
+        <p>Check out our <a href="/contribute/">Contribute</a> page for social media and news links to follow our progress.</p>
+<h2 id="glimpse-image-editor-022-progress-update">Glimpse Image Editor 0.2.2 Progress Update</h2>
+<p>Glimpse Image Editor 0.2.2 is currently delayed due to a combination of breakage introduced by external dependencies and contributors understably being distracted by everything that is happening in the outside world. We are doing our best to polish off what&rsquo;s left of the code and packaging problems as quickly as possible so that we can start beta testing.</p>
+<p>The <a href="https://opencollective.com/glimpse/expenses?tag=donation">planned donation</a> for the GNU Image Manipulation Program developers that coincides with this release has already been completed, bringing our running total to $750 USD since Glimpse project started in July 2019.</p>
+<p>Despite the departure of the fork&rsquo;s lead developer, Glimpse Image Editor 0.2.2 will still be released as planned, and it will continue to be maintained with hotfixes until Glimpse NX is ready in 2022. More information will be provided about that in future blog posts.</p>
+<h3 id="recent-code-changes">Recent code changes</h3>
+<ul>
+<li>We backported an upstream fix to resolve breakage introduced in GEGL 0.4.28. <a href="https://github.com/glimpse-editor/Glimpse/pull/516">#516</a></li>
+<li>The WiX manifests for the Windows installers have been updated with new dependencies and the new &ldquo;large font&rdquo; UI themes, but an unrelated dependency fetched by MSYS2 is currently breaking the automated Windows build, and that requires further investigation. <a href="https://github.com/glimpse-editor/Glimpse/pull/519">#519</a></li>
+<li>In-app URLs will be pointed back to glimpse-editor.org when 0.2.2 is released. <a href="https://github.com/glimpse-editor/Glimpse/pull/518">#518</a></li>
+</ul>
+<h2 id="bobby-moss-departs-the-project">Bobby Moss departs the project</h2>
+<p>Bobby Moss (TrechNex) is one of the Glimpse project founders, and has been the lead developer on the fork up to this point. He has left the project at the request of his employer, and has provided this parting statement:</p>
+<p><em>&ldquo;I would like to thank everyone that has supported and contributed to Glimpse Image Editor. Over the last 20 months, we have built the Glimpse project to be resilient to change and bigger than any one person. It is fair to say that what we have achieved has exceeded my expectations, and I encourage our community to help the remaining contributors continue to support users with patches and develop Glimpse NX.&quot;</em></p>
+<p>Bobby has also taken down the Facebook Page, SourceForge mirror and archive.org links that he set up. We are on the lookout for volunteers to help us support those platforms.</p>
+<p>There is now at least one vacant position in the Glimpse governance team. Over the next few months, Christopher Davis and Luna will seek to appoint willing Glimpse project contributors to both the governance and moderation teams. <a href="/about/#how-does-this-project-govern-itself">More information</a></p>
+<h2 id="a-new-port-for-nixos-unstable-channel">A new port for nixOS unstable channel</h2>
+<p>After months of amazing work, the <a href="https://nixos.org/">NixOS</a> packaging project has now added Glimpse Image Editor 0.2.0 in its unstable channel. You can try out this community-supported download source <a href="https://search.nixos.org/packages?channel=unstable&amp;show=glimpse&amp;from=0&amp;size=50&amp;sort=relevance&amp;query=glimpse">here</a>.</p>
+<h2 id="we-reviewed-our-code-of-conduct">We reviewed our Code of Conduct</h2>
+<p>Our <a href="/code-of-conduct/">code of conduct</a> is currently based on the <a href="https://www.contributor-covenant.org/version/1/4/code-of-conduct.html">Contributor Covenant 1.4</a>, and in January 2021 we discussed the possibility of moving to the <a href="https://www.contributor-covenant.org/version/2/0/code_of_conduct/">Contributor Covenant 2.0</a>.</p>
+<p>While those discussions have not been closed, they are currently stalled because of concerns our contributors have raised about the new enforcement guidelines introduced in version 2.0. You can find out more about how we currently enforce our code of conduct on <a href="/about/#how-does-the-glimpse-project-enforce-its-code-of-conduct">our FAQs page</a>.</p>
+
+    </div>
+
+    </main>
+    <footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="row row-cols-2">
+      <div class="col">
+        <span class="mr-3"
+          >&copy; Copyright
+          <a href="/">Glimpse Image Editor</a></span
+        >
+      </div>
+      <div class="col text-right">
+        <a href="/privacy/" class="figure">Privacy Policy</a>
+        <a href="/code-of-conduct/" class="ml-3 figure">Code of Conduct</a>
+        <a href="https://github.com/glimpse-editor/Glimpse" class="ml-3 figure" target="_blank"
+          >Source Code</a
+        >
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>

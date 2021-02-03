@@ -1,6 +1,6 @@
 ---
 title: "About (FAQs)"
-date: 2021-02-03T02:00:00+00:00
+date: 2021-02-18T23:45:00+00:00
 draft: false
 menu: "main"
 ---
@@ -45,6 +45,7 @@ The goal of both projects is to experiment with new ideas and expand the use of 
 
 ### Project Governance
 - [Where is the Glimpse code of conduct?](#where-is-the-glimpse-code-of-conduct)
+- [How does the Glimpse project enforce its code of conduct?](#how-does-the-glimpse-project-enforce-its-code-of-conduct)
 - [How does your project govern itself?](#how-does-this-project-govern-itself)
 - [Why are you deprecating your Matrix channels?](#why-are-you-deprecating-your-matrix-channels)
 - [How do I stay up-to-date with this project?](#how-do-i-stay-up-to-date-with-this-project)
@@ -228,7 +229,7 @@ As a project we are aware that some people have ethical concerns about using Git
 
 We have tried self-hosted solutions in the past, and you can see evidence of that in our blog and Open Collective profile. The main problem is that the build process for Glimpse Image Editor requires a lot of compute power, and we do not receive enough donations to replicate the same functionality we can achieve with Github Actions. In addition deploying, hardening and maintaining multiple servers is not a straightforward task, and time our volunteer contributors spend being server administrators is time that they cannot spend developing Glimpse Image Editor or Glimpse NX.
 
-There are currently no plans to move the Glimpse Image Editor source code from Github. If you are boycotting the platform, you can still download copies of Glimpse Image Editor and the software program source code from [archive.org](https://archive.org/search.php?query=creator%3A%22Glimpse+Project%22).
+There are currently no plans to move the Glimpse Image Editor source code from Github.
 
 We are still exploring potential host platforms for Glimpse NX. The project will initially be developed on Github, but once we have a minimum viable product we will have a better understanding of our technical requirements and can then start exploring other alternatives.
 
@@ -327,8 +328,23 @@ Our project reviewed the Contributor Covenant version 2.0 in January 2021. For t
 
 [Return to top](#contents)
 
+## How does the Glimpse project enforce its code of conduct? {#how-does-the-glimpse-project-enforce-its-code-of-conduct}
+The moderation team was originally formed by the Glimpse contributors to "pro-actively police" the [code of conduct](/code-of-conduct/). The legacy of this means that they do not necessarily wait for members of the Glimpse project to report violations, and moderators keep an eye on project communication channels so they can gently nudge people towards positive behaviours. They also perform some limited vetting on new users that join the Discord server, and coach new open source contributors that are acting in good faith. This approach helps us to foster a safe and welcoming environment for everyone.
+
+If an individual chooses to ignore moderator guidance, then moderators may, at their discretion, and depending on the severity of the problems an individual is causing, issue up to three warnings to the same person on the same communication channel. Warnings for minor "first offences" are normally forgiven automatically after two weeks have passed, but they may still be considered in future moderation decisions. If an individual reacts badly or attempts to overturn previous warnings they have received, that behavior usually counts against them if moderators take further action. 
+
+**Our code of conduct applies and always has applied to everyone in our project** regardless of their role, and regardless of any reputation they might have inside or outside the project created by their career, open source contributions, personal blogs, YouTube channels, social media profiles, etc. We care about protecting our contributors from online abuse and harassment regardless of any external consequences to the project, and no one individual is bigger than the whole project or "above the rules".
+
+Normally moderators will seek a majority vote on the moderation team's private Discord channel before implementing a project-wide ban against an individual. If a moderator feels they need to act before a vote can be held, they may at their own discretion ban someone immediately and then confidentially explain their actions to the other moderators (and with supporting evidence if requested) within 72 hours. The "instant ban" mechanism is primarily intended for bot accounts, spam and obvious trolling.
+
+If the other moderators do not agree with any ban, then a majority vote on the moderation team's private Discord channel can reverse that decision. The governance team also reserves the right to eject a moderator from the moderation team at any time if they collectively agree that moderator has abused their position or violated the [code of conduct](/code-of-conduct/).
+
+We rarely implement temporary bans, so most bans are permanent. Individuals have to wait for a 72 hour cool-off period to elapse before they can appeal a ban, and they must do so via the Glimpse project contact email address. Appeals are reviewed by the governance team, and they will only consider reversing a ban if there has been a clear case of mistaken identity, moderator misconduct, or exceptional mitigating circumstances that adequately excuse the violation (as determined by the governance team and any victims of the miconduct in question).
+
+[Return to top](#contents)
+
 ## How does your project govern itself? {#how-does-this-project-govern-itself}
-The Glimpse Project is run by a self-appointed board called "the governance team", and it is currently made up of three members: [Bobby Moss](https://eldritch.cafe/@trechnex), [Christopher Davis](https://social.libre.fi/users/brainblasted), and [Luna](https://twitter.com/Clipsey5). Decisions are made with a majority vote after consultation with project contributors and any other interested parties.
+The Glimpse Project is run by a self-appointed board called "the governance team" that contains three or more Glimpse contributors. The current governors are: [Christopher Davis](https://social.libre.fi/users/brainblasted), [Luna](https://twitter.com/Clipsey5) and one recently vacant seat. Decisions are made with a majority vote after consultation with project contributors and any other interested parties. The governance team also appoints and oversees "the moderation team", which is responsible for policing our [code of conduct](/code-of-conduct/) and fostering a welcoming online community.
 
 We host a [Discord server](https://discord.gg/hZhRceq) for project decisions, Glimpse NX development and some technical support queries. The governance team also discusses project moderation decisions in a private channel on that server. You can read the rules for joining this server's public channels on the `#rules-and-info` channel.
 
@@ -363,7 +379,7 @@ To assist our users and supporters that would like to better understand how we m
 [Return to top](#contents)
 
 ## How do I stay up-to-date with this project? {#how-do-i-stay-up-to-date-with-this-project}
-You can follow us on [the fediverse](https://mastodon.art/@glimpse) and [Twitter](https://twitter.com/glimpse_editor). This blog also has a full text [RSS feed](https://getglimpse.app/index.xml). We also recently setup a [Facebook page](fb.me/glimpse.editor).
+You can follow us on [the fediverse](https://mastodon.art/@glimpse) and [Twitter](https://twitter.com/glimpse_editor). This blog also has a full text [RSS feed](https://getglimpse.app/index.xml).
 
 Our [Open Collective](https://opencollective.com/glimpse) backers also get regular updates about the project. 
 
