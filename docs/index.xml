@@ -12,18 +12,9 @@
     
     
     <item>
-      <title>Posts</title>
-      <link>https://glimpse-editor.org/posts/</link>
-      <pubDate>Thu, 14 Jan 2021 17:30:00 +0000</pubDate>
-      
-      <guid>https://glimpse-editor.org/posts/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>About (FAQs)</title>
       <link>https://glimpse-editor.org/about/</link>
-      <pubDate>Sat, 09 Jan 2021 19:45:00 +0000</pubDate>
+      <pubDate>Wed, 03 Feb 2021 02:00:00 +0000</pubDate>
       
       <guid>https://glimpse-editor.org/about/</guid>
       <description>&lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
@@ -125,10 +116,8 @@
 &lt;p&gt;&lt;a href=&#34;#contents&#34;&gt;Return to top&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;how-does-your-release-numbering-work&#34;&gt;How does your release numbering work?&lt;/h2&gt;
 &lt;p&gt;Glimpse Image Editor 0.1.0 and 0.1.2 were based on the GNU Image Manipulation Program 2.10.12. These initial releases made minor cosmetic changes and helped us learn how to build and package the application.&lt;/p&gt;
-&lt;p&gt;Glimpse Image Editor 0.2.0 is based on the GNU Image Manipulation Program 2.10.18, and it introduces additional plugins and functional changes. All 0.2.x releases will add our changes, back port useful functionality and update key dependencies on the same 2.10.18 base.&lt;/p&gt;
-&lt;p&gt;We intend to continue providing &amp;ldquo;maintenance updates&amp;rdquo; with patches and updated dependencies for at least a year after each 0.x.0 release. We aim to produce one major release every six months.&lt;/p&gt;
+&lt;p&gt;Glimpse Image Editor 0.2.0 and 0.2.2 is based on the GNU Image Manipulation Program 2.10.18, and it introduces additional plugins and functional changes. All 0.2.x releases will add our changes, back port useful functionality and update key dependencies on the same 2.10.18 base.&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;Beta test&amp;rdquo; and &amp;ldquo;Stable&amp;rdquo; release versions always end in an even number. Odd numbered versions are &amp;ldquo;Unstable&amp;rdquo; builds created from our development branch.&lt;/p&gt;
-&lt;p&gt;Glimpse Image Editor 1.0.0 is currently reserved for &amp;ldquo;Glimpse Redux&amp;rdquo;. We view that as a backup plan in case the GNU Image Manipulation Program 3.0.x (with its totally different technology stack) is released before Glimpse NX is ready.&lt;/p&gt;
 &lt;p&gt;Glimpse NX (the interface rewrite) will have its own version scheme.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;#contents&#34;&gt;Return to top&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;which-operating-systems-do-you-support&#34;&gt;Which operating systems do you support?&lt;/h2&gt;
@@ -152,7 +141,7 @@
 &lt;p&gt;We already publish our own stable builds on &lt;a href=&#34;https://flathub.org/apps/details/org.glimpse_editor.Glimpse&#34;&gt;Flathub&lt;/a&gt; and &lt;a href=&#34;https://snapcraft.io/glimpse-editor&#34;&gt;the Snap Store&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;You can also install our latest development snapshot as an &lt;a href=&#34;https://appimage.github.io/Glimpse-Image-Editor/&#34;&gt;AppImage&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;All other installation mechanisms for Linux are considered &amp;ldquo;community supported&amp;rdquo;. That means we do not have any say about how they are built, packaged or maintained. We link to them, but if you raise bug tickets with us we may direct you back to those sources instead.&lt;/p&gt;
-&lt;p&gt;We recommend Linux/BSD distribution package maintainers mark &lt;code&gt;gimp&lt;/code&gt; and &lt;code&gt;glimpse&lt;/code&gt; packages as conflicts for the time being. We intend to resolve those conflicts in Glimpse Image Editor 0.3.0 (expected July 2021) by standardizing on the &lt;code&gt;glimpse-editor&lt;/code&gt; command, updating the manual pages and refactoring &lt;code&gt;libgimp&lt;/code&gt; to &lt;code&gt;libglimpse&lt;/code&gt;. You can track progress here: &lt;a href=&#34;https://github.com/glimpse-editor/Glimpse/issues/320&#34;&gt;#320&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We recommend Linux/BSD distribution package maintainers mark &lt;code&gt;gimp&lt;/code&gt; and &lt;code&gt;glimpse&lt;/code&gt; packages as conflicts for the time being.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;#contents&#34;&gt;Return to top&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;will-you-support-bsd-haiku-solaris-or-other-unix-platforms&#34;&gt;Will you support BSD, Haiku, Solaris or other UNIX platforms?&lt;/h2&gt;
 &lt;p&gt;Other UNIX systems are treated the same way as any individual Linux distribution. We do not directly support the individual packaging formats and publishing platforms for each variant of UNIX because we don&amp;rsquo;t have the knowledge or resources to support and maintain them all.&lt;/p&gt;
@@ -173,7 +162,7 @@
 &lt;p&gt;That was a choice made early on for practical reasons such as project discoverability, ease-of-use, user familiarity and cost. We also support &lt;a href=&#34;https://github.com/sponsors/glimpse-editor&#34;&gt;Github Sponsors&lt;/a&gt;, rely on &lt;a href=&#34;https://github.com/glimpse-editor/Glimpse/actions&#34;&gt;Github Actions&lt;/a&gt; for automated builds, and use their servers as a &lt;a href=&#34;https://github.com/glimpse-editor/Glimpse/releases&#34;&gt;release mirror&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;As a project we are aware that some people have ethical concerns about using Github, and that other projects appear above us in &lt;a href=&#34;https://github.com/search?utf8=%E2%9C%93&amp;amp;q=glimpse&amp;amp;type=&#34;&gt;the search results&lt;/a&gt;. For those reasons we periodically discuss how our contributors feel about using it, as well as the merits and drawbacks of potential alternatives.&lt;/p&gt;
 &lt;p&gt;We have tried self-hosted solutions in the past, and you can see evidence of that in our blog and Open Collective profile. The main problem is that the build process for Glimpse Image Editor requires a lot of compute power, and we do not receive enough donations to replicate the same functionality we can achieve with Github Actions. In addition deploying, hardening and maintaining multiple servers is not a straightforward task, and time our volunteer contributors spend being server administrators is time that they cannot spend developing Glimpse Image Editor or Glimpse NX.&lt;/p&gt;
-&lt;p&gt;There are currently no plans to move the Glimpse Image Editor source code from Github. However, if you do not want to sign up for that website or have chosen to boycott it, we now accept bug reports and feature requests &lt;a href=&#34;mailto:glimpse-editor@fire.fundersclub.com&#34;&gt;via email&lt;/a&gt;. You can also download copies of Glimpse Image Editor and the software program source code from &lt;a href=&#34;https://archive.org/search.php?query=creator%3A%22Glimpse+Project%22&#34;&gt;archive.org&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;There are currently no plans to move the Glimpse Image Editor source code from Github. If you are boycotting the platform, you can still download copies of Glimpse Image Editor and the software program source code from &lt;a href=&#34;https://archive.org/search.php?query=creator%3A%22Glimpse+Project%22&#34;&gt;archive.org&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;We are still exploring potential host platforms for Glimpse NX. The project will initially be developed on Github, but once we have a minimum viable product we will have a better understanding of our technical requirements and can then start exploring other alternatives.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;#contents&#34;&gt;Return to top&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;could-you-just-run-find-and-replace-to-fix-the-name&#34;&gt;Could you just run &amp;ldquo;find and replace&amp;rdquo; to fix the name?&lt;/h2&gt;
@@ -225,6 +214,7 @@
 &lt;p&gt;You will find it on &lt;a href=&#34;https://glimpse-editor.org/code-of-conduct/&#34;&gt;this page&lt;/a&gt;. Our code of conduct is based on &lt;a href=&#34;https://www.contributor-covenant.org/&#34;&gt;the contributor covenant&lt;/a&gt; and will be developed and amended over time as the need arises. As this project spawned from &lt;a href=&#34;https://joinmastodon.org/&#34;&gt;the fediverse&lt;/a&gt; our experiences in that online space inform the project&amp;rsquo;s future governance and direction.&lt;/p&gt;
 &lt;p&gt;We also want to make it clear that we value and encourage diverse representation in leadership positions within our community, and we believe that is the best way to enforce a code of conduct that protects all contributors and promotes wider participation. At this early stage our initial governance team is formed entirely of individuals from marginalized communities, and that makes our project &lt;a href=&#34;https://opensource.com/article/17/9/diversity-and-inclusion-innovation&#34;&gt;very atypical&lt;/a&gt;. That emerged organically as a result of the project starting on &lt;a href=&#34;https://fediverse.party/&#34;&gt;the fediverse&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;We know how important it is to enact the right code of conduct and enforce the rules pro-actively. We want to promote a safe and inclusive environment, not a toxic one. If you have ideas to help us do that and want to get involved with this discussion then please join us in the project&amp;rsquo;s communication channels.&lt;/p&gt;
+&lt;p&gt;Our project reviewed the Contributor Covenant version 2.0 in January 2021. For the time being we have chosen stick with version 1.4, as our existing battle-tested enforcement practices have served us well so far and our contributors raised concerns about changing them.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;#contents&#34;&gt;Return to top&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;how-does-this-project-govern-itself&#34;&gt;How does your project govern itself?&lt;/h2&gt;
 &lt;p&gt;The Glimpse Project is run by a self-appointed board called &amp;ldquo;the governance team&amp;rdquo;, and it is currently made up of three members: &lt;a href=&#34;https://eldritch.cafe/@trechnex&#34;&gt;Bobby Moss&lt;/a&gt;, &lt;a href=&#34;https://social.libre.fi/users/brainblasted&#34;&gt;Christopher Davis&lt;/a&gt;, and &lt;a href=&#34;https://twitter.com/Clipsey5&#34;&gt;Luna&lt;/a&gt;. Decisions are made with a majority vote after consultation with project contributors and any other interested parties.&lt;/p&gt;
@@ -261,6 +251,15 @@
 &lt;p&gt;Please ensure that you read our &lt;a href=&#34;https://glimpse-editor.org/code-of-conduct/&#34;&gt;code of conduct&lt;/a&gt; before you join our community. Regardless of your past experience and the usefulness of your contributions you are expected to comply with it.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;#contents&#34;&gt;Return to top&lt;/a&gt;&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Posts</title>
+      <link>https://glimpse-editor.org/posts/</link>
+      <pubDate>Thu, 14 Jan 2021 17:30:00 +0000</pubDate>
+      
+      <guid>https://glimpse-editor.org/posts/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -405,7 +404,7 @@ available at &lt;a href=&#34;https://www.contributor-covenant.org/version/1/4/co
     <item>
       <title>Contribute</title>
       <link>https://glimpse-editor.org/contribute/</link>
-      <pubDate>Thu, 09 Jan 2020 22:00:00 +0000</pubDate>
+      <pubDate>Mon, 03 Feb 2020 02:00:00 +0000</pubDate>
       
       <guid>https://glimpse-editor.org/contribute/</guid>
       <description>&lt;p&gt;Please note that we are developing Glimpse Image Editor in two parallel streams.&lt;/p&gt;
@@ -417,7 +416,6 @@ available at &lt;a href=&#34;https://www.contributor-covenant.org/version/1/4/co
 &lt;li&gt;&lt;a href=&#34;https://github.com/glimpse-editor/Glimpse/milestones&#34;&gt;Development Road Map&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/glimpse-editor/Glimpse&#34;&gt;Source Code&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;You can also submit bug reports and feature requests &lt;a href=&#34;mailto:glimpse-editor@fire.fundersclub.com&#34;&gt;via email&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;documentation&#34;&gt;Documentation&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/glimpse-editor/branding&#34;&gt;Branding&lt;/a&gt;&lt;/li&gt;

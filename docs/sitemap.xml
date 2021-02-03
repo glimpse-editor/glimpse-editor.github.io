@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://glimpse-editor.org/about/</loc>
+    <lastmod>2021-02-03T02:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://glimpse-editor.org/</loc>
     <lastmod>2021-01-14T17:30:00+00:00</lastmod>
     <priority>0</priority>
@@ -16,11 +21,6 @@
   <url>
     <loc>https://glimpse-editor.org/posts/</loc>
     <lastmod>2021-01-14T17:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://glimpse-editor.org/about/</loc>
-    <lastmod>2021-01-09T19:45:00+00:00</lastmod>
   </url>
   
   <url>
@@ -89,6 +89,11 @@
   </url>
   
   <url>
+    <loc>https://glimpse-editor.org/contribute/</loc>
+    <lastmod>2020-02-03T02:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://glimpse-editor.org/posts/progress-on-our-first-errata-release/</loc>
     <lastmod>2020-01-31T20:45:00+00:00</lastmod>
   </url>
@@ -96,11 +101,6 @@
   <url>
     <loc>https://glimpse-editor.org/posts/kicking-off-a-new-year/</loc>
     <lastmod>2020-01-14T21:14:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://glimpse-editor.org/contribute/</loc>
-    <lastmod>2020-01-09T22:00:00+00:00</lastmod>
   </url>
   
   <url>

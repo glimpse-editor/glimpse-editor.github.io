@@ -1,6 +1,6 @@
 ---
 title: "About (FAQs)"
-date: 2021-01-09T19:45:00+00:00
+date: 2021-02-03T02:00:00+00:00
 draft: false
 menu: "main"
 ---
@@ -144,13 +144,9 @@ If you are offended by the fact we forked a project, we suggest you continue usi
 ## How does your release numbering work? {#how-does-your-release-numbering-work}
 Glimpse Image Editor 0.1.0 and 0.1.2 were based on the GNU Image Manipulation Program 2.10.12. These initial releases made minor cosmetic changes and helped us learn how to build and package the application.
 
-Glimpse Image Editor 0.2.0 is based on the GNU Image Manipulation Program 2.10.18, and it introduces additional plugins and functional changes. All 0.2.x releases will add our changes, back port useful functionality and update key dependencies on the same 2.10.18 base.
-
-We intend to continue providing "maintenance updates" with patches and updated dependencies for at least a year after each 0.x.0 release. We aim to produce one major release every six months.
+Glimpse Image Editor 0.2.0 and 0.2.2 is based on the GNU Image Manipulation Program 2.10.18, and it introduces additional plugins and functional changes. All 0.2.x releases will add our changes, back port useful functionality and update key dependencies on the same 2.10.18 base.
 
 "Beta test" and "Stable" release versions always end in an even number. Odd numbered versions are "Unstable" builds created from our development branch.
-
-Glimpse Image Editor 1.0.0 is currently reserved for "Glimpse Redux". We view that as a backup plan in case the GNU Image Manipulation Program 3.0.x (with its totally different technology stack) is released before Glimpse NX is ready.
 
 Glimpse NX (the interface rewrite) will have its own version scheme.
 
@@ -194,7 +190,7 @@ You can also install our latest development snapshot as an [AppImage](https://ap
 
 All other installation mechanisms for Linux are considered "community supported". That means we do not have any say about how they are built, packaged or maintained. We link to them, but if you raise bug tickets with us we may direct you back to those sources instead.
 
-We recommend Linux/BSD distribution package maintainers mark `gimp` and `glimpse` packages as conflicts for the time being. We intend to resolve those conflicts in Glimpse Image Editor 0.3.0 (expected July 2021) by standardizing on the `glimpse-editor` command, updating the manual pages and refactoring `libgimp` to `libglimpse`. You can track progress here: [#320](https://github.com/glimpse-editor/Glimpse/issues/320)
+We recommend Linux/BSD distribution package maintainers mark `gimp` and `glimpse` packages as conflicts for the time being.
 
 [Return to top](#contents)
 
@@ -232,7 +228,7 @@ As a project we are aware that some people have ethical concerns about using Git
 
 We have tried self-hosted solutions in the past, and you can see evidence of that in our blog and Open Collective profile. The main problem is that the build process for Glimpse Image Editor requires a lot of compute power, and we do not receive enough donations to replicate the same functionality we can achieve with Github Actions. In addition deploying, hardening and maintaining multiple servers is not a straightforward task, and time our volunteer contributors spend being server administrators is time that they cannot spend developing Glimpse Image Editor or Glimpse NX.
 
-There are currently no plans to move the Glimpse Image Editor source code from Github. However, if you do not want to sign up for that website or have chosen to boycott it, we now accept bug reports and feature requests [via email](mailto:glimpse-editor@fire.fundersclub.com). You can also download copies of Glimpse Image Editor and the software program source code from [archive.org](https://archive.org/search.php?query=creator%3A%22Glimpse+Project%22).
+There are currently no plans to move the Glimpse Image Editor source code from Github. If you are boycotting the platform, you can still download copies of Glimpse Image Editor and the software program source code from [archive.org](https://archive.org/search.php?query=creator%3A%22Glimpse+Project%22).
 
 We are still exploring potential host platforms for Glimpse NX. The project will initially be developed on Github, but once we have a minimum viable product we will have a better understanding of our technical requirements and can then start exploring other alternatives.
 
@@ -326,6 +322,8 @@ You will find it on [this page](/code-of-conduct/). Our code of conduct is based
 We also want to make it clear that we value and encourage diverse representation in leadership positions within our community, and we believe that is the best way to enforce a code of conduct that protects all contributors and promotes wider participation. At this early stage our initial governance team is formed entirely of individuals from marginalized communities, and that makes our project [very atypical](https://opensource.com/article/17/9/diversity-and-inclusion-innovation). That emerged organically as a result of the project starting on [the fediverse](https://fediverse.party/).
 
 We know how important it is to enact the right code of conduct and enforce the rules pro-actively. We want to promote a safe and inclusive environment, not a toxic one. If you have ideas to help us do that and want to get involved with this discussion then please join us in the project's communication channels.
+
+Our project reviewed the Contributor Covenant version 2.0 in January 2021. For the time being we have chosen stick with version 1.4, as our existing battle-tested enforcement practices have served us well so far and our contributors raised concerns about changing them.
 
 [Return to top](#contents)
 
