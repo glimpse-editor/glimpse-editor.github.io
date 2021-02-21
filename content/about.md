@@ -58,7 +58,7 @@ The open source software we produce is called "Glimpse Image Editor", but we som
 
 Glimpse NX is a separate project we plan to start soon where we will create a lightweight new interface for pre-existing GNU Image Manipulation Program libraries and frameworks. You may sometimes see it referred to as "the rewrite". We will provide more information about that project in coming weeks and months.
 
-If you are a blogger or a member of the technology industry press, we do not yet have branding guidelines in place. However we have provided screenshots, our branding assets and instructions for their basic usage here: https://github.com/glimpse-editor/branding. You may also contact us directly [by email](mailto:glimpse.editor@icloud.com) for further information about the project.
+If you are a blogger or a member of the technology industry press, we do not yet have branding guidelines in place. However we have provided screenshots, our branding assets and instructions for their basic usage here: https://github.com/glimpse-editor/branding. You may also contact us directly [by email](mailto:info@glimpse-editor.org) for further information about the project.
 
 [Return to top](#contents)
 
@@ -379,7 +379,7 @@ To assist our users and supporters that would like to better understand how we m
 [Return to top](#contents)
 
 ## How do I stay up-to-date with this project? {#how-do-i-stay-up-to-date-with-this-project}
-You can follow us on [the fediverse](https://mastodon.art/@glimpse) and [Twitter](https://twitter.com/glimpse_editor). This blog also has a full text [RSS feed](https://getglimpse.app/index.xml).
+You can follow us on [the fediverse](https://mastodon.art/@glimpse) and [Twitter](https://twitter.com/glimpse_editor). This blog also has a full text [RSS feed](https://glimpse-editor.org/posts/index.xml).
 
 Our [Open Collective](https://opencollective.com/glimpse) backers also get regular updates about the project. 
 

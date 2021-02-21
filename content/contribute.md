@@ -1,6 +1,6 @@
 ---
 title: "Contribute"
-date: 2020-02-03T02:00:00+00:00
+date: 2020-02-21T12:45:00+00:00
 draft: false
 menu: "main"
 ---
@@ -37,7 +37,7 @@ To help cover our project's costs and enable us to plan for future spending, ple
  If you can afford to do so we recommend donating to [GNU Image Manipulation Program](https://www.gimp.org/donating/), the upstream project on which our fork relies. We periodically [pass along a portion of our donations](https://opencollective.com/glimpse/expenses?tag=donation) to them as our way of thanking them for the amazing work they do.
 
  ## Media/Press Contact
- * [Email](mailto:glimpse.editor@icloud.com)
+ * [Email](mailto:info@glimpse-editor.org)
 
 ## Community Supported Channels
 We welcome members of our community starting their own unofficial support forums and communication channels.

@@ -78,7 +78,7 @@
 &lt;h2 id=&#34;what-is-the-correct-name-for-your-project&#34;&gt;What is the correct name for your project?&lt;/h2&gt;
 &lt;p&gt;The open source software we produce is called &amp;ldquo;Glimpse Image Editor&amp;rdquo;, but we sometimes shorten that to just &amp;ldquo;Glimpse&amp;rdquo;. We refer to our governance structure, core contributors and participants on our Discord server as &amp;ldquo;the Glimpse project&amp;rdquo;. We often call our social media followers, donors and end users &amp;ldquo;the Glimpse Community&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;Glimpse NX is a separate project we plan to start soon where we will create a lightweight new interface for pre-existing GNU Image Manipulation Program libraries and frameworks. You may sometimes see it referred to as &amp;ldquo;the rewrite&amp;rdquo;. We will provide more information about that project in coming weeks and months.&lt;/p&gt;
-&lt;p&gt;If you are a blogger or a member of the technology industry press, we do not yet have branding guidelines in place. However we have provided screenshots, our branding assets and instructions for their basic usage here: &lt;a href=&#34;https://github.com/glimpse-editor/branding&#34;&gt;https://github.com/glimpse-editor/branding&lt;/a&gt;. You may also contact us directly &lt;a href=&#34;mailto:glimpse.editor@icloud.com&#34;&gt;by email&lt;/a&gt; for further information about the project.&lt;/p&gt;
+&lt;p&gt;If you are a blogger or a member of the technology industry press, we do not yet have branding guidelines in place. However we have provided screenshots, our branding assets and instructions for their basic usage here: &lt;a href=&#34;https://github.com/glimpse-editor/branding&#34;&gt;https://github.com/glimpse-editor/branding&lt;/a&gt;. You may also contact us directly &lt;a href=&#34;mailto:info@glimpse-editor.org&#34;&gt;by email&lt;/a&gt; for further information about the project.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;#contents&#34;&gt;Return to top&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;what-is-glimpse-image-editor&#34;&gt;What is Glimpse Image Editor?&lt;/h2&gt;
 &lt;p&gt;Glimpse Image Editor is a &amp;ldquo;fork&amp;rdquo; or &amp;ldquo;respin&amp;rdquo; of the &lt;a href=&#34;https://www.gimp.org/&#34;&gt;GNU Image Manipulation Program&lt;/a&gt;, and it is also an open source image editing application.&lt;/p&gt;
@@ -260,7 +260,7 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;a href=&#34;#contents&#34;&gt;Return to top&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;how-do-i-stay-up-to-date-with-this-project&#34;&gt;How do I stay up-to-date with this project?&lt;/h2&gt;
-&lt;p&gt;You can follow us on &lt;a href=&#34;https://mastodon.art/@glimpse&#34;&gt;the fediverse&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/glimpse_editor&#34;&gt;Twitter&lt;/a&gt;. This blog also has a full text &lt;a href=&#34;https://getglimpse.app/index.xml&#34;&gt;RSS feed&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can follow us on &lt;a href=&#34;https://mastodon.art/@glimpse&#34;&gt;the fediverse&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/glimpse_editor&#34;&gt;Twitter&lt;/a&gt;. This blog also has a full text &lt;a href=&#34;https://glimpse-editor.org/posts/index.xml&#34;&gt;RSS feed&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Our &lt;a href=&#34;https://opencollective.com/glimpse&#34;&gt;Open Collective&lt;/a&gt; backers also get regular updates about the project.&lt;/p&gt;
 &lt;p&gt;Our Discord server is primarily intended for existing and prospective contributors. If you only want to keep up with project news, we encourage you to follow our social media accounts and RSS feed instead.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;#contents&#34;&gt;Return to top&lt;/a&gt;&lt;/p&gt;
@@ -394,7 +394,7 @@ a project may be further defined and clarified by project maintainers.&lt;/p&gt;
 &lt;h2 id=&#34;enforcement&#34;&gt;Enforcement&lt;/h2&gt;
 &lt;p&gt;Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported by contacting any member of the project leadership (sometimes called
-&amp;ldquo;the governing team&amp;rdquo;) by &lt;a href=&#34;mailto:glimpse.editor@icloud.com&#34;&gt;email&lt;/a&gt;.&lt;/p&gt;
+&amp;ldquo;the governing team&amp;rdquo;) by &lt;a href=&#34;mailto:info@glimpse-editor.org&#34;&gt;email&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;All complaints will be reviewed and investigated and will result in a response that
 is deemed necessary and appropriate to the circumstances. The project leadership
 is obligated to maintain confidentiality with regard to the reporter of an incident.
@@ -413,7 +413,7 @@ available at &lt;a href=&#34;https://www.contributor-covenant.org/version/1/4/co
     <item>
       <title>Contribute</title>
       <link>https://glimpse-editor.org/contribute/</link>
-      <pubDate>Mon, 03 Feb 2020 02:00:00 +0000</pubDate>
+      <pubDate>Fri, 21 Feb 2020 12:45:00 +0000</pubDate>
       
       <guid>https://glimpse-editor.org/contribute/</guid>
       <description>&lt;p&gt;Please note that we are developing Glimpse Image Editor in two parallel streams.&lt;/p&gt;
@@ -450,7 +450,7 @@ available at &lt;a href=&#34;https://www.contributor-covenant.org/version/1/4/co
 &lt;p&gt;If you can afford to do so we recommend donating to &lt;a href=&#34;https://www.gimp.org/donating/&#34;&gt;GNU Image Manipulation Program&lt;/a&gt;, the upstream project on which our fork relies. We periodically &lt;a href=&#34;https://opencollective.com/glimpse/expenses?tag=donation&#34;&gt;pass along a portion of our donations&lt;/a&gt; to them as our way of thanking them for the amazing work they do.&lt;/p&gt;
 &lt;h2 id=&#34;mediapress-contact&#34;&gt;Media/Press Contact&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;mailto:glimpse.editor@icloud.com&#34;&gt;Email&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;mailto:info@glimpse-editor.org&#34;&gt;Email&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;community-supported-channels&#34;&gt;Community Supported Channels&lt;/h2&gt;
 &lt;p&gt;We welcome members of our community starting their own unofficial support forums and communication channels.

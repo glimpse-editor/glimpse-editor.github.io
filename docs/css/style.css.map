@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.css",
-	"sourceRoot": "/Users/bobbymoss/Code/glimpse-editor.github.io",
+	"sourceRoot": "/Users/bobbymoss/Code/glimpse-editor/glimpse-editor.github.io",
 	"sources": [
 		"themes/glimpse/assets/scss/main.scss",
 		"themes/glimpse/assets/scss/branding.scss",
