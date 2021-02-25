@@ -163,11 +163,13 @@ You may also be interested in trying [Seashore](https://apps.apple.com/us/app/se
 [Return to top](#contents)
 
 ## Who signs the Windows installer? {#who-signs-the-windows-installer}
-[Cynthia Revström](https://cynthia.re/), a renowned security researcher. She signs our Windows installers with an Extended Validation (EV) code signing certificate belonging to a registered company called [Qs.nu](https://qs.nu/).
+[Cynthia Revström](https://cynthia.re/), a renowned security researcher. She has previously signed our Windows installers with an Extended Validation (EV) code signing certificate belonging to a registered company called [Qs.nu](https://qs.nu/).
 
 If we do not sign our MSI installer then potential users can run into a number of problems. Certain web browsers block the download of "untrusted" files, Windows SmartScreen creates error screens that non-technical people find difficult to override, and anti-virus programs incorrectly flagging Glimpse Image Editor as "malware" can interfere with the installation process and normal operation of the program.
 
 We initially tried a self-signed certificate, but that did not resolve the problem. The Glimpse project is not a registered company and cannot afford to reimburse individuals for certificate authority notarization requirements, so we cannot provide our own code signing certificate. As a result we rely on a trusted individual to voluntarily sign each MSI installer we release on our behalf.
+
+As of January 2021, we are no longer able to sign new Windows installers. Due to Brexit, the organization responsible for the certificate we used for code signing has been wound down. We are currently investigating a possible solution to this problem. [#523](https://github.com/glimpse-editor/Glimpse/issues/523)
 
 [Return to top](#contents)
 
