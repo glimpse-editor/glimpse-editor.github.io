@@ -1,6 +1,6 @@
 ---
 title: "Work Continues on Glimpse Image Editor 0.2.2"
-date: 2021-02-21T12:00:00+00:00
+date: 2021-02-26T17:30:00+00:00
 draft: false
 ---
 Check out our [Contribute](/contribute/) page for social media and news links to follow our progress.
