@@ -6,15 +6,24 @@
     <description>Recent content on Glimpse</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Jan 2021 17:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Feb 2021 17:30:00 +0000</lastBuildDate>
     
         <atom:link href="https://glimpse-editor.org/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Posts</title>
+      <link>https://glimpse-editor.org/posts/</link>
+      <pubDate>Fri, 26 Feb 2021 17:30:00 +0000</pubDate>
+      
+      <guid>https://glimpse-editor.org/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>About (FAQs)</title>
       <link>https://glimpse-editor.org/about/</link>
-      <pubDate>Wed, 03 Feb 2021 02:00:00 +0000</pubDate>
+      <pubDate>Thu, 18 Feb 2021 23:45:00 +0000</pubDate>
       
       <guid>https://glimpse-editor.org/about/</guid>
       <description>&lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
@@ -59,6 +68,7 @@
 &lt;h3 id=&#34;project-governance&#34;&gt;Project Governance&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#where-is-the-glimpse-code-of-conduct&#34;&gt;Where is the Glimpse code of conduct?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#how-does-the-glimpse-project-enforce-its-code-of-conduct&#34;&gt;How does the Glimpse project enforce its code of conduct?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#how-does-this-project-govern-itself&#34;&gt;How does your project govern itself?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#why-are-you-deprecating-your-matrix-channels&#34;&gt;Why are you deprecating your Matrix channels?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#how-do-i-stay-up-to-date-with-this-project&#34;&gt;How do I stay up-to-date with this project?&lt;/a&gt;&lt;/li&gt;
@@ -68,7 +78,7 @@
 &lt;h2 id=&#34;what-is-the-correct-name-for-your-project&#34;&gt;What is the correct name for your project?&lt;/h2&gt;
 &lt;p&gt;The open source software we produce is called &amp;ldquo;Glimpse Image Editor&amp;rdquo;, but we sometimes shorten that to just &amp;ldquo;Glimpse&amp;rdquo;. We refer to our governance structure, core contributors and participants on our Discord server as &amp;ldquo;the Glimpse project&amp;rdquo;. We often call our social media followers, donors and end users &amp;ldquo;the Glimpse Community&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;Glimpse NX is a separate project we plan to start soon where we will create a lightweight new interface for pre-existing GNU Image Manipulation Program libraries and frameworks. You may sometimes see it referred to as &amp;ldquo;the rewrite&amp;rdquo;. We will provide more information about that project in coming weeks and months.&lt;/p&gt;
-&lt;p&gt;If you are a blogger or a member of the technology industry press, we do not yet have branding guidelines in place. However we have provided screenshots, our branding assets and instructions for their basic usage here: &lt;a href=&#34;https://github.com/glimpse-editor/branding&#34;&gt;https://github.com/glimpse-editor/branding&lt;/a&gt;. You may also contact us directly &lt;a href=&#34;mailto:glimpse.editor@icloud.com&#34;&gt;by email&lt;/a&gt; for further information about the project.&lt;/p&gt;
+&lt;p&gt;If you are a blogger or a member of the technology industry press, we do not yet have branding guidelines in place. However we have provided screenshots, our branding assets and instructions for their basic usage here: &lt;a href=&#34;https://github.com/glimpse-editor/branding&#34;&gt;https://github.com/glimpse-editor/branding&lt;/a&gt;. You may also contact us directly &lt;a href=&#34;mailto:info@glimpse-editor.org&#34;&gt;by email&lt;/a&gt; for further information about the project.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;#contents&#34;&gt;Return to top&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;what-is-glimpse-image-editor&#34;&gt;What is Glimpse Image Editor?&lt;/h2&gt;
 &lt;p&gt;Glimpse Image Editor is a &amp;ldquo;fork&amp;rdquo; or &amp;ldquo;respin&amp;rdquo; of the &lt;a href=&#34;https://www.gimp.org/&#34;&gt;GNU Image Manipulation Program&lt;/a&gt;, and it is also an open source image editing application.&lt;/p&gt;
@@ -126,9 +136,10 @@
 &lt;p&gt;You may also be interested in trying &lt;a href=&#34;https://apps.apple.com/us/app/seashore/id1448648921?mt=12&#34;&gt;Seashore&lt;/a&gt;, an older fork of the GNU Image Manipulation Program designed specifically for MacOS. While it does have fewer features, it may still be suitable for your intended use case.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;#contents&#34;&gt;Return to top&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;who-signs-the-windows-installer&#34;&gt;Who signs the Windows installer?&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://cynthia.re/&#34;&gt;Cynthia Revström&lt;/a&gt;, a renowned security researcher. She signs our Windows installers with an Extended Validation (EV) code signing certificate belonging to a registered company called &lt;a href=&#34;https://qs.nu/&#34;&gt;Qs.nu&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://cynthia.re/&#34;&gt;Cynthia Revström&lt;/a&gt;, a renowned security researcher. She has previously signed our Windows installers with an Extended Validation (EV) code signing certificate belonging to a registered company called &lt;a href=&#34;https://qs.nu/&#34;&gt;Qs.nu&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;If we do not sign our MSI installer then potential users can run into a number of problems. Certain web browsers block the download of &amp;ldquo;untrusted&amp;rdquo; files, Windows SmartScreen creates error screens that non-technical people find difficult to override, and anti-virus programs incorrectly flagging Glimpse Image Editor as &amp;ldquo;malware&amp;rdquo; can interfere with the installation process and normal operation of the program.&lt;/p&gt;
 &lt;p&gt;We initially tried a self-signed certificate, but that did not resolve the problem. The Glimpse project is not a registered company and cannot afford to reimburse individuals for certificate authority notarization requirements, so we cannot provide our own code signing certificate. As a result we rely on a trusted individual to voluntarily sign each MSI installer we release on our behalf.&lt;/p&gt;
+&lt;p&gt;As of January 2021, we are no longer able to sign new Windows installers. Due to Brexit, the organization responsible for the certificate we used for code signing has been wound down. We are currently investigating a possible solution to this problem. &lt;a href=&#34;https://github.com/glimpse-editor/Glimpse/issues/523&#34;&gt;#523&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;#contents&#34;&gt;Return to top&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;can-i-install-glimpse-and-gnu-image-manipulation-program-on-the-same-machine&#34;&gt;Can I install Glimpse and GNU Image Manipulation Program on the same machine?&lt;/h2&gt;
 &lt;p&gt;On Windows, you can safely install and run both applications at the same time.&lt;/p&gt;
@@ -162,7 +173,7 @@
 &lt;p&gt;That was a choice made early on for practical reasons such as project discoverability, ease-of-use, user familiarity and cost. We also support &lt;a href=&#34;https://github.com/sponsors/glimpse-editor&#34;&gt;Github Sponsors&lt;/a&gt;, rely on &lt;a href=&#34;https://github.com/glimpse-editor/Glimpse/actions&#34;&gt;Github Actions&lt;/a&gt; for automated builds, and use their servers as a &lt;a href=&#34;https://github.com/glimpse-editor/Glimpse/releases&#34;&gt;release mirror&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;As a project we are aware that some people have ethical concerns about using Github, and that other projects appear above us in &lt;a href=&#34;https://github.com/search?utf8=%E2%9C%93&amp;amp;q=glimpse&amp;amp;type=&#34;&gt;the search results&lt;/a&gt;. For those reasons we periodically discuss how our contributors feel about using it, as well as the merits and drawbacks of potential alternatives.&lt;/p&gt;
 &lt;p&gt;We have tried self-hosted solutions in the past, and you can see evidence of that in our blog and Open Collective profile. The main problem is that the build process for Glimpse Image Editor requires a lot of compute power, and we do not receive enough donations to replicate the same functionality we can achieve with Github Actions. In addition deploying, hardening and maintaining multiple servers is not a straightforward task, and time our volunteer contributors spend being server administrators is time that they cannot spend developing Glimpse Image Editor or Glimpse NX.&lt;/p&gt;
-&lt;p&gt;There are currently no plans to move the Glimpse Image Editor source code from Github. If you are boycotting the platform, you can still download copies of Glimpse Image Editor and the software program source code from &lt;a href=&#34;https://archive.org/search.php?query=creator%3A%22Glimpse+Project%22&#34;&gt;archive.org&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;There are currently no plans to move the Glimpse Image Editor source code from Github.&lt;/p&gt;
 &lt;p&gt;We are still exploring potential host platforms for Glimpse NX. The project will initially be developed on Github, but once we have a minimum viable product we will have a better understanding of our technical requirements and can then start exploring other alternatives.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;#contents&#34;&gt;Return to top&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;could-you-just-run-find-and-replace-to-fix-the-name&#34;&gt;Could you just run &amp;ldquo;find and replace&amp;rdquo; to fix the name?&lt;/h2&gt;
@@ -216,8 +227,16 @@
 &lt;p&gt;We know how important it is to enact the right code of conduct and enforce the rules pro-actively. We want to promote a safe and inclusive environment, not a toxic one. If you have ideas to help us do that and want to get involved with this discussion then please join us in the project&amp;rsquo;s communication channels.&lt;/p&gt;
 &lt;p&gt;Our project reviewed the Contributor Covenant version 2.0 in January 2021. For the time being we have chosen stick with version 1.4, as our existing battle-tested enforcement practices have served us well so far and our contributors raised concerns about changing them.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;#contents&#34;&gt;Return to top&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;how-does-the-glimpse-project-enforce-its-code-of-conduct&#34;&gt;How does the Glimpse project enforce its code of conduct?&lt;/h2&gt;
+&lt;p&gt;The moderation team was originally formed by the Glimpse contributors to &amp;ldquo;pro-actively police&amp;rdquo; the &lt;a href=&#34;https://glimpse-editor.org/code-of-conduct/&#34;&gt;code of conduct&lt;/a&gt;. The legacy of this means that they do not necessarily wait for members of the Glimpse project to report violations, and moderators keep an eye on project communication channels so they can gently nudge people towards positive behaviours. They also perform some limited vetting on new users that join the Discord server, and coach new open source contributors that are acting in good faith. This approach helps us to foster a safe and welcoming environment for everyone.&lt;/p&gt;
+&lt;p&gt;If an individual chooses to ignore moderator guidance, then moderators may, at their discretion, and depending on the severity of the problems an individual is causing, issue up to three warnings to the same person on the same communication channel. Warnings for minor &amp;ldquo;first offences&amp;rdquo; are normally forgiven automatically after two weeks have passed, but they may still be considered in future moderation decisions. If an individual reacts badly or attempts to overturn previous warnings they have received, that behavior usually counts against them if moderators take further action.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Our code of conduct applies and always has applied to everyone in our project&lt;/strong&gt; regardless of their role, and regardless of any reputation they might have inside or outside the project created by their career, open source contributions, personal blogs, YouTube channels, social media profiles, etc. We care about protecting our contributors from online abuse and harassment regardless of any external consequences to the project, and no one individual is bigger than the whole project or &amp;ldquo;above the rules&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Normally moderators will seek a majority vote on the moderation team&amp;rsquo;s private Discord channel before implementing a project-wide ban against an individual. If a moderator feels they need to act before a vote can be held, they may at their own discretion ban someone immediately and then confidentially explain their actions to the other moderators (and with supporting evidence if requested) within 72 hours. The &amp;ldquo;instant ban&amp;rdquo; mechanism is primarily intended for bot accounts, spam and obvious trolling.&lt;/p&gt;
+&lt;p&gt;If the other moderators do not agree with any ban, then a majority vote on the moderation team&amp;rsquo;s private Discord channel can reverse that decision. The governance team also reserves the right to eject a moderator from the moderation team at any time if they collectively agree that moderator has abused their position or violated the &lt;a href=&#34;https://glimpse-editor.org/code-of-conduct/&#34;&gt;code of conduct&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We rarely implement temporary bans, so most bans are permanent. Individuals have to wait for a 72 hour cool-off period to elapse before they can appeal a ban, and they must do so via the Glimpse project contact email address. Appeals are reviewed by the governance team, and they will only consider reversing a ban if there has been a clear case of mistaken identity, moderator misconduct, or exceptional mitigating circumstances that adequately excuse the violation (as determined by the governance team and any victims of the miconduct in question).&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;#contents&#34;&gt;Return to top&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;how-does-this-project-govern-itself&#34;&gt;How does your project govern itself?&lt;/h2&gt;
-&lt;p&gt;The Glimpse Project is run by a self-appointed board called &amp;ldquo;the governance team&amp;rdquo;, and it is currently made up of three members: &lt;a href=&#34;https://eldritch.cafe/@trechnex&#34;&gt;Bobby Moss&lt;/a&gt;, &lt;a href=&#34;https://social.libre.fi/users/brainblasted&#34;&gt;Christopher Davis&lt;/a&gt;, and &lt;a href=&#34;https://twitter.com/Clipsey5&#34;&gt;Luna&lt;/a&gt;. Decisions are made with a majority vote after consultation with project contributors and any other interested parties.&lt;/p&gt;
+&lt;p&gt;The Glimpse Project is run by a self-appointed board called &amp;ldquo;the governance team&amp;rdquo; that contains three or more Glimpse contributors. The current governors are: &lt;a href=&#34;https://social.libre.fi/users/brainblasted&#34;&gt;Christopher Davis&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/Clipsey5&#34;&gt;Luna&lt;/a&gt; and one recently vacant seat. Decisions are made with a majority vote after consultation with project contributors and any other interested parties. The governance team also appoints and oversees &amp;ldquo;the moderation team&amp;rdquo;, which is responsible for policing our &lt;a href=&#34;https://glimpse-editor.org/code-of-conduct/&#34;&gt;code of conduct&lt;/a&gt; and fostering a welcoming online community.&lt;/p&gt;
 &lt;p&gt;We host a &lt;a href=&#34;https://discord.gg/hZhRceq&#34;&gt;Discord server&lt;/a&gt; for project decisions, Glimpse NX development and some technical support queries. The governance team also discusses project moderation decisions in a private channel on that server. You can read the rules for joining this server&amp;rsquo;s public channels on the &lt;code&gt;#rules-and-info&lt;/code&gt; channel.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/glimpse-editor/Glimpse/issues&#34;&gt;Github Issues&lt;/a&gt; are used to track bug reports, suggestions and questions from the wider community, and items we have agreed as a project need action. Action items are allocated to a milestone to give an indication of their priority and likely timeline, but these are always provisional until the work is done.&lt;/p&gt;
 &lt;p&gt;No decision is ever set in stone and can be revisited if new information comes to light or there is enough support within the project to do so. The governance team will generally only block the re-opening of an issue or delay a decision if the discussion is becoming too heated or obstructs the day-to-day running of the project. The governance team also reserves the right to end a discussion if, after giving an idea a fair hearing, there is clearly a lack of support within the Glimpse project in favor of it being worked on or developed any further.&lt;/p&gt;
@@ -242,7 +261,7 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;a href=&#34;#contents&#34;&gt;Return to top&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;how-do-i-stay-up-to-date-with-this-project&#34;&gt;How do I stay up-to-date with this project?&lt;/h2&gt;
-&lt;p&gt;You can follow us on &lt;a href=&#34;https://mastodon.art/@glimpse&#34;&gt;the fediverse&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/glimpse_editor&#34;&gt;Twitter&lt;/a&gt;. This blog also has a full text &lt;a href=&#34;https://getglimpse.app/index.xml&#34;&gt;RSS feed&lt;/a&gt;. We also recently setup a &lt;a href=&#34;fb.me/glimpse.editor&#34;&gt;Facebook page&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can follow us on &lt;a href=&#34;https://mastodon.art/@glimpse&#34;&gt;the fediverse&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/glimpse_editor&#34;&gt;Twitter&lt;/a&gt;. This blog also has a full text &lt;a href=&#34;https://glimpse-editor.org/posts/index.xml&#34;&gt;RSS feed&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Our &lt;a href=&#34;https://opencollective.com/glimpse&#34;&gt;Open Collective&lt;/a&gt; backers also get regular updates about the project.&lt;/p&gt;
 &lt;p&gt;Our Discord server is primarily intended for existing and prospective contributors. If you only want to keep up with project news, we encourage you to follow our social media accounts and RSS feed instead.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;#contents&#34;&gt;Return to top&lt;/a&gt;&lt;/p&gt;
@@ -254,24 +273,15 @@
     </item>
     
     <item>
-      <title>Posts</title>
-      <link>https://glimpse-editor.org/posts/</link>
-      <pubDate>Thu, 14 Jan 2021 17:30:00 +0000</pubDate>
-      
-      <guid>https://glimpse-editor.org/posts/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Downloads</title>
       <link>https://glimpse-editor.org/downloads/</link>
-      <pubDate>Sat, 09 Jan 2021 19:30:00 +0000</pubDate>
+      <pubDate>Wed, 17 Feb 2021 19:00:00 +0000</pubDate>
       
       <guid>https://glimpse-editor.org/downloads/</guid>
       <description>&lt;p&gt;The latest release is Glimpse Image Editor 0.2.0. It is based on the &lt;a href=&#34;https://www.gimp.org/&#34;&gt;GNU Image Manipulation Program&lt;/a&gt; 2.10.18, and is provided under the terms of the GNU General Public License v3. &lt;a href=&#34;https://glimpse-editor.org/posts/glimpse-0-2-0-release-notes/&#34;&gt;Release Notes&lt;/a&gt;&lt;/p&gt;
 &lt;h4 id=&#34;quick-download-links&#34;&gt;Quick Download Links&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/glimpse-editor/Glimpse/releases/download/v0.2.0/glimpse-0.2.0-x64.msi&#34;&gt;Windows&lt;/a&gt; (Recommended) | &lt;a href=&#34;https://github.com/glimpse-editor/Glimpse/releases/download/v0.2.0/glimpse-0.2.0-i686.msi&#34;&gt;Windows&lt;/a&gt; (x86 Compatible Version) | &lt;a href=&#34;https://www.flathub.org/repo/appstream/org.glimpse_editor.Glimpse.flatpakref&#34;&gt;Linux&lt;/a&gt; (Stable Flatpak) | &lt;a href=&#34;https://snapcraft.io/glimpse-editor&#34;&gt;Linux&lt;/a&gt; (Stable Snap) | &lt;a href=&#34;https://github.com/glimpse-editor/Glimpse/releases/tag/continuous&#34;&gt;Linux&lt;/a&gt; (Latest AppImage)&lt;/p&gt;
-&lt;p&gt;You can also find and download older versions of Glimpse Image Editor and the software program source code from &lt;a href=&#34;https://github.com/glimpse-editor/Glimpse/releases&#34;&gt;Github&lt;/a&gt; and &lt;a href=&#34;https://archive.org/search.php?query=creator%3A%22Glimpse+Project%22&#34;&gt;archive.org&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can also find and download older versions of Glimpse Image Editor and the software program source code from &lt;a href=&#34;https://github.com/glimpse-editor/Glimpse/releases&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;windows&#34;&gt;Windows&lt;/h3&gt;
 &lt;p&gt;Glimpse Image Editor 0.2.0 is supported on 32-bit and 64-bit systems running Windows 7 or later. If you experience problems during installation, you should review the &lt;a href=&#34;https://github.com/glimpse-editor/Glimpse/wiki/Known-Issues-%28Windows%29&#34;&gt;Known Issues&lt;/a&gt; page before reporting a bug.&lt;/p&gt;
 &lt;p&gt;If you do not know which installer to download, we recommend that you choose the 64-bit one as it is the best supported.&lt;/p&gt;
@@ -289,7 +299,7 @@
 &lt;p&gt;These servers are not directly supported by us, and are maintained by third party developers. We strongly recommend running a virus scan on your system whenever you download the Glimpse Image Editor 0.2.0 installer from these sources.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Repositories: &lt;a href=&#34;https://chocolatey.org/packages/glimpse/&#34;&gt;Chocolatey&lt;/a&gt; | &lt;a href=&#34;https://winget.run/pkg/Glimpse/Glimpse&#34;&gt;WinGet&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Direct downloads: &lt;a href=&#34;https://www.softpedia.com/get/Multimedia/Graphic/Graphic-Editors/Glimpse-Image-Editor.shtml&#34;&gt;Softpedia&lt;/a&gt; | &lt;a href=&#34;https://sourceforge.net/projects/glimpse-image-editor/&#34;&gt;SourceForge&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Direct downloads: &lt;a href=&#34;https://www.softpedia.com/get/Multimedia/Graphic/Graphic-Editors/Glimpse-Image-Editor.shtml&#34;&gt;Softpedia&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;linux&#34;&gt;Linux&lt;/h3&gt;
 &lt;p&gt;We distribute Glimpse Image Editor 0.2.0 on Flathub for end users. We also provide a continuously-updating Linux AppImage that follows the tip of our development branch.&lt;/p&gt;
@@ -385,7 +395,7 @@ a project may be further defined and clarified by project maintainers.&lt;/p&gt;
 &lt;h2 id=&#34;enforcement&#34;&gt;Enforcement&lt;/h2&gt;
 &lt;p&gt;Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported by contacting any member of the project leadership (sometimes called
-&amp;ldquo;the governing team&amp;rdquo;) by &lt;a href=&#34;mailto:glimpse.editor@icloud.com&#34;&gt;email&lt;/a&gt;.&lt;/p&gt;
+&amp;ldquo;the governing team&amp;rdquo;) by &lt;a href=&#34;mailto:info@glimpse-editor.org&#34;&gt;email&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;All complaints will be reviewed and investigated and will result in a response that
 is deemed necessary and appropriate to the circumstances. The project leadership
 is obligated to maintain confidentiality with regard to the reporter of an incident.
@@ -404,7 +414,7 @@ available at &lt;a href=&#34;https://www.contributor-covenant.org/version/1/4/co
     <item>
       <title>Contribute</title>
       <link>https://glimpse-editor.org/contribute/</link>
-      <pubDate>Mon, 03 Feb 2020 02:00:00 +0000</pubDate>
+      <pubDate>Fri, 21 Feb 2020 12:45:00 +0000</pubDate>
       
       <guid>https://glimpse-editor.org/contribute/</guid>
       <description>&lt;p&gt;Please note that we are developing Glimpse Image Editor in two parallel streams.&lt;/p&gt;
@@ -428,7 +438,6 @@ available at &lt;a href=&#34;https://www.contributor-covenant.org/version/1/4/co
 &lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: Our Matrix channels were deprecated in January 2021. &lt;a href=&#34;https://glimpse-editor.org/about/#why-are-you-deprecating-your-matrix-channels&#34;&gt;More information&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;news&#34;&gt;News&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://fb.me/glimpse.editor&#34;&gt;Facebook&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://mastodon.art/@glimpse&#34;&gt;Mastodon&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;../posts/index.xml&#34;&gt;RSS&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://twitter.com/glimpse_editor&#34;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
@@ -442,7 +451,7 @@ available at &lt;a href=&#34;https://www.contributor-covenant.org/version/1/4/co
 &lt;p&gt;If you can afford to do so we recommend donating to &lt;a href=&#34;https://www.gimp.org/donating/&#34;&gt;GNU Image Manipulation Program&lt;/a&gt;, the upstream project on which our fork relies. We periodically &lt;a href=&#34;https://opencollective.com/glimpse/expenses?tag=donation&#34;&gt;pass along a portion of our donations&lt;/a&gt; to them as our way of thanking them for the amazing work they do.&lt;/p&gt;
 &lt;h2 id=&#34;mediapress-contact&#34;&gt;Media/Press Contact&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;mailto:glimpse.editor@icloud.com&#34;&gt;Email&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;mailto:info@glimpse-editor.org&#34;&gt;Email&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;community-supported-channels&#34;&gt;Community Supported Channels&lt;/h2&gt;
 &lt;p&gt;We welcome members of our community starting their own unofficial support forums and communication channels.

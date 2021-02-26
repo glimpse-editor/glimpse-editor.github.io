@@ -6,10 +6,46 @@
     <description>Recent content in Posts on Glimpse</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Jan 2021 17:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Feb 2021 17:30:00 +0000</lastBuildDate>
     
         <atom:link href="https://glimpse-editor.org/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Work Continues on Glimpse Image Editor 0.2.2</title>
+      <link>https://glimpse-editor.org/posts/work-continues-on-glimpse-image-editor-0-2-2/</link>
+      <pubDate>Fri, 26 Feb 2021 17:30:00 +0000</pubDate>
+      
+      <guid>https://glimpse-editor.org/posts/work-continues-on-glimpse-image-editor-0-2-2/</guid>
+      <description>&lt;p&gt;Check out our &lt;a href=&#34;https://glimpse-editor.org/contribute/&#34;&gt;Contribute&lt;/a&gt; page for social media and news links to follow our progress.&lt;/p&gt;
+&lt;h2 id=&#34;glimpse-image-editor-022-progress-update&#34;&gt;Glimpse Image Editor 0.2.2 Progress Update&lt;/h2&gt;
+&lt;p&gt;Glimpse Image Editor 0.2.2 is currently delayed due to a combination of breakage introduced by external dependencies and contributors understably being distracted by everything that is happening in the outside world. We are doing our best to polish off what&amp;rsquo;s left of the code and packaging problems as quickly as possible so that we can start beta testing.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://opencollective.com/glimpse/expenses?tag=donation&#34;&gt;planned donation&lt;/a&gt; for the GNU Image Manipulation Program developers that coincides with this release has already been completed, bringing our running total to $750 USD since Glimpse project started in July 2019.&lt;/p&gt;
+&lt;p&gt;Despite the departure of the fork&amp;rsquo;s lead developer, Glimpse Image Editor 0.2.2 will still be released as planned, and it will continue to be maintained with hotfixes until Glimpse NX is ready in 2022. More information will be provided about that in future blog posts.&lt;/p&gt;
+&lt;h3 id=&#34;recent-code-changes&#34;&gt;Recent code changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;We backported an upstream fix to resolve breakage introduced in GEGL 0.4.28. &lt;a href=&#34;https://github.com/glimpse-editor/Glimpse/pull/516&#34;&gt;#516&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The WiX manifests for the Windows installers have been updated with new dependencies and the new &amp;ldquo;large font&amp;rdquo; UI themes. &lt;a href=&#34;https://github.com/glimpse-editor/Glimpse/pull/519&#34;&gt;#519&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;In-app URLs will be pointed back to glimpse-editor.org when 0.2.2 is released. &lt;a href=&#34;https://github.com/glimpse-editor/Glimpse/pull/518&#34;&gt;#518&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;outstanding-bugs&#34;&gt;Outstanding bugs&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;We are no longer able to sign Windows MSI installers with an EV code signing certificate. Due to Brexit, the organization that had donated this to us had to be wound down, and so no longer exists. A new solution or workaround is needed. &lt;a href=&#34;https://github.com/glimpse-editor/Glimpse/issues/523&#34;&gt;#523&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The Windows build is currently broken due to an external dependency fetched by MSYS2 that has changed. This issue needs further investigation. &lt;a href=&#34;https://github.com/glimpse-editor/Glimpse/actions/runs/586439561&#34;&gt;Build output&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The automated Snap build hosted by Canonical on Launchpad has not been running since November 2020. Current user impact is that &lt;code&gt;edge&lt;/code&gt; channel is not up to date, but it also means that 0.2.2 cannot currently be deployed on &lt;code&gt;beta&lt;/code&gt; and &lt;code&gt;stable&lt;/code&gt; channels. There is no immediate cause for concern as 0.2.0 has no known critical security vulnerabilities or showstopping bugs on that platform, and snaps are sandboxed from the underlying system. We will need to reach out to Canonical to resolve this problem as soon as possible.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bobby-moss-departs-the-project&#34;&gt;Bobby Moss departs the project&lt;/h2&gt;
+&lt;p&gt;Bobby Moss (&lt;a href=&#34;https://keybase.io/trechnex&#34;&gt;TrechNex&lt;/a&gt;) is one of the Glimpse project founders, and has been the lead developer on the fork up to this point. He has left the project at the request of his employer, and has provided this parting statement:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;I would like to thank everyone that has supported and contributed to Glimpse Image Editor. Over the last 20 months, we have built the Glimpse project to be resilient to change and bigger than any one person. It is fair to say that what we have achieved has exceeded my expectations, and I encourage our community to help the remaining contributors continue to support users with patches and begin development on Glimpse NX.&amp;quot;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Bobby has also taken down the Facebook Page, SourceForge mirror and archive.org links that he set up. We are on the lookout for volunteers to help us support those platforms.&lt;/p&gt;
+&lt;p&gt;There is now at least one vacant position in the Glimpse governance team. Over the next few months, Christopher Davis and Luna will seek to appoint willing Glimpse project contributors to both the governance and moderation teams. &lt;a href=&#34;https://glimpse-editor.org/about/#how-does-this-project-govern-itself&#34;&gt;More information&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a-new-port-for-nixos-unstable-channel&#34;&gt;A new port for nixOS unstable channel&lt;/h2&gt;
+&lt;p&gt;After months of amazing work, the &lt;a href=&#34;https://nixos.org/&#34;&gt;NixOS&lt;/a&gt; packaging project has now added Glimpse Image Editor 0.2.0 in its unstable channel. You can try out this community-supported download source &lt;a href=&#34;https://search.nixos.org/packages?channel=unstable&amp;amp;show=glimpse&amp;amp;from=0&amp;amp;size=50&amp;amp;sort=relevance&amp;amp;query=glimpse&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;we-reviewed-our-code-of-conduct&#34;&gt;We reviewed our Code of Conduct&lt;/h2&gt;
+&lt;p&gt;Our &lt;a href=&#34;https://glimpse-editor.org/code-of-conduct/&#34;&gt;code of conduct&lt;/a&gt; is currently based on the &lt;a href=&#34;https://www.contributor-covenant.org/version/1/4/code-of-conduct.html&#34;&gt;Contributor Covenant 1.4&lt;/a&gt;, and in January 2021 we discussed the possibility of moving to the &lt;a href=&#34;https://www.contributor-covenant.org/version/2/0/code_of_conduct/&#34;&gt;Contributor Covenant 2.0&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;While those discussions have not been closed, they are currently stalled because of concerns our contributors have raised about the new enforcement guidelines introduced in version 2.0. You can find out more about how we currently enforce our code of conduct on &lt;a href=&#34;https://glimpse-editor.org/about/#how-does-the-glimpse-project-enforce-its-code-of-conduct&#34;&gt;our FAQs page&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Kicking Off 2021</title>
