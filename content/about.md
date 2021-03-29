@@ -346,7 +346,7 @@ We rarely implement temporary bans, so most bans are permanent. Individuals have
 [Return to top](#contents)
 
 ## How does your project govern itself? {#how-does-this-project-govern-itself}
-The Glimpse Project is run by a self-appointed board called "the governance team" that contains three or more Glimpse contributors. The current governors are: [Christopher Davis](https://social.libre.fi/users/brainblasted), [Luna](https://twitter.com/Clipsey5) and one recently vacant seat. Decisions are made with a majority vote after consultation with project contributors and any other interested parties. The governance team also appoints and oversees "the moderation team", which is responsible for policing our [code of conduct](/code-of-conduct/) and fostering a welcoming online community.
+The Glimpse Project is run by a self-appointed board called "the governance team" that contains three or more Glimpse contributors. The current governors are: [Christopher Davis](https://social.libre.fi/users/brainblasted), [Luna](https://twitter.com/LunaFoxgirlVT) and one recently vacant seat. Decisions are made with a majority vote after consultation with project contributors and any other interested parties. The governance team also appoints and oversees "the moderation team", which is responsible for policing our [code of conduct](/code-of-conduct/) and fostering a welcoming online community.
 
 We host a [Discord server](https://discord.gg/hZhRceq) for project decisions, Glimpse NX development and some technical support queries. The governance team also discusses project moderation decisions in a private channel on that server. You can read the rules for joining this server's public channels on the `#rules-and-info` channel.
 
