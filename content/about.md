@@ -1,9 +1,11 @@
 ---
 title: "About (FAQs)"
-date: 2021-02-18T23:45:00+00:00
+date: 2021-05-23T12:54:00+01:00
 draft: false
 menu: "main"
 ---
+**Note**: Our project is currently on hiatus, and is not being actively developed. The contents of this FAQs page is outdated, but the answers have been preserved for posterity. [Read More](/posts/a-project-on-hiatus)
+
 ## Contents {#contents}
 Glimpse Image Editor 0.2.0 is an open source image editing program based on the GNU Image Manipulation Program 2.10.18. You can read more about our development priorities and our target userbase here: https://github.com/glimpse-editor/Glimpse/wiki/Development-Priorities
 

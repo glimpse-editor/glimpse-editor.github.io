@@ -3,20 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://glimpse-editor.org/</loc>
-    <lastmod>2021-02-26T17:30:00+00:00</lastmod>
+    <lastmod>2021-05-23T13:55:00+01:00</lastmod>
     <priority>0</priority>
   </url><url>
+    <loc>https://glimpse-editor.org/posts/a-project-on-hiatus/</loc>
+    <lastmod>2021-05-23T13:55:00+01:00</lastmod>
+  </url><url>
     <loc>https://glimpse-editor.org/posts/</loc>
-    <lastmod>2021-02-26T17:30:00+00:00</lastmod>
+    <lastmod>2021-05-23T13:55:00+01:00</lastmod>
+  </url><url>
+    <loc>https://glimpse-editor.org/about/</loc>
+    <lastmod>2021-05-23T12:54:00+01:00</lastmod>
+  </url><url>
+    <loc>https://glimpse-editor.org/contribute/</loc>
+    <lastmod>2021-05-23T12:54:00+01:00</lastmod>
+  </url><url>
+    <loc>https://glimpse-editor.org/downloads/</loc>
+    <lastmod>2021-05-23T12:54:00+01:00</lastmod>
   </url><url>
     <loc>https://glimpse-editor.org/posts/work-continues-on-glimpse-image-editor-0-2-2/</loc>
     <lastmod>2021-02-26T17:30:00+00:00</lastmod>
-  </url><url>
-    <loc>https://glimpse-editor.org/about/</loc>
-    <lastmod>2021-02-18T23:45:00+00:00</lastmod>
-  </url><url>
-    <loc>https://glimpse-editor.org/downloads/</loc>
-    <lastmod>2021-02-17T19:00:00+00:00</lastmod>
   </url><url>
     <loc>https://glimpse-editor.org/posts/kicking-off-2021/</loc>
     <lastmod>2021-01-14T17:30:00+00:00</lastmod>
@@ -53,9 +59,6 @@
   </url><url>
     <loc>https://glimpse-editor.org/posts/glimpse-0-1-2-release-notes/</loc>
     <lastmod>2020-03-02T17:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://glimpse-editor.org/contribute/</loc>
-    <lastmod>2020-02-21T12:45:00+00:00</lastmod>
   </url><url>
     <loc>https://glimpse-editor.org/posts/announcing-glimpse-0-1-2-beta/</loc>
     <lastmod>2020-02-18T17:30:00+00:00</lastmod>

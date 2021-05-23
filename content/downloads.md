@@ -1,9 +1,11 @@
 ---
 title: "Downloads"
-date: 2021-02-17T19:00:00+00:00
+date: 2021-05-23T12:54:00+01:00
 draft: false
 menu: "main"
 ---
+**Note**: Our project is currently on hiatus, and is not being actively developed. [Read More](/posts/a-project-on-hiatus)
+
 The latest release is Glimpse Image Editor 0.2.0. It is based on the [GNU Image Manipulation Program](https://www.gimp.org/) 2.10.18, and is provided under the terms of the GNU General Public License v3. [Release Notes](/posts/glimpse-0-2-0-release-notes/)
 
 #### Quick Download Links
