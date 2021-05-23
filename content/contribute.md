@@ -1,14 +1,16 @@
 ---
 title: "Contribute"
-date: 2020-02-21T12:45:00+00:00
+date: 2021-05-23T12:54:00+01:00
 draft: false
 menu: "main"
 ---
-Please note that we are developing Glimpse Image Editor in two parallel streams.
+**Note**: Our project is currently on hiatus, and is not being actively developed. [Read More](/posts/a-project-on-hiatus)
 
-The "fork" stream is already providing a workable solution for people who dislike the "gimp" name or encounter barriers when they advocate the GNU Image Manipulation Program in schools, universities and workplaces. You can read more about our development priorities and our target userbase here: https://github.com/glimpse-editor/Glimpse/wiki/Development-Priorities
+Glimpse Image Editor was developed in two streams.
 
-The "rewrite" stream (also known as "Glimpse NX") aims to create a lightweight new interface for pre-existing GNU Image Manipulation Program libraries and frameworks. We will provide more details about that project in coming months.
+The "fork" stream was already providing a workable solution for people who dislike the "gimp" name or encounter barriers when they advocate the GNU Image Manipulation Program in schools, universities and workplaces. You can read more about our development priorities and our target userbase here: https://github.com/glimpse-editor/Glimpse/wiki/Development-Priorities
+
+The "rewrite" stream (also known as "Glimpse NX") aimed to create a lightweight new interface for pre-existing GNU Image Manipulation Program libraries and frameworks. We will provide more details about that project in coming months.
 
 ## Code, Bug Reports, etc for Glimpse Image Editor
  * [Bug Reports](https://github.com/glimpse-editor/Glimpse/issues)
@@ -20,7 +22,7 @@ The "rewrite" stream (also known as "Glimpse NX") aims to create a lightweight n
  * [Developer Wiki](https://wiki.glimpse-editor.org/)
 
 ## Discussion and Technical Support
- * [Discord](https://discord.gg/hZhRceq)
+ * Discord (Not currently accepting new sign-ups)
 
 **Note**: Our Matrix channels were deprecated in January 2021. [More information](/about/#why-are-you-deprecating-your-matrix-channels)
 
@@ -30,14 +32,7 @@ The "rewrite" stream (also known as "Glimpse NX") aims to create a lightweight n
  * [Twitter](https://twitter.com/glimpse_editor)
 
 ## Donate
-To help cover our project's costs and enable us to plan for future spending, please donate via these links:
- * [Github Sponsors](https://github.com/sponsors/glimpse-editor)
- * [Open Collective](https://opencollective.com/glimpse)
-
- If you can afford to do so we recommend donating to [GNU Image Manipulation Program](https://www.gimp.org/donating/), the upstream project on which our fork relies. We periodically [pass along a portion of our donations](https://opencollective.com/glimpse/expenses?tag=donation) to them as our way of thanking them for the amazing work they do.
-
- ## Media/Press Contact
- * [Email](mailto:info@glimpse-editor.org)
+We are no longer accepting new donations. If you can afford to do so, then we recommend donating to [GNU Image Manipulation Program](https://www.gimp.org/donating/), the upstream project on which our fork relies.
 
 ## Community Supported Channels
 We welcome members of our community starting their own unofficial support forums and communication channels.

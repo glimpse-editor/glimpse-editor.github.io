@@ -6,7 +6,7 @@
     <description>Recent content on Glimpse</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Feb 2021 17:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 May 2021 13:55:00 +0100</lastBuildDate>
     
         <atom:link href="https://glimpse-editor.org/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Posts</title>
       <link>https://glimpse-editor.org/posts/</link>
-      <pubDate>Fri, 26 Feb 2021 17:30:00 +0000</pubDate>
+      <pubDate>Sun, 23 May 2021 13:55:00 +0100</pubDate>
       
       <guid>https://glimpse-editor.org/posts/</guid>
       <description></description>
@@ -23,10 +23,11 @@
     <item>
       <title>About (FAQs)</title>
       <link>https://glimpse-editor.org/about/</link>
-      <pubDate>Thu, 18 Feb 2021 23:45:00 +0000</pubDate>
+      <pubDate>Sun, 23 May 2021 12:54:00 +0100</pubDate>
       
       <guid>https://glimpse-editor.org/about/</guid>
-      <description>&lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
+      <description>&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: Our project is currently on hiatus, and is not being actively developed. The contents of this FAQs page is outdated, but the answers have been preserved for posterity. &lt;a href=&#34;https://glimpse-editor.org/posts/a-project-on-hiatus&#34;&gt;Read More&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
 &lt;p&gt;Glimpse Image Editor 0.2.0 is an open source image editing program based on the GNU Image Manipulation Program 2.10.18. You can read more about our development priorities and our target userbase here: &lt;a href=&#34;https://github.com/glimpse-editor/Glimpse/wiki/Development-Priorities&#34;&gt;https://github.com/glimpse-editor/Glimpse/wiki/Development-Priorities&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Glimpse NX aims to create a lightweight new interface for pre-existing GNU Image Manipulation Program libraries and frameworks. We will provide more details about that project in coming months.&lt;/p&gt;
 &lt;p&gt;The goal of both projects is to experiment with new ideas and expand the use of open source software.&lt;/p&gt;
@@ -273,12 +274,53 @@
     </item>
     
     <item>
+      <title>Contribute</title>
+      <link>https://glimpse-editor.org/contribute/</link>
+      <pubDate>Sun, 23 May 2021 12:54:00 +0100</pubDate>
+      
+      <guid>https://glimpse-editor.org/contribute/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: Our project is currently on hiatus, and is not being actively developed. &lt;a href=&#34;https://glimpse-editor.org/posts/a-project-on-hiatus&#34;&gt;Read More&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Glimpse Image Editor was developed in two streams.&lt;/p&gt;
+&lt;p&gt;The &amp;ldquo;fork&amp;rdquo; stream was already providing a workable solution for people who dislike the &amp;ldquo;gimp&amp;rdquo; name or encounter barriers when they advocate the GNU Image Manipulation Program in schools, universities and workplaces. You can read more about our development priorities and our target userbase here: &lt;a href=&#34;https://github.com/glimpse-editor/Glimpse/wiki/Development-Priorities&#34;&gt;https://github.com/glimpse-editor/Glimpse/wiki/Development-Priorities&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The &amp;ldquo;rewrite&amp;rdquo; stream (also known as &amp;ldquo;Glimpse NX&amp;rdquo;) aimed to create a lightweight new interface for pre-existing GNU Image Manipulation Program libraries and frameworks. We will provide more details about that project in coming months.&lt;/p&gt;
+&lt;h2 id=&#34;code-bug-reports-etc-for-glimpse-image-editor&#34;&gt;Code, Bug Reports, etc for Glimpse Image Editor&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/glimpse-editor/Glimpse/issues&#34;&gt;Bug Reports&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/glimpse-editor/Glimpse/milestones&#34;&gt;Development Road Map&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/glimpse-editor/Glimpse&#34;&gt;Source Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;documentation&#34;&gt;Documentation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/glimpse-editor/branding&#34;&gt;Branding&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.glimpse-editor.org/&#34;&gt;Developer Wiki&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;discussion-and-technical-support&#34;&gt;Discussion and Technical Support&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Discord (Not currently accepting new sign-ups)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: Our Matrix channels were deprecated in January 2021. &lt;a href=&#34;https://glimpse-editor.org/about/#why-are-you-deprecating-your-matrix-channels&#34;&gt;More information&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;news&#34;&gt;News&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mastodon.art/@glimpse&#34;&gt;Mastodon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../posts/index.xml&#34;&gt;RSS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/glimpse_editor&#34;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;donate&#34;&gt;Donate&lt;/h2&gt;
+&lt;p&gt;We are no longer accepting new donations. If you can afford to do so, then we recommend donating to &lt;a href=&#34;https://www.gimp.org/donating/&#34;&gt;GNU Image Manipulation Program&lt;/a&gt;, the upstream project on which our fork relies.&lt;/p&gt;
+&lt;h2 id=&#34;community-supported-channels&#34;&gt;Community Supported Channels&lt;/h2&gt;
+&lt;p&gt;We welcome members of our community starting their own unofficial support forums and communication channels.
+Please note that we do not monitor or moderate those platforms, and cannot guarantee they are a safe and welcoming environment for everyone. &lt;strong&gt;If you choose to use them, you do so at your own risk.&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Downloads</title>
       <link>https://glimpse-editor.org/downloads/</link>
-      <pubDate>Wed, 17 Feb 2021 19:00:00 +0000</pubDate>
+      <pubDate>Sun, 23 May 2021 12:54:00 +0100</pubDate>
       
       <guid>https://glimpse-editor.org/downloads/</guid>
-      <description>&lt;p&gt;The latest release is Glimpse Image Editor 0.2.0. It is based on the &lt;a href=&#34;https://www.gimp.org/&#34;&gt;GNU Image Manipulation Program&lt;/a&gt; 2.10.18, and is provided under the terms of the GNU General Public License v3. &lt;a href=&#34;https://glimpse-editor.org/posts/glimpse-0-2-0-release-notes/&#34;&gt;Release Notes&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: Our project is currently on hiatus, and is not being actively developed. &lt;a href=&#34;https://glimpse-editor.org/posts/a-project-on-hiatus&#34;&gt;Read More&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The latest release is Glimpse Image Editor 0.2.0. It is based on the &lt;a href=&#34;https://www.gimp.org/&#34;&gt;GNU Image Manipulation Program&lt;/a&gt; 2.10.18, and is provided under the terms of the GNU General Public License v3. &lt;a href=&#34;https://glimpse-editor.org/posts/glimpse-0-2-0-release-notes/&#34;&gt;Release Notes&lt;/a&gt;&lt;/p&gt;
 &lt;h4 id=&#34;quick-download-links&#34;&gt;Quick Download Links&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/glimpse-editor/Glimpse/releases/download/v0.2.0/glimpse-0.2.0-x64.msi&#34;&gt;Windows&lt;/a&gt; (Recommended) | &lt;a href=&#34;https://github.com/glimpse-editor/Glimpse/releases/download/v0.2.0/glimpse-0.2.0-i686.msi&#34;&gt;Windows&lt;/a&gt; (x86 Compatible Version) | &lt;a href=&#34;https://www.flathub.org/repo/appstream/org.glimpse_editor.Glimpse.flatpakref&#34;&gt;Linux&lt;/a&gt; (Stable Flatpak) | &lt;a href=&#34;https://snapcraft.io/glimpse-editor&#34;&gt;Linux&lt;/a&gt; (Stable Snap) | &lt;a href=&#34;https://github.com/glimpse-editor/Glimpse/releases/tag/continuous&#34;&gt;Linux&lt;/a&gt; (Latest AppImage)&lt;/p&gt;
 &lt;p&gt;You can also find and download older versions of Glimpse Image Editor and the software program source code from &lt;a href=&#34;https://github.com/glimpse-editor/Glimpse/releases&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
@@ -408,54 +450,6 @@ members of the project&amp;rsquo;s leadership.&lt;/p&gt;
 available at &lt;a href=&#34;https://www.contributor-covenant.org/version/1/4/code-of-conduct.html&#34;&gt;https://www.contributor-covenant.org/version/1/4/code-of-conduct.html&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;For answers to common questions about this code of conduct, see
 &lt;a href=&#34;https://www.contributor-covenant.org/faq&#34;&gt;https://www.contributor-covenant.org/faq&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Contribute</title>
-      <link>https://glimpse-editor.org/contribute/</link>
-      <pubDate>Fri, 21 Feb 2020 12:45:00 +0000</pubDate>
-      
-      <guid>https://glimpse-editor.org/contribute/</guid>
-      <description>&lt;p&gt;Please note that we are developing Glimpse Image Editor in two parallel streams.&lt;/p&gt;
-&lt;p&gt;The &amp;ldquo;fork&amp;rdquo; stream is already providing a workable solution for people who dislike the &amp;ldquo;gimp&amp;rdquo; name or encounter barriers when they advocate the GNU Image Manipulation Program in schools, universities and workplaces. You can read more about our development priorities and our target userbase here: &lt;a href=&#34;https://github.com/glimpse-editor/Glimpse/wiki/Development-Priorities&#34;&gt;https://github.com/glimpse-editor/Glimpse/wiki/Development-Priorities&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The &amp;ldquo;rewrite&amp;rdquo; stream (also known as &amp;ldquo;Glimpse NX&amp;rdquo;) aims to create a lightweight new interface for pre-existing GNU Image Manipulation Program libraries and frameworks. We will provide more details about that project in coming months.&lt;/p&gt;
-&lt;h2 id=&#34;code-bug-reports-etc-for-glimpse-image-editor&#34;&gt;Code, Bug Reports, etc for Glimpse Image Editor&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/glimpse-editor/Glimpse/issues&#34;&gt;Bug Reports&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/glimpse-editor/Glimpse/milestones&#34;&gt;Development Road Map&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/glimpse-editor/Glimpse&#34;&gt;Source Code&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;documentation&#34;&gt;Documentation&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/glimpse-editor/branding&#34;&gt;Branding&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://wiki.glimpse-editor.org/&#34;&gt;Developer Wiki&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;discussion-and-technical-support&#34;&gt;Discussion and Technical Support&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://discord.gg/hZhRceq&#34;&gt;Discord&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: Our Matrix channels were deprecated in January 2021. &lt;a href=&#34;https://glimpse-editor.org/about/#why-are-you-deprecating-your-matrix-channels&#34;&gt;More information&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;news&#34;&gt;News&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://mastodon.art/@glimpse&#34;&gt;Mastodon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;../posts/index.xml&#34;&gt;RSS&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://twitter.com/glimpse_editor&#34;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;donate&#34;&gt;Donate&lt;/h2&gt;
-&lt;p&gt;To help cover our project&amp;rsquo;s costs and enable us to plan for future spending, please donate via these links:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/sponsors/glimpse-editor&#34;&gt;Github Sponsors&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://opencollective.com/glimpse&#34;&gt;Open Collective&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;If you can afford to do so we recommend donating to &lt;a href=&#34;https://www.gimp.org/donating/&#34;&gt;GNU Image Manipulation Program&lt;/a&gt;, the upstream project on which our fork relies. We periodically &lt;a href=&#34;https://opencollective.com/glimpse/expenses?tag=donation&#34;&gt;pass along a portion of our donations&lt;/a&gt; to them as our way of thanking them for the amazing work they do.&lt;/p&gt;
-&lt;h2 id=&#34;mediapress-contact&#34;&gt;Media/Press Contact&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;mailto:info@glimpse-editor.org&#34;&gt;Email&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;community-supported-channels&#34;&gt;Community Supported Channels&lt;/h2&gt;
-&lt;p&gt;We welcome members of our community starting their own unofficial support forums and communication channels.
-Please note that we do not monitor or moderate those platforms, and cannot guarantee they are a safe and welcoming environment for everyone. &lt;strong&gt;If you choose to use them, you do so at your own risk.&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     

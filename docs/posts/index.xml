@@ -6,10 +6,49 @@
     <description>Recent content in Posts on Glimpse</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Feb 2021 17:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 May 2021 13:55:00 +0100</lastBuildDate>
     
         <atom:link href="https://glimpse-editor.org/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A Project On Hiatus</title>
+      <link>https://glimpse-editor.org/posts/a-project-on-hiatus/</link>
+      <pubDate>Sun, 23 May 2021 13:55:00 +0100</pubDate>
+      
+      <guid>https://glimpse-editor.org/posts/a-project-on-hiatus/</guid>
+      <description>&lt;p&gt;We would like to thank everyone that has supported our project over the last two years. This blog post lays out the current status of our project, the reasons behind it, and what the future holds for Glimpse Image Editor.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: Bobby Moss has not returned to the Glimpse project. He has written this blog post and performed the actions laid out here with permission from the Glimpse governance team.&lt;/p&gt;
+&lt;p&gt;To confirm, we are no longer accepting new sign-ups on our Discord server, but we will keep it around in case we need it again in the future.&lt;/p&gt;
+&lt;h2 id=&#34;the-impact-of-the-coronavirus-pandemic&#34;&gt;The impact of the coronavirus pandemic&lt;/h2&gt;
+&lt;p&gt;Contrary to what some of our critics would have you believe, our project is not run by &amp;ldquo;woke warriors offended on behalf of disabled people&amp;rdquo;. Disabled people were always involved at all levels of the project, and marginalized communities are well represented because of our project&amp;rsquo;s origins on the fediverse and welcoming internal culture.&lt;/p&gt;
+&lt;p&gt;Unfortunately, as you might imagine, a global health emergency with an economic recession following in its wake has hit our contributors disproportionately hard. This meant that they were no longer able to commit as much time towards the project as they did previously.&lt;/p&gt;
+&lt;p&gt;By the second half of 2020, there was just me (Bobby Moss) and a couple of external contributors working on the fork itself. Our other remaining project contributors were occupied with trying to start the UI rewrite called &amp;ldquo;Glimpse NX&amp;rdquo; as we had previously planned.&lt;/p&gt;
+&lt;p&gt;Our problem was not a lack of financial contributions or users, because the project was still growing in those areas. Our main issue was that we could not find contributors willing to step up and help with non-code tasks like moderating communication channels, triaging bugs, fixing packaging problems, working with the GNU Image Manipulation Program contributors, monitoring our social media accounts, running servers, testing/documenting new releases, and answering questions that users reached out to us with. As a result, we struggled to scale the project to match increasing demand.&lt;/p&gt;
+&lt;h2 id=&#34;the-impact-of-our-creator-leaving&#34;&gt;The impact of our creator leaving&lt;/h2&gt;
+&lt;p&gt;With that in mind, I (Bobby Moss) should explain why I left the project in February 2021.&lt;/p&gt;
+&lt;p&gt;The number of gaps I had to fill by August 2020 effectively turned working on this project into an unpaid part-time job for me in addition to my paid full-time job. Frustratingly, I had so much support work to manage that I rarely had enough time to actually work on the fork itself. This is why I made plenty of progress towards Glimpse Image Editor 0.2.2, but never actually released it.&lt;/p&gt;
+&lt;p&gt;I had originally expected the situation I was in to be temporary, and last for around six months. Unfortunately, by that stage our project was still struggling to move forward without my constant and direct involvement.&lt;/p&gt;
+&lt;p&gt;My employer had been keeping a close eye on my participation in the Glimpse project since it began, and had started to raise concerns that if I took on many more responsibilities within the project, it might begin to impact performance on my day job. In addition, there had been some changes in company policy that required me to seek legal approval and formally confirm that there have never been any conflicts of interest.&lt;/p&gt;
+&lt;p&gt;On their advice I temporarily withdrew my participation in the Glimpse project, with the expectation of returning once I had the proper approvals in place and a solid plan to make the project much more sustainable and maintainable ongoing. Unfortunately by the time I started to plot my return ten weeks later, almost all project activity had ceased, and I had neither the time nor the energy to resurrect it alone in the middle of a pandemic.&lt;/p&gt;
+&lt;p&gt;However, I was concerned that the Glimpse project was still receiving donations and attracting new users despite this situation, so I reached out to Chris and Luna for permission to publish this blog post, and helped them take the right actions to safeguard Glimpse Image Editor users and supporters.&lt;/p&gt;
+&lt;h2 id=&#34;closing-our-funding-channels&#34;&gt;Closing our funding channels&lt;/h2&gt;
+&lt;p&gt;As this project is not being actively developed, and therefore no longer has any costs we need to cover, we will be closing our &lt;a href=&#34;https://opencollective.com/glimpse&#34;&gt;Open Collective&lt;/a&gt; campaign and linked &lt;a href=&#34;https://github.com/glimpse-editor&#34;&gt;GitHub Sponsors&lt;/a&gt; channel before the end of this month (May 2021).&lt;/p&gt;
+&lt;p&gt;At the time we published this blog post, we had $836.36 USD hosted for us by Open Collective. As part of our closedown procedure, Open Collective will keep those funds and use them to support more open source projects in the future.&lt;/p&gt;
+&lt;p&gt;We previously donated $250 USD to the GNU Image Manipulation Program in February 2021 to coincide with the Glimpse Image Editor 0.2.2 release that we were unable to produce. This means that through the lifetime of our project, we have contributed back $750 USD in total. You can review a more detailed breakdown of our financials in &lt;a href=&#34;https://glimpse-editor.org/posts/a-year-in-summary/&#34;&gt;the November 2019 blog post&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We encourage you to &lt;a href=&#34;https://www.gimp.org/donating/&#34;&gt;switch your donation&lt;/a&gt; to the GNU Image Manipulation Program for the time being, as that supports their project and assists any future versions of Glimpse Image Editor that rely on it.&lt;/p&gt;
+&lt;h2 id=&#34;archiving-our-github-repositories&#34;&gt;Archiving our GitHub repositories&lt;/h2&gt;
+&lt;p&gt;We are keen to ensure that we comply with the terms of the GNU GPLv3, so &lt;a href=&#34;https://github.com/glimpse-editor/Glimpse&#34;&gt;our modified source code&lt;/a&gt; will continue to be available for review on GitHub.&lt;/p&gt;
+&lt;p&gt;However, The issue tracker is currently only monitored to remove online trolling, and we are not accepting new pull requests for the time being. To assist our community, we have archived our GitHub repositories. You will still be able to clone, fork and review the code as you did before.&lt;/p&gt;
+&lt;p&gt;Existing and new installations should not be impacted by recent changes. If you have installed Glimpse as a &lt;a href=&#34;https://flathub.org/apps/details/org.glimpse_editor.Glimpse&#34;&gt;Flatpak&lt;/a&gt; or &lt;a href=&#34;https://snapcraft.io/glimpse-editor&#34;&gt;Snap&lt;/a&gt; on Linux, the software is sandboxed from the rest of the system, so unless you want the features in newer releases of the GNU Image Manipulation Program, there is nothing preventing you from continuing to use Glimpse for as long as you wish.&lt;/p&gt;
+&lt;p&gt;We encourage Windows users, and any Linux or BSD users running externally-packaged versions of Glimpse, to switch to the &lt;a href=&#34;https://www.gimp.org/&#34;&gt;GNU Image Manipulation Program&lt;/a&gt; for the time being. That ensures you are protected from any major security vulnerabilities discovered after this blog post was published.&lt;/p&gt;
+&lt;h2 id=&#34;the-fog-of-the-future&#34;&gt;The fog of the future&lt;/h2&gt;
+&lt;p&gt;It is difficult for us to predict if or when the Glimpse project will return. There are just too many factors at play right now, and we do not want to mislead anyone or spread any false hope.&lt;/p&gt;
+&lt;p&gt;Whatever happens, we can take pride in what we achieved here. We demonstrated that there is a demand for a fork of the GNU Image Manipulation Program with better branding. We successfully weathered a four-month-long storm of undeserved criticism &amp;amp; trolling in 2019 before we had even produced our first release. We built a positive relationship with the GNU Image Manipulation Program contributors, and delivered on our core objectives.&lt;/p&gt;
+&lt;p&gt;Our software touched the lives of &lt;a href=&#34;https://github.com/glimpse-editor/Glimpse/issues/471&#34;&gt;US army veterans&lt;/a&gt;, &lt;a href=&#34;https://github.com/glimpse-editor/Glimpse/issues/496&#34;&gt;high school students&lt;/a&gt;, and &lt;a href=&#34;https://glimpse-editor.org/posts/a-year-in-summary/&#34;&gt;tens of thousands of people&lt;/a&gt; from a wide variety of different backgrounds. Phillip Whitt also wrote and published an &lt;a href=&#34;https://www.apress.com/gp/book/9781484263266&#34;&gt;Apress book&lt;/a&gt; about Glimpse Image Editor 0.1.2 in the summer of 2020.&lt;/p&gt;
+&lt;p&gt;While our project will probably be branded a failure by those with the loudest voices, we hope our backers feel that the faith they placed in us was rewarded. If you enjoyed the work we produced, we would like to thank you for coming on this journey with us, and hope you&amp;rsquo;ll join us again one day.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Work Continues on Glimpse Image Editor 0.2.2</title>
