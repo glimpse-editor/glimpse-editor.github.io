@@ -50,16 +50,16 @@ Glimpse Image Editor has been downloaded 5274 (+1084) times from Flathub since i
 
 Heather Ellsworth reports that there are 1623 (-7) active users that have installed Glimpse Image Editor through Snapcraft. [Source](/glimpse-snap-2020-03-14.png)
 
-The distribution tarballs we provided on Github for Glimpse Image Editor 0.1.2 have been downloaded 53 times, suggesting that there is some early interest from Linux distro maintainers about hosting our software natively in their repositories. [Source](https://somsubhra.com/github-release-stats/?username=glimpse-editor&repository=Glimpse)
+The distribution tarballs we provided on Github for Glimpse Image Editor 0.1.2 have been downloaded 53 times, suggesting that there is some early interest from Linux distro maintainers about hosting our software natively in their repositories. [Source](https://somsubhra.github.io/github-release-stats/?username=glimpse-editor&repository=Glimpse)
 
 We do not have the figures for other community-supported Linux download sources.
 
 ### Windows
-The new Glimpse Image Editor 0.1.2 installer has been downloaded 552 times from Github since its release on 2020-03-02. [Source](https://somsubhra.com/github-release-stats/?username=glimpse-editor&repository=Glimpse)
+The new Glimpse Image Editor 0.1.2 installer has been downloaded 552 times from Github since its release on 2020-03-02. [Source](https://somsubhra.github.io/github-release-stats/?username=glimpse-editor&repository=Glimpse)
 
-To date there have been 4951 (+761) direct downloads of Glimpse Image Editor 0.1.0 for Windows from Github. [Source](https://somsubhra.com/github-release-stats/?username=glimpse-editor&repository=Glimpse)
+To date there have been 4951 (+761) direct downloads of Glimpse Image Editor 0.1.0 for Windows from Github. [Source](https://somsubhra.github.io/github-release-stats/?username=glimpse-editor&repository=Glimpse)
 
 There are two new unofficial third-party download sources for Windows users that provide download statistics:
 
 * 62 downloads from [Softpedia](https://www.softpedia.com/dyn-search.php?search_term=glimpse)
-* 29 downloads from [SourceForge](https://sourceforge.net/projects/glimpse-image-editor/)
+* 29 downloads from SourceForge (Link no longer available - Feb 2021)

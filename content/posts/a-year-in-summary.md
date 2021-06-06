@@ -75,7 +75,7 @@ We use [a third-party tool](https://gitlab.com/ahayzen/flathub-api-stats-generat
 $ python3 main.py --report downloads_by_app --type data --output out.dat --report-args app-id=org.glimpse_editor.Glimpse
 ```
 
-We also have download statistics for standalone Linux builds we provided on Github. [Source](https://somsubhra.com/github-release-stats/?username=glimpse-editor&repository=Glimpse)
+We also have download statistics for standalone Linux builds we provided on Github. [Source](https://somsubhra.github.io/github-release-stats/?username=glimpse-editor&repository=Glimpse)
 
 - Standalone bundle flatpaks we provided for Glimpse Image Editor 0.2.0 have been downloaded **578** times since they were released on 2020-08-25.
 - Distribution tarballs we provided for Glimpse Image Editor 0.1.2 have been downloaded **666** (+128) times since they were released on 2020-03-02.
@@ -83,7 +83,7 @@ We also have download statistics for standalone Linux builds we provided on Gith
 We have omitted statistics for our [Linux AppImage](https://github.com/glimpse-editor/Glimpse/releases/tag/continuous), as that is pre-release software with a download counter that resets every time we make a change to the `dev-g210` branch. We also do not have the figures for other community-supported Linux download sources.
 
 ### Windows
-We have combined download figures for both signed and unsigned MSI installers downloaded from Github. We did not count pre-release versions of the software. [Source](https://somsubhra.com/github-release-stats/?username=glimpse-editor&repository=Glimpse)
+We have combined download figures for both signed and unsigned MSI installers downloaded from Github. We did not count pre-release versions of the software. [Source](https://somsubhra.github.io/github-release-stats/?username=glimpse-editor&repository=Glimpse)
 
 - Glimpse Image Editor 0.2.0 (x64 MSI) has been downloaded **6994** times from Github since its release on 2020-08-25. 
 - Glimpse Image Editor 0.2.0 (x86 MSI) has been downloaded **3790** times from Github since its release on 2020-08-25.
@@ -94,7 +94,7 @@ There are also unofficial third-party download sources for Windows users that pr
 
 * **436** downloads from [Chocolatey](https://chocolatey.org/packages/glimpse/)
 * **213** (+95) downloads from [Softpedia](https://www.softpedia.com/dyn-search.php?search_term=glimpse)
-* **256** (+151) downloads from [SourceForge](https://sourceforge.net/projects/glimpse-image-editor/files/stats/timeline)
+* **256** (+151) downloads from SourceForge (Link no longer available - Feb 2021)
 
 Unfortunately we cannot access download statistics from [WinGet](https://winget.run/pkg/Glimpse/Glimpse). Work is also still ongoing to bring Glimpse Image Editor to the [Scoop](https://scoop.sh/) package manager: [#65](https://github.com/glimpse-editor/Glimpse/issues/65)
 

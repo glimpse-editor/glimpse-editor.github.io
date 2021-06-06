@@ -67,16 +67,16 @@ We use [a third-party tool](https://gitlab.com/ahayzen/flathub-api-stats-generat
 $ python3 main.py --report downloads_by_app --type data --output out.dat --report-args app-id=org.glimpse_editor.Glimpse
 ```
 
-The distribution tarballs we provided on Github for Glimpse Image Editor 0.1.2 have been downloaded 538 (+182) times. [Source](https://somsubhra.com/github-release-stats/?username=glimpse-editor&repository=Glimpse)
+The distribution tarballs we provided on Github for Glimpse Image Editor 0.1.2 have been downloaded 538 (+182) times. [Source](https://somsubhra.github.io/github-release-stats/?username=glimpse-editor&repository=Glimpse)
 
 We do not have the figures for other community-supported Linux download sources.
 
 ### Windows
-Glimpse Image Editor 0.1.2 has been downloaded 17959 (+8039) times from Github since its release on 2020-03-02. [Source](https://somsubhra.com/github-release-stats/?username=glimpse-editor&repository=Glimpse)
+Glimpse Image Editor 0.1.2 has been downloaded 17959 (+8039) times from Github since its release on 2020-03-02. [Source](https://somsubhra.github.io/github-release-stats/?username=glimpse-editor&repository=Glimpse)
 
-To date there have been 5080 (+59) direct downloads of Glimpse Image Editor 0.1.0 for Windows from Github since its release on 2019-11-22. [Source](https://somsubhra.com/github-release-stats/?username=glimpse-editor&repository=Glimpse)
+To date there have been 5080 (+59) direct downloads of Glimpse Image Editor 0.1.0 for Windows from Github since its release on 2019-11-22. [Source](https://somsubhra.github.io/github-release-stats/?username=glimpse-editor&repository=Glimpse)
 
 There are two new unofficial third-party download sources for Windows users that provide download statistics:
 
 * 118 (+21) downloads from [Softpedia](https://www.softpedia.com/dyn-search.php?search_term=glimpse)
-* 105 (+17) downloads from [SourceForge](https://sourceforge.net/projects/glimpse-image-editor/)
+* 105 (+17) downloads from SourceForge (Link no longer available - Feb 2021)

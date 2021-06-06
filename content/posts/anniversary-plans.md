@@ -55,16 +55,16 @@ Heather Ellsworth reports that there have been 16901 (+15278) active users over 
 
 Glimpse Image Editor has been downloaded 13225 (+7951) times from Flathub across all versions since it was first released on 2019-11-22. [Source](https://gitlab.com/ahayzen/flathub-api-stats-generator)
 
-The distribution tarballs we provided on Github for Glimpse Image Editor 0.1.2 have been downloaded 356 (+303) times. [Source](https://somsubhra.com/github-release-stats/?username=glimpse-editor&repository=Glimpse)
+The distribution tarballs we provided on Github for Glimpse Image Editor 0.1.2 have been downloaded 356 (+303) times. [Source](https://somsubhra.github.io/github-release-stats/?username=glimpse-editor&repository=Glimpse)
 
 We do not have the figures for other community-supported Linux download sources.
 
 ### Windows
-Glimpse Image Editor 0.1.2 has been downloaded 9920 (+4650) times from Github since its release on 2020-03-02. [Source](https://somsubhra.com/github-release-stats/?username=glimpse-editor&repository=Glimpse)
+Glimpse Image Editor 0.1.2 has been downloaded 9920 (+4650) times from Github since its release on 2020-03-02. [Source](https://somsubhra.github.io/github-release-stats/?username=glimpse-editor&repository=Glimpse)
 
-To date there have been 5021 (+70) direct downloads of Glimpse Image Editor 0.1.0 for Windows from Github since its release on 2019-11-22. [Source](https://somsubhra.com/github-release-stats/?username=glimpse-editor&repository=Glimpse)
+To date there have been 5021 (+70) direct downloads of Glimpse Image Editor 0.1.0 for Windows from Github since its release on 2019-11-22. [Source](https://somsubhra.github.io/github-release-stats/?username=glimpse-editor&repository=Glimpse)
 
 There are two new unofficial third-party download sources for Windows users that provide download statistics:
 
 * 97 (+25) downloads from [Softpedia](https://www.softpedia.com/dyn-search.php?search_term=glimpse)
-* 88 (+59) downloads from [SourceForge](https://sourceforge.net/projects/glimpse-image-editor/)
+* 88 (+59) downloads from SourceForge (Link no longer available - Feb 2021)
