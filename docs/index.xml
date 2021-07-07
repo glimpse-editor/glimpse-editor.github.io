@@ -12,6 +12,20 @@
     
     
     <item>
+      <title>Privacy Policy</title>
+      <link>https://glimpse-editor.org/privacy/</link>
+      <pubDate>Wed, 07 Jul 2021 07:10:00 +0100</pubDate>
+      
+      <guid>https://glimpse-editor.org/privacy/</guid>
+      <description>&lt;p&gt;Glimpse Image Editor is &lt;a href=&#34;https://opensource.org/osd&#34;&gt;open source&lt;/a&gt; software, and the full source code for this computer program can be reviewed and audited on Github: &lt;a href=&#34;https://github.com/glimpse-editor/Glimpse&#34;&gt;https://github.com/glimpse-editor/Glimpse&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We have no interest in collecting or aggregating your personal details from within the desktop application that we distribute under the &lt;a href=&#34;https://www.gnu.org/licenses/gpl-3.0.en.html&#34;&gt;GNU General Public License Version 3&lt;/a&gt; for zero cost and without restriction.&lt;/p&gt;
+&lt;p&gt;We may receive anonymized statistics of various kinds from binary distribution sources such as Github, Flathub, and the Snap store. This data will be kept strictly confidential and will not be discussed publicly, but may be used to help us determine which distribution sources and operating platforms should continue to be supported in the future. It is strongly recommended that you review the privacy policies for those platforms to determine if you wish to continue using them.&lt;/p&gt;
+&lt;p&gt;From time to time we may disclose aggregated statistics provided to us by our binary distribution platforms and the wider free software community, such as the total number of times Glimpse Image Editor has been downloaded during a specified time period. Such data will always be fully anonymized and used only for the purposes of promoting and improving Glimpse Image Editor.&lt;/p&gt;
+&lt;p&gt;At the present time we do not use any analytics tools or cookies to collect or aggregate user data about visitors on this website. This website has also been opted out of &lt;a href=&#34;https://www.eff.org/deeplinks/2021/03/googles-floc-terrible-idea&#34;&gt;Google FLoC&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Posts</title>
       <link>https://glimpse-editor.org/posts/</link>
       <pubDate>Sun, 23 May 2021 13:55:00 +0100</pubDate>
@@ -450,20 +464,6 @@ members of the project&amp;rsquo;s leadership.&lt;/p&gt;
 available at &lt;a href=&#34;https://www.contributor-covenant.org/version/1/4/code-of-conduct.html&#34;&gt;https://www.contributor-covenant.org/version/1/4/code-of-conduct.html&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;For answers to common questions about this code of conduct, see
 &lt;a href=&#34;https://www.contributor-covenant.org/faq&#34;&gt;https://www.contributor-covenant.org/faq&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Privacy Policy</title>
-      <link>https://glimpse-editor.org/privacy/</link>
-      <pubDate>Sat, 13 Jul 2019 16:19:01 +0100</pubDate>
-      
-      <guid>https://glimpse-editor.org/privacy/</guid>
-      <description>&lt;p&gt;The Glimpse Image Editor is free software, and the full source code can be reviewed and audited on Github: &lt;a href=&#34;https://github.com/glimpse-editor/Glimpse&#34;&gt;https://github.com/glimpse-editor/Glimpse&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;We have no interest in collecting or aggregating your personal details from within the desktop application that we distribute under the &lt;a href=&#34;https://www.gnu.org/licenses/gpl-3.0.en.html&#34;&gt;GNU General Public License Version 3&lt;/a&gt; for zero cost and without restriction.&lt;/p&gt;
-&lt;p&gt;We may receive anonymized statistics of various kinds from binary distribution sources such as Github, Flathub and the Windows Store. This data will be kept strictly confidential and will not be discussed publicly, but may be used to help us determine which distribution sources and operating platforms should continue to be supported in the future. It is strongly recommended that you review the privacy policies for those platforms to determine if you wish to continue using them.&lt;/p&gt;
-&lt;p&gt;From time to time we may disclose aggregated statistics provided to us by our binary distribution platforms and the wider free software community such as the total number of times Glimpse Image Editor has been downloaded during a specified time period, how many active users the software has and in which countries around the world we have the largest community of users. This data will always be fully anonymized and used only for the purposes of promoting and improving Glimpse Image Editor.&lt;/p&gt;
-&lt;p&gt;At the present time we do not use any analytics tools or cookies to collect or aggregate user data about visitors on this website.&lt;/p&gt;
 </description>
     </item>
     

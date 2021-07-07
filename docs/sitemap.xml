@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://glimpse-editor.org/privacy/</loc>
+    <lastmod>2021-07-07T07:10:00+01:00</lastmod>
+  </url><url>
     <loc>https://glimpse-editor.org/</loc>
     <lastmod>2021-05-23T13:55:00+01:00</lastmod>
     <priority>0</priority>
@@ -110,9 +113,6 @@
   </url><url>
     <loc>https://glimpse-editor.org/posts/a-hectic-first-week/</loc>
     <lastmod>2019-07-13T22:46:28+01:00</lastmod>
-  </url><url>
-    <loc>https://glimpse-editor.org/privacy/</loc>
-    <lastmod>2019-07-13T16:19:01+01:00</lastmod>
   </url><url>
     <loc>https://glimpse-editor.org/posts/so-it-begins/</loc>
     <lastmod>2019-07-06T12:36:13+01:00</lastmod>
